@@ -1,0 +1,119 @@
+<html>
+<!--Load styles -->
+<link rel="stylesheet" type="text/css" href="style_page.css">
+<!--Load Javascript (3d sphere, functions) -->
+<script src="javascript/tagcanvas.js" type="text/javascript"></script>
+<script src="javascript/functions.js" type="text/javascript"></script>
+<script src="javascript/jquery-3.0.0.min.js" type="text/javascript"></script>
+<script src="javascript/skype-uri.js" type="text/javascript"></script>
+
+<title>Quentin McGaw</title>
+
+<div id="banner_top" class="banner_top">
+    <a class="banner_top_button" href="#Home">Home</a>
+    <a class="banner_top_button" href="#MyCloud">My cloud</a>
+    <a class="banner_top_button" href="#Education">Education</a>
+    <a class="banner_top_button" href="#Work">Work</a>
+    <a class="banner_top_button" href="#Skills">Skills</a>
+    <a class="banner_top_button" href="#Projects">Projects</a>
+    <a class="banner_top_button" href="#Timeline">Timeline</a>
+    <a class="banner_top_button" href="#Other">Volunteering & Hobbies</a>
+</div>
+<div class="left_button" style="top:5%"><a href="mailto:quentin-mcgaw@gmail.com?Subject=Enquiry%20about%20you">Email</a></div>
+<div class="left_button" style="top:15%"><a href="https://www.linkedin.com/in/quentin-mcgaw-72981165">LinkedIn</a></div>
+<div class="left_button" style="top:25%"><div id="SkypeButton"></div></div>
+
+
+<section id="Home">
+	<a id="center_name" class="center" href="#MyCloud">Quentin McGaw</a>
+    <a id="center_download_resume" class="center_download" href="documents/resume.pdf">Download resume</a>
+</section>
+
+<section id="MyCloud">
+	<div style="text-align:center;" id="myCanvasContainer">
+		<canvas style="width:80%;height:100%;margin-top:2%" width="1800" height="1400" id="myCanvas">
+			<p>Unfortunately, your browser does not support this tag cloud :(</p>
+		</canvas>
+	</div>
+	<div id="spheretags">
+		<ul>
+			<li><a target="_blank" href="https://github.com/qdm12">Github</a></li>
+			<li><a target="_blank" href="https://qdm12.github.io/hbc/">Homomorphic encryption</a></li>
+			<li><a target="_blank" href="https://qdm12.github.io/Devops_RESTful/">DevOps</a></li>	
+			<li><a target="_blank" href="https://github.com/qdm12/Staminapp">Staminapp</a></li>	
+			<li><a target="_blank" href="https://github.com/qdm12/Chess_2016">Chess Game</a></li>	
+			<li><a target="_blank" href="https://github.com/qdm12/My-Computing-course">My course</a></li>	
+			<li><a target="_blank" href="https://www.linkedin.com/in/quentin-mcgaw-72981165">LinkedIn</a></li>
+			<li><a target="_blank" href="https://www.quora.com/profile/Quentin-McGaw">Quora</a></li>	
+			<li><a target="_blank" href="/documents/resume">CV</a></li>
+		</ul>
+	</div>
+</section>
+
+<section id="Education">
+	<div class="grow" id="box1" onmouseover='changeOpacity("surprise1_1",0.8);'>
+		Education
+	</div>
+	<div class="surprisebox" id="surprise1_1" onmouseover='changeOpacity("surprise1_1",0.8); changeOpacity("surprise1_2",0.8);' onmouseout='changeOpacity("surprise1_1",0.5);'>
+		<div>
+			<span style="font-size:20px;font-weight:bold;">
+				Imperial College London
+			</span>
+			<br /><br />
+			blablabla
+        </div>
+    </div>
+	<div class="surprisebox" id="surprise1_2" onmouseover='changeOpacity("surprise1_2",0.8);' onmouseout='changeOpacity("surprise1_2",0.5)' >
+		<div>
+			<span style="font-size:20px;font-weight:bold;">
+            <a target="_blank" href='www.google.com'>
+            Google</a></span>
+            <br /><br />
+			Before Imperial blablabla
+		</div>
+	</div>
+		<div class="grow" id="box3" onmouseover='changeOpacity("surprise3_1",0.8);'>
+		<b>Programming Languages</b>
+	</div>
+	<div class="surprisebox" id="surprise3_1" onmouseover='changeOpacity("surprise3_2",0.8); changeOpacity("surprise3_3",0.8);' onmouseout='changeOpacity("surprise3_2",0.5)'  >
+		Python
+		</br>C/C++
+		</br>Matlab
+		</br>HTML, CSS, PHP, Javascript...
+	</div>
+</section>
+
+
+<section id="Work">
+	<div class="grow" id="box2" onmouseover='changeOpacity("surprise2_1",0.8);'>
+		EMPTY BOX
+	</div>
+	<div class="surprisebox" id="surprise2_1" onmouseover='changeOpacity("surprise2_1",0.8); changeOpacity("surprise2_2",0.8);' onmouseout='changeOpacity("surprise2_1",0.5)' >
+		EMPTY SURPRISE BOX 1
+	</div>
+	<div class="surprisebox" id="surprise2_2" onmouseover='changeOpacity("surprise2_2",0.8);' onmouseout='changeOpacity("surprise2_2",0.5)' >
+		EMPTY SURPRISE BOX 2
+	</div>
+</section>
+
+<section id="Skills">
+    </br></br>
+	Skills
+</section>
+
+<section id="Projects">
+    </br></br>
+	Projects
+</section>
+
+<section id="Timeline">
+    </br></br>
+	Timeline, see knightlab timeline3 embedded
+</section>
+
+<section id="Other">
+    </br></br>
+	Volunteering and hobbies
+</section>
+
+</html>

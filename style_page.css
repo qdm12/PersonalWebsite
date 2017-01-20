@@ -1,0 +1,164 @@
+.banner_top {
+    position:fixed; /*so that it follows when you scroll*/
+	top:0%;
+    width:100%;
+    font-size:70%;
+	padding:1%;
+	background-color:black;
+	z-index:1; /*on top of other layers*/
+	transition:all 0.4s;
+    /*opacity is in functions.js*/
+}
+.banner_top_button{
+    margin-right:2%;
+    color:white;
+    text-decoration:none; /*No links decoration*/
+}
+.banner_top_button:hover {
+    transition:all 0.8s;
+	background-color:gray;
+    color:black;
+}
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+	}
+	40% {
+		transform: translateY(-20px);
+	}
+	80% {
+		transform: translateY(-10px);
+	}
+}
+
+.left_button{
+    position:fixed; /*so that it follows when you scroll*/
+	top:5%; /*to change for vertical positioning*/
+    z-index:1; /*on top of other layers*/
+    width:auto;
+    margin-top:10%;
+    font-size:50%;
+    color:white;
+    text-decoration:none; /*No links decoration*/
+}
+.left_button:hover{
+    animation: bounce 0.7s;
+}
+.center { /*Class used for center name on Home*/
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+	color:white;
+    text-decoration:none; /*No links decoration*/
+	font-size:150%;
+    font-weight:bold;
+}
+.center_download{ /*Class used for center Download resume on Home*/
+    position:absolute;
+    top:50%;
+	left:50%;
+    transform:translate(-50%, -50%);
+    margin-top:5%;
+	color:white;
+    text-decoration:none; /*No links decoration*/
+	font-size:70%;
+	opacity:0.6;
+}
+
+/*Overwrites what a section size is (full screen)*/
+section {
+    height:100%;
+    width:100%;
+    background-size: cover;
+}
+
+/* Background gradient animation (see https://www.gradient-animator.com/) */
+@keyframes background_animation { 
+    0%{background-position:0% 81%}
+    50%{background-position:100% 20%}
+    100%{background-position:0% 81%}
+}
+#Home {
+    /*Gradient animated background*/
+    background: linear-gradient(70deg, #2f8770, #355d9f, #c62850, #9da71c);
+    background-size:800%;
+    animation: background_animation 21s ease infinite;
+}
+#MyCloud {
+    background: linear-gradient(70deg, #0c1b3f, #0a3811, #404340);
+    background-size:800%;
+    animation: background_animation 21s ease infinite;
+}
+#Education {
+  background: aqua;
+}
+#Work {
+  background: yellow;
+}
+#Skills {
+  background: url("images/background.png");
+}
+#Projects {
+  background: gray;
+}
+#Timeline {
+  background: blue;
+}
+#Other {
+  background: black;
+}
+
+.grow {
+    margin: 2% 0% 0% 10%;
+	height: 40%;
+    width: 20%;
+	float: left;
+	transition: all 1s;
+	border: 2px solid;
+	font-size: 50%;
+	background-color:gray;
+	opacity: 0.8;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+	text-align: center;
+	color: white;
+}
+.grow:hover {
+	border-radius: 3%;
+	opacity: 0.9;
+	border-color:#b3b3cc;
+	background-color:gray;
+}
+.surprisebox{
+    height: 40%;
+    width: 20%;
+    margin: 2% 0% 0% 10%;
+	float: left;
+	transition: all 1s;
+	border: 2px solid;
+	border-color: #52527a;
+	background-color:#29293d;
+	opacity: 0;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+	text-align: center;
+	color:white;
+	font-size: 15px;
+}
+.surprisebox:hover {
+	border-radius: 1%;
+	border-color:#b3b3cc;
+	background-color:#52527a;
+}
+
+body {
+	font-family: 'Quicksand',sans serif;
+	font-size: 48px;
+	height: 100%;
+	width: 100%;
+	margin: 0%;
+	padding: 0px;
+}
