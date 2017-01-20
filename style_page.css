@@ -122,6 +122,7 @@ section {
 }
 #Skills {
   background: url("images/background.png");
+  background-size:100%;
 }
 #Projects {
   background: gray;
