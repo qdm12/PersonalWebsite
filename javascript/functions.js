@@ -12,9 +12,7 @@ function changeColor(id, color) {
 	document.getElementById(id).style.color = color;
 	return false;
 }
-
-
-window.onload = function(){
+function skype_button() {
     //Skype - see https://www.skype.com/en/developer/create-contactme-buttons/
     Skype.ui({
         "name": "dropdown",
@@ -22,7 +20,16 @@ window.onload = function(){
         "participants": ["quentin.mcgaw"],
         "imageSize": 32
     });
-    
+}
+function interactive_gradient_background() {
+    $("#Home").mousemove(function( event ) {
+        var w = $(this).width(),
+            pct = 360*(+event.pageX)/w/1.6,
+            bg = "linear-gradient(" + pct + "deg,#2f8770, #355d9f, #ff884d)";
+        $("#Home").css("background-image", bg);
+    });
+}
+function tag_cloud() {
     //Tag cloud
 	try {
 		TagCanvas.Start('myCanvas','spheretags',{
@@ -43,7 +50,8 @@ window.onload = function(){
 	  // something went wrong, hide the canvas container
 	  document.getElementById('myCanvasContainer').style.display = 'none';
 	}
-    
+}
+function smooth_scrolling() {
     //Smooth Scrolling
 	$('a').click(function(){
 		$('html, body').animate({
@@ -51,8 +59,8 @@ window.onload = function(){
 		}, 500);
 		return false;
 	});
-    
-    //Banner opacity
+}
+function banner_opacity() {
 	var banner_opacity_mouseover = 0.93;
     var banner_opacity_mouseout = 0.66;
 	var banner = $('#banner_top');
@@ -77,20 +85,27 @@ window.onload = function(){
 						'opacity':banner_opacity_mouseout				
 						},400);
 	});
-    
-    //Center download resume
+}
+function center_download_resume() {
 	var center_download = $("#center_download_resume");
     center_download.mouseover(function(){
 		center_download.stop().animate({
 			"opacity":"1.0",
-            
-            
 		}, 800);
     });
     center_download.mouseout(function(){
 		center_download.stop().animate({
-			"opacity":"0.5"
-
+			"opacity":"0.5",
 		}, 800);
     });
+}
+
+
+window.onload = function(){
+    skype_button();
+    interactive_gradient_background();    
+    tag_cloud();
+    smooth_scrolling();
+    banner_opacity();
+    center_download_resume();
 };

@@ -46,24 +46,49 @@
 }
 .center { /*Class used for center name on Home*/
     position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%, -50%);
+    top:20%;
+    left:27%;
+    text-align:center;
 	color:white;
     text-decoration:none; /*No links decoration*/
 	font-size:150%;
     font-weight:bold;
+    z-index:1; /*on top of other layers*/
 }
 .center_download{ /*Class used for center Download resume on Home*/
     position:absolute;
-    top:50%;
-	left:50%;
-    transform:translate(-50%, -50%);
-    margin-top:5%;
+    top:30%;
+    left:40%;
+    text-align:center;
 	color:white;
     text-decoration:none; /*No links decoration*/
 	font-size:70%;
 	opacity:0.6;
+    z-index:1; /*on top of other layers*/
+}
+.tag_cloud{
+    position:absolute;
+    top:65%;
+	left:50%;
+    transform:translate(-50%, -50%);
+}
+.fa-linkedin{
+    color:white;
+    opacity:0.6;
+    transition:all 0.8s;
+}
+.fa-linkedin:hover{
+    color:#4875B4;
+    opacity:1;
+}
+.fa-envelope{
+    color:white;
+    opacity:0.6;
+    transition:all 0.8s;
+}
+.fa-envelope:hover{
+    color:#F9E79F;
+    opacity:1;
 }
 
 /*Overwrites what a section size is (full screen)*/
@@ -81,14 +106,9 @@ section {
 }
 #Home {
     /*Gradient animated background*/
-    background: linear-gradient(70deg, #2f8770, #355d9f, #c62850, #9da71c);
-    background-size:800%;
-    animation: background_animation 21s ease infinite;
-}
-#MyCloud {
-    background: linear-gradient(70deg, #0c1b3f, #0a3811, #404340);
-    background-size:800%;
-    animation: background_animation 21s ease infinite;
+    background: linear-gradient(150deg, #2f8770, #355d9f, #ff884d);
+    background-size:600%;
+    animation: background_animation 21s ease-in-out infinite;
 }
 #Education {
   background: aqua;
@@ -103,7 +123,9 @@ section {
   background: gray;
 }
 #Timeline {
-  background: blue;
+    background: linear-gradient(70deg, #0c1b3f, #0a3811, #404340);
+    background-size:800%;
+    animation: background_animation 21s ease infinite;
 }
 #Other {
   background: black;

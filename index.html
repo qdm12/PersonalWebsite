@@ -1,37 +1,44 @@
 <html>
-<!--Load styles -->
-<link rel="stylesheet" type="text/css" href="style_page.css">
 <!--Load Javascript (3d sphere, functions) -->
 <script src="javascript/tagcanvas.js" type="text/javascript"></script>
 <script src="javascript/functions.js" type="text/javascript"></script>
 <script src="javascript/jquery-3.0.0.min.js" type="text/javascript"></script>
 <script src="javascript/skype-uri.js" type="text/javascript"></script>
+<!--Load styles -->
+<link rel="stylesheet" type="text/css" href="style_page.css">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
 <title>Quentin McGaw</title>
 
 <div id="banner_top" class="banner_top">
     <a class="banner_top_button" href="#Home">Home</a>
-    <a class="banner_top_button" href="#MyCloud">My cloud</a>
     <a class="banner_top_button" href="#Education">Education</a>
     <a class="banner_top_button" href="#Work">Work</a>
     <a class="banner_top_button" href="#Skills">Skills</a>
     <a class="banner_top_button" href="#Projects">Projects</a>
     <a class="banner_top_button" href="#Timeline">Timeline</a>
-    <a class="banner_top_button" href="#Other">Volunteering & Hobbies</a>
+    <a class="banner_top_button" href="#Other">Other</a>
 </div>
-<div class="left_button" style="top:5%"><a href="mailto:quentin-mcgaw@gmail.com?Subject=Enquiry%20about%20you">Email</a></div>
-<div class="left_button" style="top:15%"><a href="https://www.linkedin.com/in/quentin-mcgaw-72981165">LinkedIn</a></div>
-<div class="left_button" style="top:25%"><div id="SkypeButton"></div></div>
+<div class="left_button" style="top:5%;margin-left:2%;">
+    <a href="mailto:quentin-mcgaw@gmail.com?Subject=Enquiry%20about%20you">
+        <i class="fa fa-envelope fa-2x"></i>
+    </a>
+</div>
+<div class="left_button" style="top:15%;margin-left:2%;">
+    <a href="https://www.linkedin.com/in/quentin-mcgaw-72981165">
+        <i class="fa fa-linkedin fa-2x"></i>
+    </a>
+</div>
+<div class="left_button" style="top:20%;">
+    <div id="SkypeButton"></div>
+</div>
 
 
 <section id="Home">
 	<a id="center_name" class="center" href="#MyCloud">Quentin McGaw</a>
     <a id="center_download_resume" class="center_download" href="documents/resume.pdf">Download resume</a>
-</section>
-
-<section id="MyCloud">
 	<div style="text-align:center;" id="myCanvasContainer">
-		<canvas style="width:80%;height:100%;margin-top:2%" width="1800" height="1400" id="myCanvas">
+		<canvas class="tag_cloud" width="1000" height="600" id="myCanvas">
 			<p>Unfortunately, your browser does not support this tag cloud :(</p>
 		</canvas>
 	</div>
