@@ -33,7 +33,7 @@
 
 .left_button{
     position:fixed; /*so that it follows when you scroll*/
-	top:5%; /*to change for vertical positioning*/
+	top:10%; /*to change for vertical positioning*/
     z-index:1; /*on top of other layers*/
     width:auto;
     margin-top:10%;
@@ -47,18 +47,22 @@
 .center { /*Class used for center name on Home*/
     position:absolute;
     top:20%;
-    left:27%;
+    width:100%;
     text-align:center;
 	color:white;
     text-decoration:none; /*No links decoration*/
 	font-size:150%;
     font-weight:bold;
     z-index:1; /*on top of other layers*/
+    transition:all 0.8s;
+}
+.center:hover {
+    font-size:160%;
 }
 .center_download{ /*Class used for center Download resume on Home*/
     position:absolute;
     top:30%;
-    left:40%;
+    width:100%;
     text-align:center;
 	color:white;
     text-decoration:none; /*No links decoration*/
