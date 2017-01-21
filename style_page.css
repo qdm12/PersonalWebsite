@@ -70,7 +70,7 @@
 section {
     height:100%;
     width:100%;
-    background-size:100%;
+    background-size:cover;
 }
 
 /* Background gradient animation (see https://www.gradient-animator.com/) */
