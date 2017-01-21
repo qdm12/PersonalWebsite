@@ -110,13 +110,12 @@ section {
 /* Home page style */
 .center_container {
     position:absolute;
-    top:20%;
+    top:15%;
     width:100%;
     text-align:center;
 }
 .center_name { /*Class used for center name on Home*/
-    margin:auto;
-	color:white;
+    color:white;
     text-decoration:none; /*No links decoration*/
 	font-size:150%;
     font-weight:bold;
@@ -126,16 +125,10 @@ section {
     font-size:160%;
 }
 .center_download{ /*Class used for center Download resume on Home*/
-	color:white;
+    color:white;
     text-decoration:none; /*No links decoration*/
 	font-size:70%;
 	opacity:0.6;
-}
-.tag_cloud_container{
-    position:absolute;
-    top:65%;
-	left:50%;
-    transform:translate(-50%, -50%);
 }
 
 

@@ -87,13 +87,13 @@ function tag_cloud() {
 			outlineColour: 'gray',
 			reverse: true,
 			depth: 0.3,
-			maxSpeed: 0.06,
+			maxSpeed: 0.08,
 			decel: 0.98,
 			fadeIn: 2000,
 			minSpeed: 0.005,
 			shadowBlur:5,
 			wheelZoom:false,
-			textHeight:25,
+			textHeight:40,
 			textFont: "Roboto Slab",
 		});
 	} catch(e) {
