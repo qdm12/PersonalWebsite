@@ -8,48 +8,11 @@ function changeOpacity(id, opacity) {
 	document.getElementById(id).style.opacity = opacity;
 	return false;
 }
-function changeColor(id, color) {
-	document.getElementById(id).style.color = color;
-	return false;
-}
-function skype_button() {
-    //Skype - see https://www.skype.com/en/developer/create-contactme-buttons/
-    Skype.ui({
-        "name": "dropdown",
-        "element": "SkypeButton",
-        "participants": ["quentin.mcgaw"],
-        "imageSize": 32
-    });
-}
-function interactive_gradient_background() {
-    $("#Home").mousemove(function( event ) {
-        var pct = 90*(+event.pageX)/$(this).width() + 90*(+event.pageY)/$(this).height(),
-            bg = "linear-gradient(" + pct + "deg,#2f8770, #355d9f, #ff884d)";
-        $("#Home").css("background-image", bg);
-    });
-}
-function tag_cloud() {
-    //Tag cloud
-	try {
-		TagCanvas.Start('myCanvas','spheretags',{
-			textColour: 'white',
-			outlineColour: 'gray',
-			reverse: true,
-			depth: 0.3,
-			maxSpeed: 0.06,
-			decel: 0.98,
-			fadeIn: 2000,
-			minSpeed: 0.005,
-			shadowBlur:5,
-			wheelZoom:false,
-			textHeight:25,
-			textFont: "Roboto Slab",
-		});
-	} catch(e) {
-	  // something went wrong, hide the canvas container
-	  document.getElementById('myCanvasContainer').style.display = 'none';
-	}
-}
+
+
+
+
+
 function smooth_scrolling() {
     //Smooth Scrolling
 	$('a').click(function(){
@@ -58,6 +21,13 @@ function smooth_scrolling() {
 		}, 500);
 		return false;
 	});
+}
+function interactive_gradient_background() {
+    $("#Home").mousemove(function( event ) {
+        var pct = 90*(+event.pageX)/$(this).width() + 90*(+event.pageY)/$(this).height(),
+            bg = "linear-gradient(" + pct + "deg,#2f8770, #355d9f, #ff884d)";
+        $("#Home").css("background-image", bg);
+    });
 }
 function banner_opacity() {
 	var banner_opacity_mouseover = 0.93;
@@ -85,8 +55,17 @@ function banner_opacity() {
 						},400);
 	});
 }
-function center_download_resume() {
-	var center_download = $("#center_download_resume");
+function skype_button() {
+    //Skype - see https://www.skype.com/en/developer/create-contactme-buttons/
+    Skype.ui({
+        "name": "dropdown",
+        "element": "SkypeButton",
+        "participants": ["quentin.mcgaw"],
+        "imageSize": 32
+    });
+}
+function center_download() {
+	var center_download = $("#center_download");
     center_download.mouseover(function(){
 		center_download.stop().animate({
 			"opacity":"1.0",
@@ -100,13 +79,35 @@ function center_download_resume() {
 		}, 800);
     });
 }
+function tag_cloud() {
+    //Tag cloud
+	try {
+		TagCanvas.Start('myCanvas','spheretags',{
+			textColour: 'white',
+			outlineColour: 'gray',
+			reverse: true,
+			depth: 0.3,
+			maxSpeed: 0.06,
+			decel: 0.98,
+			fadeIn: 2000,
+			minSpeed: 0.005,
+			shadowBlur:5,
+			wheelZoom:false,
+			textHeight:25,
+			textFont: "Roboto Slab",
+		});
+	} catch(e) {
+	  // something went wrong, hide the canvas container
+	  document.getElementById('myCanvasContainer').style.display = 'none';
+	}
+}
 
 
 window.onload = function(){
-    skype_button();
-    interactive_gradient_background();    
-    tag_cloud();
     smooth_scrolling();
+    interactive_gradient_background();
     banner_opacity();
-    center_download_resume();
+    skype_button();
+    center_download();
+    tag_cloud();
 };

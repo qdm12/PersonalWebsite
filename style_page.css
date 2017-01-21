@@ -1,3 +1,5 @@
+
+/* Top banner style */
 .banner_top {
     position:fixed; /*so that it follows when you scroll*/
 	top:0%;
@@ -19,6 +21,8 @@
 	background-color:gray;
     color:black;
 }
+
+/* Left buttons style */
 @keyframes bounce {
 	0%, 20%, 60%, 100% {
 		transform: translateY(0);
@@ -30,7 +34,6 @@
 		transform: translateY(-10px);
 	}
 }
-
 .left_button{
     position:fixed; /*so that it follows when you scroll*/
 	top:10%; /*to change for vertical positioning*/
@@ -44,37 +47,14 @@
 .left_button:hover{
     animation: bounce 0.7s;
 }
-.center { /*Class used for center name on Home*/
-    position:absolute;
-    top:20%;
-    width:100%;
-    text-align:center;
-	color:white;
-    text-decoration:none; /*No links decoration*/
-	font-size:150%;
-    font-weight:bold;
-    z-index:1; /*on top of other layers*/
+.fa-envelope{
+    color:white;
+    opacity:0.6;
     transition:all 0.8s;
 }
-.center:hover {
-    font-size:160%;
-}
-.center_download{ /*Class used for center Download resume on Home*/
-    position:absolute;
-    top:30%;
-    width:100%;
-    text-align:center;
-	color:white;
-    text-decoration:none; /*No links decoration*/
-	font-size:70%;
-	opacity:0.6;
-    z-index:1; /*on top of other layers*/
-}
-.tag_cloud{
-    position:absolute;
-    top:65%;
-	left:50%;
-    transform:translate(-50%, -50%);
+.fa-envelope:hover{
+    color:#F9E79F;
+    opacity:1;
 }
 .fa-linkedin{
     color:white;
@@ -85,21 +65,12 @@
     color:#4875B4;
     opacity:1;
 }
-.fa-envelope{
-    color:white;
-    opacity:0.6;
-    transition:all 0.8s;
-}
-.fa-envelope:hover{
-    color:#F9E79F;
-    opacity:1;
-}
 
 /*Overwrites what a section size is (full screen)*/
 section {
     height:100%;
     width:100%;
-    background-size: cover;
+    background-size:cover;
 }
 
 /* Background gradient animation (see https://www.gradient-animator.com/) */
@@ -135,6 +106,39 @@ section {
 #Other {
   background: black;
 }
+
+/* Home page style */
+.center_container {
+    position:absolute;
+    top:20%;
+    width:100%;
+    text-align:center;
+}
+.center_name { /*Class used for center name on Home*/
+    margin:auto;
+	color:white;
+    text-decoration:none; /*No links decoration*/
+	font-size:150%;
+    font-weight:bold;
+    transition:all 0.8s;
+}
+.center_name:hover { /*Class used for center name on Home*/
+    font-size:160%;
+}
+.center_download{ /*Class used for center Download resume on Home*/
+	color:white;
+    text-decoration:none; /*No links decoration*/
+	font-size:70%;
+	opacity:0.6;
+}
+.tag_cloud_container{
+    position:absolute;
+    top:65%;
+	left:50%;
+    transform:translate(-50%, -50%);
+}
+
+
 
 .grow {
     margin: 2% 0% 0% 10%;
@@ -182,10 +186,8 @@ section {
 }
 
 body {
-	font-family: 'Quicksand',sans serif;
 	font-size: 48px;
 	height: 100%;
 	width: 100%;
 	margin: 0%;
-	padding: 0px;
 }
