@@ -242,4 +242,5 @@ I have obtained 61.32% overall, with second upper class honours
 - I ascented the Kilimanjaro mountain in Tanzania at the age of 12
 - I had a summer job as a waiter and groom in a hotel in Scotland, Pebble
 - My Raspberry Pi use openVPN and another Ethernet connection for SSH access
+- All my grades are accessible [here](https://docs.google.com/spreadsheets/d/1udRYqsP2acNWp2wQk6SEaNb65T-0Gl_vL5lXWiQSeGQ/edit?usp=sharing)
     
