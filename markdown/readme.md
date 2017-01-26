@@ -23,11 +23,11 @@
 	- Mathematics, Control engineering
 - French and Mauritian, and lived:
 	- 11 years in Luxembourg City :cloud:
-	- 1 year in Switzerland, Villars-sur-Ollons :snowflake:
-	- 7 years in Nice, France :fr: :sunny:
+	- 1 year in Switzerland, Villars-sur-Ollons :ch:
+	- 7 years in Nice, France :fr:
 	- 4 years in London, UK :gb:
     - 5 months in New York City, US :us:
-- Speak & write :fr: and :gb: fluently, a bit of :es:
+- Speak & write french and english fluently, a bit of spanish
 - I like [Quora](https://www.quora.com/profile/Quentin-McGaw), 
   trading, my Raspberry Pi, [Github](https://www.github.com/qdm12),
   going to the gym, skiing :ski:, cycling :bicyclist:, 9gag,
@@ -63,12 +63,11 @@
 
 ### Courses
 - DevOps :blue_heart:
-    - Project [here](https://qdm12.github.io/Devops_RESTful)
-    - Zenhub :octocat:
+    - Project [**here**](https://qdm12.github.io/Devops_RESTful)
+    - Advanced Git, Zenhub :octocat:
     - Vagrant
     - Flask and Python
-    - Travis CI
-    - Unit testing and behave
+    - Travis CI, unit testing and behave
     - Docker
     - Redis database
     - IBM Bluemix PaaS
@@ -76,21 +75,13 @@
     - Swagger
 - Operating System
     - C++ assignments: scheduler, linker, IO, memory management
-    - Processes, Threads
-    - Scheduling
-    - Concurrency
-    - Memory management
-    - IO
-    - File systems
-    - Networking
-    - Cloud and distributed computing
+    - Processes, threads, scheduling, concurrency, memory management, IO, file systems, Networking, cloud and distributed computing
 - Mobile online social gaming
-    - Chess game project [here](https://github.com/qdm12/Chess_2016)
+    - Chess game project [**here**](https://github.com/qdm12/Chess_2016)
     - Typescript, HTML, CSS
     - Jenkins and code coverage
     - Artificial intelligence
-    - PhoneGap
-    - Monetizing the app
+    - PhoneGap and monetizing the app
 - Database Systems
     - Microsoft Visio
 - Programming languages
@@ -100,11 +91,11 @@
 
 ### Personal projects
 - [Portfolio management](https://github.com/qdm12/Portfolio)
-  - Python
+  - Written in Python
   - Web parsing
   - Excel manipulations
   - Use of threads
-  - Flask server
+  - Flask server and Resilio
   - Push notifications to mobile devices  
 - [Computing course](https://github.com/qdm12/My-Computing-course)
 
@@ -133,8 +124,8 @@
     - Complex Makefiles
     - Understanding of GPUs architecture
 - Mobile healthcare and machine learning
-    - [Android app](https://github.com/qdm12/Staminapp) development with Android Wear
-    - [Machine learning](https://github.com/qdm12/Staminaputations) in Python (clustering)
+    - [**Android app**](https://github.com/qdm12/Staminapp) development with Android Wear
+    - [**Machine learning**](https://github.com/qdm12/Staminaputations) in Python (clustering)
     - NodeJS, SQL database
 - Managing innovation
 - Managerial economics
@@ -153,10 +144,10 @@ I have obtained 67.74% overall
 - Real-time digital signal processing
     - Based on C and C++ projects to filter signals
 - Entrepreneurship
-    - Business plan [here](XXX)
+    - Business plan [**here**](XXX)
 - Accounting
 - Project management
-    - Group project [here](XXX)
+    - Group project [**here**](XXX)
     
 #### Results
 I have obtained 54.63% overall
@@ -242,5 +233,5 @@ I have obtained 61.32% overall, with second upper class honours
 - I ascented the Kilimanjaro mountain in Tanzania at the age of 12
 - I had a summer job as a waiter and groom in a hotel in Scotland, Pebble
 - My Raspberry Pi use openVPN and another Ethernet connection for SSH access
-- All my grades are accessible [here](https://docs.google.com/spreadsheets/d/1udRYqsP2acNWp2wQk6SEaNb65T-0Gl_vL5lXWiQSeGQ/edit?usp=sharing)
+- All my grades are accessible [**here**](https://docs.google.com/spreadsheets/d/1udRYqsP2acNWp2wQk6SEaNb65T-0Gl_vL5lXWiQSeGQ/edit?usp=sharing)
     
