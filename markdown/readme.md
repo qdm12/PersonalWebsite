@@ -238,14 +238,14 @@ I have obtained 57.43% overall
 I have obtained 63.26% overall
 
 ### Master's results
-I have obtained 61.32% overall, with second upper class honours
-You can check out the certificate [here](../documents/imperial_degree.pdfXXX)
+I have obtained 61.32% overall, with upper second class honours
+You can check out the certificate [here](../documents/imperial_degree.pdf)
 
 ***
 
 ## French scientific baccalaureate, 2012
 ### Courses
-- Mathematics with arithmetic specialty
+- Mathematics with specialty in arithmetics
 - Physics and chemistry
 - Biology and geology
 - History and geography
@@ -261,10 +261,10 @@ You can check out the certificate [here](../documents/imperial_degree.pdfXXX)
 ***
 
 ## Fun facts
-- I ascented the Kilimanjaro mountain in Tanzania at the age of 12
+- I climbed the Kilimanjaro mountain in Tanzania at the age of 12
 
 ![Kilimanjaro picture](../images/hotel_scotland.jpeg)
-- I had a summer job as a waiter and groom in a hotel in Scotland, Pebble
+- I had a summer job as a waiter and cleaner in a hotel in Scotland, Pebble
 
 ![Scotland hotel picture](../images/raspberrypi.jpeg)
 - All my grades are accessible in that [**formatted spreadsheet**](https://docs.google.com/spreadsheets/d/1udRYqsP2acNWp2wQk6SEaNb65T-0Gl_vL5lXWiQSeGQ/edit?usp=sharing)
@@ -272,3 +272,5 @@ You can check out the certificate [here](../documents/imperial_degree.pdfXXX)
 - My Raspberry Pi use openVPN and another Ethernet connection for SSH access
 
 ![Raspberry Pi picture](../images/raspberrypi.jpeg)
+
+- 
