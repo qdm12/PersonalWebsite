@@ -23,7 +23,7 @@
 	- Mathematics, Control engineering
 - French and Mauritian, and lived:
 	- 11 years in Luxembourg City :cloud:
-	- 1 year in Switzerland, Villars-sur-Ollons :ch:
+	- 1 year in Switzerland, Villars-sur-Ollons :snowflake:
 	- 7 years in Nice, France :fr:
 	- 4 years in London, UK :gb:
     - 5 months in New York City, US :us:
@@ -34,6 +34,7 @@
   [Ebay](http://feedback.ebay.ie/ws/eBayISAPI.dll?ViewFeedback2&userid=dowi9876&ftab=FeedbackAsSeller&searchInterval=30),
   Reddit, and [assembling desktops](https://drive.google.com/drive/folders/0B5UPjZHikV5gQ3pyTVR2M3RMaUk?usp=sharing) from time to time.
 
+***
 
 ## Work experience
 
@@ -58,6 +59,7 @@
     - Understanding of the Android OS and of all the NFC technologies to date
     - Use of CyanogenMod on a Nexus devices for testing during development
 
+***
 
 ## New York University, September 2016 to May 2018
 
@@ -99,6 +101,7 @@
   - Push notifications to mobile devices  
 - [My computing course](https://github.com/qdm12/My-Computing-course)
 
+***
 
 ## Imperial College London, October 2012 to June 2016
   
@@ -217,7 +220,9 @@ I have obtained 63.26% overall
     
 ### Master's results
 I have obtained 61.32% overall, with second upper class honours
-    
+
+***
+
 ## French scientific baccalaureate, 2012
 ### Courses
 - Mathematics with arithmetic specialty
@@ -228,6 +233,7 @@ I have obtained 61.32% overall, with second upper class honours
 - Latin, english, spanish, french
 - Sports
 
+***
 
 ## Fun facts
 - I ascented the Kilimanjaro mountain in Tanzania at the age of 12
