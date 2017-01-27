@@ -100,6 +100,7 @@
   - Flask server and Resilio
   - Push notifications to mobile devices  
 - [My computing course](https://github.com/qdm12/My-Computing-course)
+- [ThumbGifs](https://github.com/qdm12/ThumbGifs) (which is used for this document actually)
 
 ***
 
@@ -112,6 +113,8 @@
     - Programming in C++
     - Cryptography and security
 - Homomorphic encryption allows to perform analytics on encrypted data, which will be very useful for cloud computing.
+- Report available [here](../documents/Homomorphic%20encryption%20Cryptography%20for%20cloud%20computing%20report.pdf)
+[![Homomorphic encryption presentation video](../gifs/video_homomorphic.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
 
 ### Final year, 2015-2016
 #### Courses
@@ -121,6 +124,7 @@
 - Coding Theory
     - Cryptography
     - Communication theory
+	- [30 minutes course I gave to fellow students](../documents/Presentation%20coding%20theory%20Bitcoin.pptx)
 - High performance computing for engineers
     - Amazon web services (AWS)
     - C++, OpenCL and TBB (intel)
@@ -130,6 +134,8 @@
     - [**Android app**](https://github.com/qdm12/Staminapp) development with Android Wear
     - [**Machine learning**](https://github.com/qdm12/Staminaputations) in Python (clustering)
     - NodeJS, SQL database
+	- Report available [here](../documents/Stamina%20report.pdf)
+	[![Stamina video](../gifs/video_stamina.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
 - Managing innovation
 - Managerial economics
 - Corporate finance
@@ -141,13 +147,14 @@ I have obtained 67.74% overall
 #### Courses
 - Digital signal processing
 - Advanced signal processing
+	- [Coursework report](../documents/Advanced%20signal%20processing%20report.pdf)
 - Artificial intelligence
     - Use of Prologue
 - Communication networks
 - Real-time digital signal processing
     - Based on C and C++ projects to filter signals
 - Entrepreneurship
-    - [Business plan](../documents/BusinessPlan_Sports_Connect.pdf) about Sports Connect
+    - [Business plan](../documents/Business%20plan%20Sports%20Connect.pdf) about Sports Connect
 - Accounting
 - Project management
     - Group project [**here**](XXX)
@@ -188,6 +195,7 @@ I have obtained 54.63% overall
     - A program for the cashier at the supermarket and a server were developed, to communicate information on all the goods bought for each user and to handle the food social network.
     - A website was also designed for non-mobile users of Wasteless.
 - The final state of the group project was actually promising and we obtained surprisingly high marks.
+[![Wasteless video](../gifs/video_wasteless.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
 
 #### Results
 I have obtained 57.43% overall
@@ -198,6 +206,7 @@ I have obtained 57.43% overall
     - C & C++
 - Mathematics
 - Professional engineering
+	- [Report on Micro NAND flask memory chips](../documents/Profressional%20report%20-%20Micron%2020nm%20MLC%20NAND%20flash%20128Gb%20memory%20chip.pdf
 - Analysis of circuits
     - Use of Cadsoft Eagle and PSPice
 - Digital electronics
@@ -233,11 +242,16 @@ I have obtained 61.32% overall, with second upper class honours
 - Latin, english, spanish, french
 - Sports
 
+### Articles published (2008, 13 years old)
+![Article 1](../images/article1.jpeg)
+![Article 2](../images/article2.jpeg)
+
+
 ***
 
 ## Fun facts
 - I ascented the Kilimanjaro mountain in Tanzania at the age of 12
 - I had a summer job as a waiter and groom in a hotel in Scotland, Pebble
-- My Raspberry Pi use openVPN and another Ethernet connection for SSH access
 - All my grades are accessible [**here**](https://docs.google.com/spreadsheets/d/1udRYqsP2acNWp2wQk6SEaNb65T-0Gl_vL5lXWiQSeGQ/edit?usp=sharing)
-    
+- My Raspberry Pi use openVPN and another Ethernet connection for SSH access
+- I write some funny theories like that [**one**](../documents/fun%20theory.md)
