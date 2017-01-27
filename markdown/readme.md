@@ -36,6 +36,7 @@
   going to the gym, skiing :ski:, cycling :bicyclist:, 9gag,
   [Ebay](http://feedback.ebay.ie/ws/eBayISAPI.dll?ViewFeedback2&userid=dowi9876&ftab=FeedbackAsSeller&searchInterval=30),
   Reddit, and [assembling desktops](https://drive.google.com/drive/folders/0B5UPjZHikV5gQ3pyTVR2M3RMaUk?usp=sharing) from time to time.
+
 [![Quentin McGaw introduction video](../gifs/video_introduction.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
   
   
@@ -119,6 +120,7 @@
     - Cryptography and security
 - Homomorphic encryption allows to perform analytics on encrypted data, which will be very useful for cloud computing.
 - Report available [here](../documents/Homomorphic%20encryption%20Cryptography%20for%20cloud%20computing%20report.pdf)
+
 [![Homomorphic encryption presentation video](../gifs/video_homomorphic.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
 
 ### Final year, 2015-2016
@@ -140,7 +142,7 @@
     - [**Machine learning**](https://github.com/qdm12/Staminaputations) in Python (clustering)
     - NodeJS, SQL database
 	- Report available [here](../documents/Stamina%20report.pdf)
-	[![Stamina video](../gifs/video_stamina.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
+	- [![Stamina video](../gifs/video_stamina.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
 - Managing innovation
 - Managerial economics
 - Corporate finance
@@ -201,7 +203,7 @@ I have obtained 54.63% overall
     - A program for the cashier at the supermarket and a server were developed, to communicate information on all the goods bought for each user and to handle the food social network.
     - A website was also designed for non-mobile users of Wasteless.
 - The final state of the group project was actually promising and we obtained surprisingly high marks.
-[![Wasteless video](../gifs/video_wasteless.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
+- [![Wasteless video](../gifs/video_wasteless.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
 
 #### Results
 I have obtained 57.43% overall
@@ -217,7 +219,7 @@ I have obtained 57.43% overall
     - Use of Cadsoft Eagle and PSPice
 - Digital electronics
     - Altera Quartus 12
-	![Quartus circuit](../images/quartus.jpeg)
+	- ![Quartus circuit](../images/quartus.jpeg)
 - Semiconductor devices
 - Analogue electronics
 - Energy conversion
@@ -230,7 +232,7 @@ I have obtained 57.43% overall
     - PSPice to design the circuits
     - Project and team management (reports, charts, deadlines...)
     - Hardware testing (opAmps, Resistances etc.)
-![EEBug picture](../images/eebug.jpeg)
+- ![EEBug picture](../images/eebug.jpeg)
     
 #### Results
 I have obtained 63.26% overall
@@ -253,17 +255,20 @@ You can check out the certificate [here](../documents/imperial_degree.pdfXXX)
 
 ### Articles published in a french Hardware Magazine (2008, 13 years old)
 ![Article 1](../images/article1.jpeg)
-![Article 2](../images/article2.jpeg)
 
+![Article 2](../images/article2.jpeg)
 
 ***
 
 ## Fun facts
 - I ascented the Kilimanjaro mountain in Tanzania at the age of 12
+
 ![Kilimanjaro picture](../images/hotel_scotland.jpeg)
 - I had a summer job as a waiter and groom in a hotel in Scotland, Pebble
+
 ![Scotland hotel picture](../images/raspberrypi.jpeg)
 - All my grades are accessible in that [**formatted spreadsheet**](https://docs.google.com/spreadsheets/d/1udRYqsP2acNWp2wQk6SEaNb65T-0Gl_vL5lXWiQSeGQ/edit?usp=sharing)
 - I write some funny theories like that [**one**](../documents/fun%20theory.md)
 - My Raspberry Pi use openVPN and another Ethernet connection for SSH access
+
 ![Raspberry Pi picture](../images/raspberrypi.jpeg)
