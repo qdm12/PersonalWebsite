@@ -1,10 +1,10 @@
 # Quentin McGaw
 
 ## Introduction
-- Doing a [Master of Computer science at New York University](https://cs.nyu.edu/home/master).
+- Doing a [**Master** of **Computer science** at New York University](https://cs.nyu.edu/home/master/prospective_mscs.html).
 - Graduating in May 2018.
-- Graduated for my [Master in Electrical and electronic engineering with 
-  management from Imperial College London](https://www.imperial.ac.uk/study/ug/courses/electrical-engineering-department/electrical-and-electronic-engineering-management/) 
+- Graduated for my [**Master** in **Electrical and electronic engineering with 
+  management** from Imperial College London](https://www.imperial.ac.uk/study/ug/courses/electrical-engineering-department/electrical-and-electronic-engineering-management/) 
   in June 2016.
 - Expertise in:
 	- Cryptography and web security :closed_lock_with_key:
@@ -31,8 +31,8 @@
 - I like [Quora](https://www.quora.com/profile/Quentin-McGaw), 
   trading, my Raspberry Pi, [Github](https://www.github.com/qdm12),
   going to the gym, skiing :ski:, cycling :bicyclist:, 9gag,
-  [ebay](http://feedback.ebay.ie/ws/eBayISAPI.dll?ViewFeedback2&userid=dowi9876&ftab=FeedbackAsSeller&searchInterval=30),
-  reddit, and [assembling desktops](https://drive.google.com/drive/folders/0B5UPjZHikV5gQ3pyTVR2M3RMaUk?usp=sharing) from time to time.
+  [Ebay](http://feedback.ebay.ie/ws/eBayISAPI.dll?ViewFeedback2&userid=dowi9876&ftab=FeedbackAsSeller&searchInterval=30),
+  Reddit, and [assembling desktops](https://drive.google.com/drive/folders/0B5UPjZHikV5gQ3pyTVR2M3RMaUk?usp=sharing) from time to time.
 
 
 ## Work experience
@@ -84,7 +84,7 @@
     - PhoneGap and monetizing the app
 - Database Systems
     - Microsoft Visio
-- Programming languages
+- [Programming languages](https://github.com/qdm12/Programming-languages)
     - Scala
 - Fundamental algorithms
     - Heap algorithms
@@ -97,7 +97,7 @@
   - Use of threads
   - Flask server and Resilio
   - Push notifications to mobile devices  
-- [Computing course](https://github.com/qdm12/My-Computing-course)
+- [My computing course](https://github.com/qdm12/My-Computing-course)
 
 
 ## Imperial College London, October 2012 to June 2016
@@ -144,7 +144,7 @@ I have obtained 67.74% overall
 - Real-time digital signal processing
     - Based on C and C++ projects to filter signals
 - Entrepreneurship
-    - Business plan [**here**](XXX)
+    - [Business plan](../documents/BusinessPlan_Sports_Connect.pdf) about Sports Connect
 - Accounting
 - Project management
     - Group project [**here**](XXX)
@@ -203,7 +203,7 @@ I have obtained 57.43% overall
 - Analogue electronics
 - Energy conversion
 - Signals and communication
-    
+
 #### Year group project: *EEBug*
 - Leader of a team of 6 students
 - Goal was to build a toy following a black line on the floor for GBP 5.00
