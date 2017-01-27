@@ -1,5 +1,7 @@
 # Quentin McGaw
 
+![Picture of myself](../images/quentin.jpeg)
+
 ## Introduction
 - Doing a [**Master** of **Computer science** at New York University](https://cs.nyu.edu/home/master/prospective_mscs.html).
 - Graduating in May 2018.
@@ -11,6 +13,7 @@
 	- Bitcoin protocol
     - DevOps
 	- OOP with Python and C++
+	- Web technologies
 	- Parallel computing with GPUs and openCL
 	- Economy, corporate finance, accounting
 	- Development of mobile applications
@@ -33,7 +36,9 @@
   going to the gym, skiing :ski:, cycling :bicyclist:, 9gag,
   [Ebay](http://feedback.ebay.ie/ws/eBayISAPI.dll?ViewFeedback2&userid=dowi9876&ftab=FeedbackAsSeller&searchInterval=30),
   Reddit, and [assembling desktops](https://drive.google.com/drive/folders/0B5UPjZHikV5gQ3pyTVR2M3RMaUk?usp=sharing) from time to time.
-
+[![Quentin McGaw introduction video](../gifs/video_introduction.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
+  
+  
 ***
 
 ## Work experience
@@ -64,7 +69,7 @@
 ## New York University, September 2016 to May 2018
 
 ### Courses
-- DevOps :blue_heart:
+- DevOps
     - Project [**here**](https://qdm12.github.io/Devops_RESTful)
     - Advanced Git, Zenhub :octocat:
     - Vagrant
@@ -146,6 +151,7 @@ I have obtained 67.74% overall
 ### Third year, 2014-2015
 #### Courses
 - Digital signal processing
+	- Project code [here](XXX)
 - Advanced signal processing
 	- [Coursework report](../documents/Advanced%20signal%20processing%20report.pdf)
 - Artificial intelligence
@@ -211,6 +217,7 @@ I have obtained 57.43% overall
     - Use of Cadsoft Eagle and PSPice
 - Digital electronics
     - Altera Quartus 12
+	![Quartus circuit](../images/quartus.jpeg)
 - Semiconductor devices
 - Analogue electronics
 - Energy conversion
@@ -223,12 +230,14 @@ I have obtained 57.43% overall
     - PSPice to design the circuits
     - Project and team management (reports, charts, deadlines...)
     - Hardware testing (opAmps, Resistances etc.)
+![EEBug picture](../images/eebug.jpeg)
     
 #### Results
 I have obtained 63.26% overall
-    
+
 ### Master's results
 I have obtained 61.32% overall, with second upper class honours
+You can check out the certificate [here](../documents/imperial_degree.pdfXXX)
 
 ***
 
@@ -242,7 +251,7 @@ I have obtained 61.32% overall, with second upper class honours
 - Latin, english, spanish, french
 - Sports
 
-### Articles published (2008, 13 years old)
+### Articles published in a french Hardware Magazine (2008, 13 years old)
 ![Article 1](../images/article1.jpeg)
 ![Article 2](../images/article2.jpeg)
 
@@ -251,7 +260,10 @@ I have obtained 61.32% overall, with second upper class honours
 
 ## Fun facts
 - I ascented the Kilimanjaro mountain in Tanzania at the age of 12
+![Kilimanjaro picture](../images/hotel_scotland.jpeg)
 - I had a summer job as a waiter and groom in a hotel in Scotland, Pebble
-- All my grades are accessible [**here**](https://docs.google.com/spreadsheets/d/1udRYqsP2acNWp2wQk6SEaNb65T-0Gl_vL5lXWiQSeGQ/edit?usp=sharing)
-- My Raspberry Pi use openVPN and another Ethernet connection for SSH access
+![Scotland hotel picture](../images/raspberrypi.jpeg)
+- All my grades are accessible in that [**formatted spreadsheet**](https://docs.google.com/spreadsheets/d/1udRYqsP2acNWp2wQk6SEaNb65T-0Gl_vL5lXWiQSeGQ/edit?usp=sharing)
 - I write some funny theories like that [**one**](../documents/fun%20theory.md)
+- My Raspberry Pi use openVPN and another Ethernet connection for SSH access
+![Raspberry Pi picture](../images/raspberrypi.jpeg)
