@@ -1,6 +1,6 @@
 # Quentin McGaw
 
-![Picture of myself](../images/quentin.jpeg)
+![Picture of myself](../images/quentin.jpg)
 
 ## Introduction
 - Doing a [**Master** of **Computer science** at New York University](https://cs.nyu.edu/home/master/prospective_mscs.html).
@@ -121,7 +121,7 @@
 - Homomorphic encryption allows to perform analytics on encrypted data, which will be very useful for cloud computing.
 - Report available [here](../documents/Homomorphic%20encryption%20Cryptography%20for%20cloud%20computing%20report.pdf)
 
-[![Homomorphic encryption presentation video](../gifs/video_homomorphic.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
+[![Homomorphic encryption presentation video](../gifs/video_homomorphic.gif)](https://drive.google.com/open?id=0B5UPjZHikV5gakliTU9nUE9tNWM)
 
 ### Final year, 2015-2016
 #### Courses
@@ -142,7 +142,7 @@
     - [**Machine learning**](https://github.com/qdm12/Staminaputations) in Python (clustering)
     - NodeJS, SQL database
 	- Report available [here](../documents/Stamina%20report.pdf)
-	- [![Stamina video](../gifs/video_stamina.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
+	- [![Stamina video](../gifs/video_stamina.gif)](https://drive.google.com/open?id=0B5UPjZHikV5gWVBwUnVpWjZHQVU)
 - Managing innovation
 - Managerial economics
 - Corporate finance
@@ -200,10 +200,9 @@ I have obtained 54.63% overall
 - This involved several technologies and developments
     - At the supermarket's level, barcodes were replaced by low-cost RFID chips (contactless) which contain the expiry date of the product in addition to the barcode data. This also allowed a faster checkout of the supermarket's consumer.
     - At the consumer's level, an Android application was developed.
-    - A program for the cashier at the supermarket and a server were developed, to communicate information on all the goods bought for each user and to handle the food social network.
+    - A C++ program for the cashier at the supermarket and a server were developed, to communicate information on all the goods bought for each user and to handle the food social network.
     - A website was also designed for non-mobile users of Wasteless.
 - The final state of the group project was actually promising and we obtained surprisingly high marks.
-- [![Wasteless video](../gifs/video_wasteless.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
 
 #### Results
 I have obtained 57.43% overall
