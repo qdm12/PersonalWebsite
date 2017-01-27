@@ -214,12 +214,12 @@ I have obtained 57.43% overall
     - C & C++
 - Mathematics
 - Professional engineering
-	- [Report on Micro NAND flask memory chips](../documents/Profressional%20report%20-%20Micron%2020nm%20MLC%20NAND%20flash%20128Gb%20memory%20chip.pdf)
+    - [Report on Micro NAND flask memory chips](../documents/Profressional%20report%20-%20Micron%2020nm%20MLC%20NAND%20flash%20128Gb%20memory%20chip.pdf)
 - Analysis of circuits
     - Use of Cadsoft Eagle and PSPice
 - Digital electronics
     - Altera Quartus 12
-	- ![Quartus circuit](../images/quartus.jpeg)
+    - ![Quartus circuit](../images/quartus.jpeg)
 - Semiconductor devices
 - Analogue electronics
 - Energy conversion
@@ -254,9 +254,9 @@ You can check out the certificate [here](../documents/imperial_degree.pdfXXX)
 - Sports
 
 ### Articles published in a french Hardware Magazine (2008, 13 years old)
-![Article 1](../images/article1.jpeg)
+![Article 1](../images/article1.jpg)
 
-![Article 2](../images/article2.jpeg)
+![Article 2](../images/article2.jpg)
 
 ***
 
