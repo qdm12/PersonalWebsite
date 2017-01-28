@@ -165,7 +165,7 @@ I have obtained 67.74% overall
     - [Business plan](../documents/Business%20plan%20Sports%20Connect.pdf) about Sports Connect
 - Accounting
 - Project management
-    - Group project [**here**](XXX)
+    - Group project [here](XXX)
     
 #### Results
 I have obtained 54.63% overall
@@ -218,7 +218,7 @@ I have obtained 57.43% overall
     - Use of Cadsoft Eagle and PSPice
 - Digital electronics
     - Altera Quartus 12
-    - ![Quartus circuit](../images/quartus.jpeg)
+    - ![Quartus circuit](../images/quartus.jpg)
 - Semiconductor devices
 - Analogue electronics
 - Energy conversion
@@ -231,7 +231,7 @@ I have obtained 57.43% overall
     - PSPice to design the circuits
     - Project and team management (reports, charts, deadlines...)
     - Hardware testing (opAmps, Resistances etc.)
-- ![EEBug picture](../images/eebug.jpeg)
+- ![EEBug picture](../images/eebug.jpg)
     
 #### Results
 I have obtained 63.26% overall
@@ -262,14 +262,15 @@ You can check out the certificate [here](../documents/imperial_degree.pdf)
 ## Fun facts
 - I climbed the Kilimanjaro mountain in Tanzania at the age of 12
 
-![Kilimanjaro picture](../images/hotel_scotland.jpeg)
+![Kilimanjaro picture](../images/kilimanjaro.jpg)
+![Kilimanjaro picture](../images/kilimanjaro2.jpg)
 - I had a summer job as a waiter and cleaner in a hotel in Scotland, Pebble
 
-![Scotland hotel picture](../images/raspberrypi.jpeg)
+![Scotland hotel picture](../images/raspberrypi.jpg)
 - All my grades are accessible in that [**formatted spreadsheet**](https://docs.google.com/spreadsheets/d/1udRYqsP2acNWp2wQk6SEaNb65T-0Gl_vL5lXWiQSeGQ/edit?usp=sharing)
 - I write some funny theories like that [**one**](../documents/fun%20theory.md)
 - My Raspberry Pi use openVPN and another Ethernet connection for SSH access
 
-![Raspberry Pi picture](../images/raspberrypi.jpeg)
+![Raspberry Pi picture](../images/raspberrypi.jpg)
 
 - 
