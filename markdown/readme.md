@@ -11,12 +11,12 @@
 - Expertise in:
 	- Cryptography and web security :closed_lock_with_key:
 	- Bitcoin protocol
-    - DevOps
-	- OOP with Python and C++
-	- Web technologies
-	- Parallel computing with GPUs and openCL
-	- Economy, corporate finance, accounting
-	- Development of mobile applications
+    - DevOps :arrows_counterclockwise:
+	- OOP with Python and C++ :snake:
+	- Web technologies :globe_with_meridians:
+	- Parallel computing with GPUs and openCL :hourglass_flowing_sand:
+	- Economy, corporate finance, accounting :pound:
+	- Development of mobile applications :iphone:
 	- Project management, entrepreneurship, innovation management
 - Other knowledge in:
 	- FPGAs design
@@ -207,15 +207,18 @@ I have obtained 54.63% overall
 #### Year group project: *Wasteless*
 - Leader of a team of 7 students
 - Goal was to develop an ecosystem to reduce the waste of expired food
-    - Notify a user on his/her smartphone about food products nearly expired
-    - Propose him to share it with neighbours if he can't eat it
+    - Push notification to the smartphone of the user about food products nearly expired
+    - Propose the user to share nearly expired food with neighbours
     - Establish a network of "food friends" with reputation points, messaging and so on
 - This involved several technologies and developments
-    - At the supermarket's level, barcodes were replaced by low-cost RFID chips (contactless) which contain the expiry date of the product in addition to the barcode data. This also allowed a faster checkout of the supermarket's consumer.
-    - At the consumer's level, an Android application was developed.
-    - A C++ program for the cashier at the supermarket and a server were developed, to communicate information on all the goods bought for each user and to handle the food social network.
+    - At the supermarket level, barcodes were replaced by low-cost RFID chips 
+      (contactless) containing the expiry date of the product in addition to 
+      the barcode data. This also allowed a faster checkout for the customer.
+    - At the customer level, an Android application was developed :iphone:
+    - A C++ based server was developed to communicate information on all the goods bought by each user and to handle the food social network.
+    - A C++ client program for the cashier at the supermarket was developed.
     - A website was also designed for non-mobile users of Wasteless.
-- The final state of the group project was actually promising and we obtained surprisingly high marks.
+- The final state of the group project was actually promising and we obtained surprisingly high marks :simple_smile:
 
 #### Results
 I have obtained 57.43% overall
