@@ -185,6 +185,7 @@ I have obtained 54.63% overall
 - Digital electronics
     - Programming FPGAs using *Verilog* in pairs
     - MPLabs assembler
+    - ![Digital circuit](../images/circuit.jpg)
 - Analogue electronics
 - Power engineering
 - Communication systems
