@@ -32,12 +32,13 @@
     - 5 months in New York City, US :us:
 - Speak & write french and english fluently, a bit of spanish
 - I like [Quora](https://www.quora.com/profile/Quentin-McGaw), 
-  trading, my Raspberry Pi, [Github](https://www.github.com/qdm12),
-  going to the gym, skiing :ski:, cycling :bicyclist:, 9gag,
+  trading, my ![Raspberry Pi](../images/raspberrypi.jpg),
+  [Github](https://www.github.com/qdm12), going to the gym,
+  skiing :ski:, cycling :bicyclist:, 9gag,
   [Ebay](http://feedback.ebay.ie/ws/eBayISAPI.dll?ViewFeedback2&userid=dowi9876&ftab=FeedbackAsSeller&searchInterval=30),
   Reddit, and [assembling desktops](https://drive.google.com/drive/folders/0B5UPjZHikV5gQ3pyTVR2M3RMaUk?usp=sharing) from time to time.
 
-[![Quentin McGaw introduction video](../gifs/video_introduction.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
+[![Quentin McGaw introduction video](../gifs/video_introduction.gif)](https://www.youtube.com)
   
   
 ***
@@ -45,6 +46,9 @@
 ## Work experience
 
 ### Industrial placement at Coinplus, 2015
+
+![Coinplus](../images/coinplus.jpg)
+
 - Six months in a Bitcoin startup in Luxembourg.
 	- Regulated and secured storage of bitcoins
 	- Regulated transactions of bitcoins
@@ -56,6 +60,9 @@
 - In the end my solution was patented under the company name.
 
 ### Summer internship at STMicroelectronics, 2014
+
+![STMicroelectronics](../images/stmicro.jpg)
+
 - Three months at STMicroelectronics in South of France.
 	- In the NFC mobile application development team of 15 persons.
 	- The company was developing a new NFC chip for Android smartphones.
@@ -68,6 +75,8 @@
 ***
 
 ## New York University, September 2016 to May 2018
+
+![New York University](../images/nyu.jpg)
 
 ### Courses
 - DevOps
@@ -90,6 +99,7 @@
     - Jenkins and code coverage
     - Artificial intelligence
     - PhoneGap and monetizing the app
+    - ![Chess gif](https://www.dropbox.com/s/14k8rsisrs03ak5/chess_normal.gif?dl=1)
 - Database Systems
     - Microsoft Visio
 - [Programming languages](https://github.com/qdm12/Programming-languages)
@@ -111,7 +121,9 @@
 ***
 
 ## Imperial College London, October 2012 to June 2016
-  
+
+![Imperial College London](../images/imperial.jpg)
+
 ### Master's thesis
 - [**hbc**](https://qdm12.github.io/hbc/) for Homomorphic binary circuits
 - My aim was to develop easy to use digital circuits using fully homomorphic encryption.
