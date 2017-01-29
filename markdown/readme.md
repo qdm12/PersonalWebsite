@@ -172,6 +172,7 @@ I have obtained 67.74% overall
 #### Courses
 - Digital signal processing
 - Advanced signal processing
+    - Use of Matlab
 	- [Coursework report](../documents/Advanced%20signal%20processing%20report.pdf)
 - Artificial intelligence
     - Use of Prologue
@@ -282,6 +283,7 @@ You can check out the certificate [here](../documents/imperial_degree.pdf)
 ***
 
 ## Fun facts :open_mouth:
+- I have a UK driving license :red_car:
 - I climbed the [Kilimanjaro](https://goo.gl/maps/Pur81wuxvzs) mountain in Tanzania at the age of 12
 
 [![Kilimanjaro picture](../images/kilimanjaro.jpg)](https://goo.gl/maps/Pur81wuxvzs)
