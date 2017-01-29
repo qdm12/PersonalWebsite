@@ -121,7 +121,7 @@
 - Homomorphic encryption allows to perform analytics on encrypted data, which will be very useful for cloud computing.
 - Report available [here](../documents/Homomorphic%20encryption%20Cryptography%20for%20cloud%20computing%20report.pdf)
 
-[![Homomorphic encryption presentation video](../gifs/video_homomorphic.gif)](https://drive.google.com/open?id=0B5UPjZHikV5gakliTU9nUE9tNWM)
+[![Homomorphic encryption presentation video](../gifs/video_homomorphic.gif)](https://youtu.be/n-adgQWZYxI)
 
 ### Final year, 2015-2016
 #### Courses
@@ -231,7 +231,7 @@ I have obtained 57.43% overall
     - PSPice to design the circuits
     - Project and team management (reports, charts, deadlines...)
     - Hardware testing (opAmps, Resistances etc.)
-- ![EEBug picture](../images/eebug.jpg)
+- ![EEBug picture](../images/EEBug.jpg)
     
 #### Results
 I have obtained 63.26% overall
@@ -260,13 +260,13 @@ You can check out the certificate [here](../documents/imperial_degree.pdf)
 ***
 
 ## Fun facts
-- I climbed the Kilimanjaro mountain in Tanzania at the age of 12
+- I climbed the [Kilimanjaro](https://goo.gl/maps/Pur81wuxvzs) mountain in Tanzania at the age of 12
 
 ![Kilimanjaro picture](../images/kilimanjaro.jpg)
 ![Kilimanjaro picture](../images/kilimanjaro2.jpg)
-- I had a summer job as a waiter and cleaner in a hotel in Scotland, Pebble
+- I had a summer job as a waiter and cleaner in the [Castle Venlaw Hotel](https://goo.gl/maps/d6Waq2cGDsp) in Scotland, Peebles
 
-![Scotland hotel picture](../images/raspberrypi.jpg)
+![Scotland hotel picture](../images/scotland.jpg)
 - All my grades are accessible in that [**formatted spreadsheet**](https://docs.google.com/spreadsheets/d/1udRYqsP2acNWp2wQk6SEaNb65T-0Gl_vL5lXWiQSeGQ/edit?usp=sharing)
 - I write some funny theories like that [**one**](../documents/fun%20theory.md)
 - My Raspberry Pi use openVPN and another Ethernet connection for SSH access
