@@ -7,7 +7,7 @@
 - Graduating in May 2018.
 - Graduated from my [**Master's** in **Electrical and electronic engineering with 
   management** from Imperial College London](https://www.imperial.ac.uk/study/ug/courses/electrical-engineering-department/electrical-and-electronic-engineering-management/) 
-  in June 2016.
+  in June 2016 with upper second class honours.
 - Expertise in:
 	- Cryptography and web security :closed_lock_with_key:
 	- Bitcoin protocol
@@ -37,7 +37,8 @@
   skiing :ski:, cycling :bicyclist:, 9gag :blush:,
   [Ebay](http://feedback.ebay.ie/ws/eBayISAPI.dll?ViewFeedback2&userid=dowi9876&ftab=FeedbackAsSeller&searchInterval=30) :dollar:,
   Reddit, and [assembling desktops](https://drive.google.com/drive/folders/0B5UPjZHikV5gQ3pyTVR2M3RMaUk?usp=sharing) :floppy_disk: from time to time.
-
+- My resume is accessible [**here**](../documents/resume.pdf)
+  
 [![Quentin McGaw introduction video](../gifs/video_introduction.gif)](https://www.youtube.com)
   
   
