@@ -262,15 +262,23 @@ You can check out the certificate [here](../documents/imperial_degree.pdf)
 ## Fun facts
 - I climbed the [Kilimanjaro](https://goo.gl/maps/Pur81wuxvzs) mountain in Tanzania at the age of 12
 
-![Kilimanjaro picture](../images/kilimanjaro.jpg)
-![Kilimanjaro picture](../images/kilimanjaro2.jpg)
+[![Kilimanjaro picture](../images/kilimanjaro.jpg)](https://goo.gl/maps/Pur81wuxvzs)
+[![Kilimanjaro picture](../images/kilimanjaro2.jpg)](https://goo.gl/maps/Pur81wuxvzs)
 - I had a summer job as a waiter and cleaner in the [Castle Venlaw Hotel](https://goo.gl/maps/d6Waq2cGDsp) in Scotland, Peebles
 
-![Scotland hotel picture](../images/scotland.jpg)
+[![Scotland hotel picture](../images/scotland.jpg)](https://goo.gl/maps/d6Waq2cGDsp)
 - All my grades are accessible in that [**formatted spreadsheet**](https://docs.google.com/spreadsheets/d/1udRYqsP2acNWp2wQk6SEaNb65T-0Gl_vL5lXWiQSeGQ/edit?usp=sharing)
 - I write some funny theories like that [**one**](../documents/fun%20theory.md)
 - My Raspberry Pi use openVPN and another Ethernet connection for SSH access
 
 ![Raspberry Pi picture](../images/raspberrypi.jpg)
 
-- 
+- Some desktop computers I built
+![Desktop 1](../images/desktop1.jpg)
+![Desktop 2](../images/desktop2.jpg)
+![Desktop 3](../images/desktop3.jpg)
+![Desktop 4](../images/desktop4.jpg)
+![Desktop 5](../images/desktop5.jpg)
+![Desktop 6](../images/desktop6.jpg)
+![Desktop 7](../images/desktop7.jpg)
+![Desktop 8](../images/desktop8.jpg)
