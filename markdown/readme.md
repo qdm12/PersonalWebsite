@@ -32,7 +32,7 @@
     - 5 months in New York City, US :us:
 - Speak & write french and english fluently, a bit of spanish
 - I like [Quora](https://www.quora.com/profile/Quentin-McGaw), 
-  trading, my ![Raspberry Pi](../images/raspberrypi.jpg),
+  trading, my [Raspberry Pi](../images/raspberrypi.jpg),
   [Github](https://www.github.com/qdm12), going to the gym,
   skiing :ski:, cycling :bicyclist:, 9gag,
   [Ebay](http://feedback.ebay.ie/ws/eBayISAPI.dll?ViewFeedback2&userid=dowi9876&ftab=FeedbackAsSeller&searchInterval=30),
