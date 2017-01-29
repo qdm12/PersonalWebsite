@@ -43,7 +43,7 @@
   
 ***
 
-## Work experience
+## Work experience :office:
 
 ### Industrial placement at Coinplus, 2015
 
@@ -157,13 +157,13 @@
 	- [![Stamina video](../gifs/video_stamina.gif)](https://drive.google.com/open?id=0B5UPjZHikV5gWVBwUnVpWjZHQVU)
 - Managing innovation
 - Managerial economics
-    - Syllabus preview: ![syllabus preview](../gifs/economics_syllabus.gif)
     - Full syllabus [here](managerial_economics.md)
+    - ![syllabus preview](../gifs/economics_syllabus.gif)
 - Corporate finance
     - Group [report on the fair valuation of the S&P500](../documents/Fair%20Valuation%20of%20the%20SP500%20index.pdf)
     - Group [presentation on the MSFT Valuation](../documents/Microsoft%20Corp%20(MSFT)%20Valuation.pdf)
-    - Syllabus preview: ![syllabus preview](../gifs/finance_syllabus.gif)
     - Full syllabus [here](corporate_finance.md)
+    - ![syllabus preview](../gifs/finance_syllabus.gif)
 
 #### Results
 I have obtained 67.74% overall
@@ -179,12 +179,15 @@ I have obtained 67.74% overall
 - Communication networks
 - Real-time digital signal processing
     - Based on C and C++ projects to filter signals
-    - Project code [here](XXX)
+    - [Report on Interrup I/O laboratory](../documents/RTDSP%20report%203.pdf)
+    - [Report on Real time implementation of FIR filters laboratory](../documents/RTDSP%20report%204.pdf)
+    - [Report on Real time implementation of IIR filters laboratory](../documents/RTDSP%20report%205.pdf)
+    - [Report on a speech enhancement project](../documents/RTDSP%20report%20project.pdf)
 - Entrepreneurship
     - [Business plan](../documents/Business%20plan%20Sports%20Connect.pdf) about Sports Connect
 - Accounting
 - Project management
-    - Group project [here](XXX)
+    - Group project on the Boeing 747 project
     
 #### Results
 I have obtained 54.63% overall
@@ -284,11 +287,11 @@ You can check out the certificate [here](../documents/imperial_degree.pdf)
 
 ## Fun facts :open_mouth:
 - I have a UK driving license :red_car:
-- I climbed the [Kilimanjaro](https://goo.gl/maps/Pur81wuxvzs) mountain in Tanzania at the age of 12
+- I climbed the [Kilimanjaro](https://goo.gl/maps/Pur81wuxvzs) mountain in Tanzania at the age of 12 :mount_fuji:
 
 [![Kilimanjaro picture](../images/kilimanjaro.jpg)](https://goo.gl/maps/Pur81wuxvzs)
 [![Kilimanjaro picture](../images/kilimanjaro2.jpg)](https://goo.gl/maps/Pur81wuxvzs)
-- I had a summer job as a waiter and cleaner in the [Castle Venlaw Hotel](https://goo.gl/maps/d6Waq2cGDsp) in Scotland, Peebles
+- I had a summer job as a waiter and cleaner in the [Castle Venlaw Hotel](https://goo.gl/maps/d6Waq2cGDsp) in Scotland, Peebles :hotel:
 
 [![Scotland hotel picture](../images/scotland.jpg)](https://goo.gl/maps/d6Waq2cGDsp)
 - All my grades are accessible in this [**formatted spreadsheet**](https://docs.google.com/spreadsheets/d/1udRYqsP2acNWp2wQk6SEaNb65T-0Gl_vL5lXWiQSeGQ/edit?usp=sharing)
@@ -297,7 +300,7 @@ You can check out the certificate [here](../documents/imperial_degree.pdf)
 
 ![Raspberry Pi picture](../images/raspberrypi.jpg)
 
-- Some desktop computers I built
+- Some desktop computers I assembled :computer:
 
 ![Desktop 1](../images/desktop1.jpg)
 ![Desktop 2](../images/desktop2.jpg)
