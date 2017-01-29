@@ -274,11 +274,12 @@ You can check out the certificate [here](../documents/imperial_degree.pdf)
 ![Raspberry Pi picture](../images/raspberrypi.jpg)
 
 - Some desktop computers I built
+
 ![Desktop 1](../images/desktop1.jpg)
 ![Desktop 2](../images/desktop2.jpg)
 ![Desktop 3](../images/desktop3.jpg)
 ![Desktop 4](../images/desktop4.jpg)
 ![Desktop 5](../images/desktop5.jpg)
-![Desktop 6](../images/desktop6.jpg)
-![Desktop 7](../images/desktop7.jpg)
-![Desktop 8](../images/desktop8.jpg)
+![Desktop 6](../images/desktop6.JPG)
+![Desktop 7](../images/desktop7.JPG)
+![Desktop 8](../images/desktop8.JPG)
