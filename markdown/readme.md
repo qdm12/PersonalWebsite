@@ -99,7 +99,7 @@
     - Jenkins and code coverage
     - Artificial intelligence
     - PhoneGap and monetizing the app
-    - ![Chess gif](https://www.dropbox.com/s/14k8rsisrs03ak5/chess_normal.gif?dl=1)
+    - [![Chess gif](https://www.dropbox.com/s/14k8rsisrs03ak5/chess_normal.gif?dl=1)](https://github.com/qdm12/Chess_2016)
 - Database Systems
     - Microsoft Visio
 - [Programming languages](https://github.com/qdm12/Programming-languages)
@@ -157,7 +157,13 @@
 	- [![Stamina video](../gifs/video_stamina.gif)](https://drive.google.com/open?id=0B5UPjZHikV5gWVBwUnVpWjZHQVU)
 - Managing innovation
 - Managerial economics
+    - Syllabus preview: ![syllabus preview](../gif/economics_syllabus.gif)
+    - Full syllabus [here](managerial_economics.md)
 - Corporate finance
+    - Group [report on the fair valuation of the S&P500](../documents/Fair%20Valuation%20of%20the%20SP500%20index.pdf)
+    - Group [presentation on the MSFT Valuation](../documents/Microsoft%20Corp%20(MSFT)%20Valuation.pdf)
+    - Syllabus preview: ![syllabus preview](../gif/finance_syllabus.gif)
+    - Full syllabus [here](corporate_finance.md)
 
 #### Results
 I have obtained 67.74% overall
@@ -165,7 +171,6 @@ I have obtained 67.74% overall
 ### Third year, 2014-2015
 #### Courses
 - Digital signal processing
-	- Project code [here](XXX)
 - Advanced signal processing
 	- [Coursework report](../documents/Advanced%20signal%20processing%20report.pdf)
 - Artificial intelligence
@@ -173,6 +178,7 @@ I have obtained 67.74% overall
 - Communication networks
 - Real-time digital signal processing
     - Based on C and C++ projects to filter signals
+    - Project code [here](XXX)
 - Entrepreneurship
     - [Business plan](../documents/Business%20plan%20Sports%20Connect.pdf) about Sports Connect
 - Accounting
