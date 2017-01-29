@@ -3,9 +3,9 @@
 ![Picture of myself](../images/quentin.jpg)
 
 ## Introduction
-- Doing a [**Master** of **Computer science** at New York University](https://cs.nyu.edu/home/master/prospective_mscs.html).
+- Doing a [**Master's** of **Computer science** at New York University](https://cs.nyu.edu/home/master/prospective_mscs.html).
 - Graduating in May 2018.
-- Graduated for my [**Master** in **Electrical and electronic engineering with 
+- Graduated from my [**Master's** in **Electrical and electronic engineering with 
   management** from Imperial College London](https://www.imperial.ac.uk/study/ug/courses/electrical-engineering-department/electrical-and-electronic-engineering-management/) 
   in June 2016.
 - Expertise in:
@@ -28,15 +28,15 @@
 	- 11 years in Luxembourg City :cloud:
 	- 1 year in Switzerland, Villars-sur-Ollons :snowflake:
 	- 7 years in Nice, France :fr:
-	- 4 years in London, UK :gb:
-    - 5 months in New York City, US :us:
-- Speak & write french and english fluently, a bit of spanish
+	- 4 years in London, UK :guardsman:
+    - 5 months in New York City, US :statue_of_liberty: :us:
+- Fluent in English :gb:, français :fr: y un poco de español :es:
 - I like [Quora](https://www.quora.com/profile/Quentin-McGaw), 
   trading, my [Raspberry Pi](../images/raspberrypi.jpg),
-  [Github](https://www.github.com/qdm12), going to the gym,
-  skiing :ski:, cycling :bicyclist:, 9gag,
-  [Ebay](http://feedback.ebay.ie/ws/eBayISAPI.dll?ViewFeedback2&userid=dowi9876&ftab=FeedbackAsSeller&searchInterval=30),
-  Reddit, and [assembling desktops](https://drive.google.com/drive/folders/0B5UPjZHikV5gQ3pyTVR2M3RMaUk?usp=sharing) from time to time.
+  [Github](https://www.github.com/qdm12), going to the gym :muscle:,
+  skiing :ski:, cycling :bicyclist:, 9gag :blush:,
+  [Ebay](http://feedback.ebay.ie/ws/eBayISAPI.dll?ViewFeedback2&userid=dowi9876&ftab=FeedbackAsSeller&searchInterval=30) :dollar:,
+  Reddit, and [assembling desktops](https://drive.google.com/drive/folders/0B5UPjZHikV5gQ3pyTVR2M3RMaUk?usp=sharing) :floppy_disk: from time to time.
 
 [![Quentin McGaw introduction video](../gifs/video_introduction.gif)](https://www.youtube.com)
   
@@ -47,7 +47,7 @@
 
 ### Industrial placement at Coinplus, 2015
 
-![Coinplus](../images/coinplus.jpg)
+[![Coinplus](../images/coinplus.jpg)](https://www.linkedin.com/company/coinplus)
 
 - Six months in a Bitcoin startup in Luxembourg.
 	- Regulated and secured storage of bitcoins
@@ -57,11 +57,11 @@
     - Understanding of the Bitcoin protocol
     - Python programming
     - Networking, rabbitMQ
-- In the end my solution was patented under the company name.
+- The final outcome was the patenting of my solution under the company's name.
 
 ### Summer internship at STMicroelectronics, 2014
 
-![STMicroelectronics](../images/stmicro.jpg)
+[![STMicroelectronics](../images/stmicro.jpg)](http://www.st.com/content/st_com/en/about/careers/st-locations/emea/france/sophia_antipolis.html)
 
 - Three months at STMicroelectronics in South of France.
 	- In the NFC mobile application development team of 15 persons.
@@ -76,7 +76,7 @@
 
 ## New York University, September 2016 to May 2018
 
-![New York University](../images/nyu.jpg)
+[![New York University](../images/nyu.jpg)](https://cims.nyu.edu/)
 
 ### Courses
 - DevOps
@@ -122,7 +122,7 @@
 
 ## Imperial College London, October 2012 to June 2016
 
-![Imperial College London](../images/imperial.jpg)
+[![Imperial College London](../images/imperial.jpg)](https://www.imperial.ac.uk/study/ug/courses/electrical-engineering-department/electrical-and-electronic-engineering-management/)
 
 ### Master's thesis
 - [**hbc**](https://qdm12.github.io/hbc/) for Homomorphic binary circuits
@@ -249,8 +249,8 @@ I have obtained 57.43% overall
 #### Results
 I have obtained 63.26% overall
 
-### Master's results
-I have obtained 61.32% overall, with upper second class honours
+### Graduation results
+I have obtained my Master's degree with upper second class honours and 61.32% overall
 You can check out the certificate [here](../documents/imperial_degree.pdf)
 
 ***
@@ -262,7 +262,7 @@ You can check out the certificate [here](../documents/imperial_degree.pdf)
 - Biology and geology
 - History and geography
 - Philosophy
-- Latin, english, spanish, french
+- Latin, English, Spanish, French
 - Sports
 
 ### Articles published in a french Hardware Magazine (2008, 13 years old)
@@ -272,7 +272,7 @@ You can check out the certificate [here](../documents/imperial_degree.pdf)
 
 ***
 
-## Fun facts
+## Fun facts :open_mouth:
 - I climbed the [Kilimanjaro](https://goo.gl/maps/Pur81wuxvzs) mountain in Tanzania at the age of 12
 
 [![Kilimanjaro picture](../images/kilimanjaro.jpg)](https://goo.gl/maps/Pur81wuxvzs)
@@ -280,9 +280,9 @@ You can check out the certificate [here](../documents/imperial_degree.pdf)
 - I had a summer job as a waiter and cleaner in the [Castle Venlaw Hotel](https://goo.gl/maps/d6Waq2cGDsp) in Scotland, Peebles
 
 [![Scotland hotel picture](../images/scotland.jpg)](https://goo.gl/maps/d6Waq2cGDsp)
-- All my grades are accessible in that [**formatted spreadsheet**](https://docs.google.com/spreadsheets/d/1udRYqsP2acNWp2wQk6SEaNb65T-0Gl_vL5lXWiQSeGQ/edit?usp=sharing)
-- I write some funny theories like that [**one**](../documents/fun%20theory.md)
-- My Raspberry Pi use openVPN and another Ethernet connection for SSH access
+- All my grades are accessible in this [**formatted spreadsheet**](https://docs.google.com/spreadsheets/d/1udRYqsP2acNWp2wQk6SEaNb65T-0Gl_vL5lXWiQSeGQ/edit?usp=sharing)
+- I write some funny theories like this [**one**](../documents/fun%20theory.md)
+- My Raspberry Pi uses openVPN and another Ethernet connection for SSH access :trollface:
 
 ![Raspberry Pi picture](../images/raspberrypi.jpg)
 
