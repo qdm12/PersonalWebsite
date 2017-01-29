@@ -210,25 +210,25 @@ I have obtained 54.63% overall
     - ![Digital circuit](../images/circuit.jpg)
 - Analogue electronics
 - Power engineering
-- Communication systems
+- Communication systems :signal_strength:
 - Signal and linear systems
 - Control engineering
 
 #### Year group project: *Wasteless*
 - Leader of a team of 7 students
-- Goal was to develop an ecosystem to reduce the waste of expired food
-    - Push notification to the smartphone of the user about food products nearly expired
-    - Propose the user to share nearly expired food with neighbours
-    - Establish a network of "food friends" with reputation points, messaging and so on
+- Goal was to develop an ecosystem to reduce the waste of expired food :meat_on_bone:
+    - Push notification to the smartphone of the user about food products nearly expired :warning:
+    - Propose the user to share nearly expired food with neighbours :older_woman:
+    - Establish a network of "food friends" with reputation points, messaging and so on :globe_with_meridians:
 - This involved several technologies and developments
     - At the supermarket level, barcodes were replaced by low-cost RFID chips 
       (contactless) containing the expiry date of the product in addition to 
       the barcode data. This also allowed a faster checkout for the customer.
     - At the customer level, an Android application was developed :iphone:
     - A C++ based server was developed to communicate information on all the goods bought by each user and to handle the food social network.
-    - A C++ client program for the cashier at the supermarket was developed.
+    - A C++ client program for the cashier at the supermarket was developed. :computer:
     - A website was also designed for non-mobile users of Wasteless.
-- The final state of the group project was actually promising and we obtained surprisingly high marks :simple_smile:
+- The final state of the group project was actually promising and we obtained surprisingly high marks :smile:
 
 #### Results
 I have obtained 57.43% overall
