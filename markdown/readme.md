@@ -157,12 +157,12 @@
 	- [![Stamina video](../gifs/video_stamina.gif)](https://drive.google.com/open?id=0B5UPjZHikV5gWVBwUnVpWjZHQVU)
 - Managing innovation
 - Managerial economics
-    - Syllabus preview: ![syllabus preview](../gif/economics_syllabus.gif)
+    - Syllabus preview: ![syllabus preview](../gifs/economics_syllabus.gif)
     - Full syllabus [here](managerial_economics.md)
 - Corporate finance
     - Group [report on the fair valuation of the S&P500](../documents/Fair%20Valuation%20of%20the%20SP500%20index.pdf)
     - Group [presentation on the MSFT Valuation](../documents/Microsoft%20Corp%20(MSFT)%20Valuation.pdf)
-    - Syllabus preview: ![syllabus preview](../gif/finance_syllabus.gif)
+    - Syllabus preview: ![syllabus preview](../gifs/finance_syllabus.gif)
     - Full syllabus [here](corporate_finance.md)
 
 #### Results
