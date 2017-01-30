@@ -38,9 +38,9 @@
   [Ebay](http://feedback.ebay.ie/ws/eBayISAPI.dll?ViewFeedback2&userid=dowi9876&ftab=FeedbackAsSeller&searchInterval=30) :dollar:,
   Reddit, and [assembling desktops](https://drive.google.com/drive/folders/0B5UPjZHikV5gQ3pyTVR2M3RMaUk?usp=sharing) :floppy_disk: from time to time.
 - My resume can be downloaded [**here**](https://github.com/qdm12/PersonalWebsite/raw/master/documents/resume.pdf)
-  
-[![Quentin McGaw introduction video](../gifs/video_introduction.gif)](https://www.youtube.com)
-  
+
+[//]: # (- Click on the following animation to play my introduction video)
+[//]: # ([![Quentin McGaw introduction video](../gifs/video_introduction.gif)](https://www.youtube.com)) 
   
 ***
 
@@ -133,6 +133,7 @@
     - Cryptography and security
 - Homomorphic encryption allows to perform analytics on encrypted data, which will be very useful for cloud computing.
 - Report available [here](../documents/Homomorphic%20encryption%20Cryptography%20for%20cloud%20computing%20report.pdf)
+- Click on the following animation to play the video
 
 [![Homomorphic encryption presentation video](../gifs/video_homomorphic.gif)](https://youtu.be/n-adgQWZYxI)
 
@@ -155,7 +156,8 @@
     - [**Machine learning**](https://github.com/qdm12/Staminaputations) in Python (clustering)
     - NodeJS, SQL database
 	- Report available [here](../documents/Stamina%20report.pdf)
-	- [![Stamina video](../gifs/video_stamina.gif)](https://drive.google.com/open?id=0B5UPjZHikV5gWVBwUnVpWjZHQVU)
+    - Click on the following animation to play the video
+        - [![Stamina video](../gifs/video_stamina.gif)](https://drive.google.com/open?id=0B5UPjZHikV5gWVBwUnVpWjZHQVU)
 - Managing innovation
 - Managerial economics
     - Full syllabus [here](managerial_economics.md)
