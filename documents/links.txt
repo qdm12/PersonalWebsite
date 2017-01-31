@@ -1,0 +1,3 @@
+Personal Website in Markdown format: https://github.com/qdm12/PersonalWebsite/blob/master/markdown/readme.md
+Detailed grades 2011-2017: https://docs.google.com/spreadsheets/d/1udRYqsP2acNWp2wQk6SEaNb65T-0Gl_vL5lXWiQSeGQ/edit?usp=sharing
+NYU profile: https://nyu-csm.symplicity.com/profiles/quentin.mcgaw

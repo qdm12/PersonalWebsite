@@ -37,6 +37,7 @@
   skiing :ski:, cycling :bicyclist:, 9gag :blush:,
   [Ebay](http://feedback.ebay.ie/ws/eBayISAPI.dll?ViewFeedback2&userid=dowi9876&ftab=FeedbackAsSeller&searchInterval=30) :dollar:,
   Reddit, and [assembling desktops](https://drive.google.com/drive/folders/0B5UPjZHikV5gQ3pyTVR2M3RMaUk?usp=sharing) :floppy_disk: from time to time.
+- Check my NYU profile [**here**](https://nyu-csm.symplicity.com/profiles/quentin.mcgaw)
 - My resume can be downloaded [**here**](https://github.com/qdm12/PersonalWebsite/raw/master/documents/resume.pdf)
 
 [//]: # (- Click on the following animation to play my introduction video)
