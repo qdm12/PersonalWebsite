@@ -12,9 +12,9 @@
 	- Cryptography and web security :closed_lock_with_key:
 	- Bitcoin protocol
     - DevOps :arrows_counterclockwise:
-	- OOP with Python and C++ :snake:
+	- OOP with C++ and Python :snake:
 	- Web technologies :globe_with_meridians:
-	- Parallel computing with GPUs and openCL :hourglass_flowing_sand:
+	- Parallel computing with GPUs and openCL
 	- Economy, corporate finance, accounting :pound:
 	- Development of mobile applications :iphone:
 	- Project management, entrepreneurship, innovation management
@@ -25,7 +25,7 @@
 	- Digital Signal processing
 	- Mathematics, Control engineering
 - French and Mauritian, and lived:
-	- 11 years in Luxembourg City :cloud:
+	- 11 years in Luxembourg City
 	- 1 year in Switzerland, Villars-sur-Ollons :snowflake:
 	- 7 years in Nice, France :fr:
 	- 4 years in London, UK :guardsman:
@@ -33,7 +33,7 @@
 - Fluent in English :gb:, français :fr: y un poco de español :es:
 - I like [Quora](https://www.quora.com/profile/Quentin-McGaw), 
   trading, my [Raspberry Pi](../images/raspberrypi.jpg),
-  [Github](https://www.github.com/qdm12), going to the gym :muscle:,
+  [Github](https://www.github.com/qdm12) :octocat:, going to the gym :muscle:,
   skiing :ski:, cycling :bicyclist:, 9gag :blush:,
   [Ebay](http://feedback.ebay.ie/ws/eBayISAPI.dll?ViewFeedback2&userid=dowi9876&ftab=FeedbackAsSeller&searchInterval=30) :dollar:,
   Reddit, and [assembling desktops](https://drive.google.com/drive/folders/0B5UPjZHikV5gQ3pyTVR2M3RMaUk?usp=sharing) :floppy_disk: from time to time.
