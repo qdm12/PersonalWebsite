@@ -104,6 +104,7 @@
     - [![Chess gif](https://www.dropbox.com/s/14k8rsisrs03ak5/chess_normal.gif?dl=1)](https://github.com/qdm12/Chess_2016)
 - Database Systems
     - Microsoft Visio
+	- SQL and non-SQL databases
 - [Programming languages](https://github.com/qdm12/Programming-languages)
     - Scala
 - Fundamental algorithms
