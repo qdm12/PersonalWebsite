@@ -39,6 +39,7 @@
   Reddit, and [assembling desktops](https://drive.google.com/drive/folders/0B5UPjZHikV5gQ3pyTVR2M3RMaUk?usp=sharing) :floppy_disk: from time to time.
 - Check my NYU profile [**here**](https://nyu-csm.symplicity.com/profiles/quentin.mcgaw)
 - My resume can be downloaded [**here**](https://github.com/qdm12/PersonalWebsite/raw/master/documents/resume.pdf)
+- You can also have a look at my **vizualize.me** [webpage](http://vizualize.me/quentinmcgaw)
 
 [//]: # (- Click on the following animation to play my introduction video)
 [//]: # ([![Quentin McGaw introduction video](../gifs/video_introduction.gif)](https://www.youtube.com)) 
