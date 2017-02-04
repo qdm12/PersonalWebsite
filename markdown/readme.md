@@ -8,15 +8,17 @@
 - Graduated from my [**Master's** in **Electrical and electronic engineering with 
   management** from Imperial College London](https://www.imperial.ac.uk/study/ug/courses/electrical-engineering-department/electrical-and-electronic-engineering-management/) 
   in June 2016 with upper second class honours.
+- I am turning 22 years old in March 2017
 - Expertise in:
-	- Cryptography and web security :closed_lock_with_key:
+	- Cryptography and web security
 	- Bitcoin protocol
-    - DevOps :arrows_counterclockwise:
-	- OOP with C++ and Python :snake:
-	- Web technologies :globe_with_meridians:
+    - DevOps
+	- OOP with C++ and Python
+    - Testing
+	- Web technologies
 	- Parallel computing with GPUs and openCL
-	- Economy, corporate finance, accounting :pound:
-	- Development of mobile applications :iphone:
+	- Economy, corporate finance, accounting
+	- Development of mobile applications
 	- Project management, entrepreneurship, innovation management
 - Other knowledge in:
 	- FPGAs design
@@ -26,17 +28,16 @@
 	- Mathematics, Control engineering
 - French and Mauritian, and lived:
 	- 11 years in Luxembourg City
-	- 1 year in Switzerland, Villars-sur-Ollons :snowflake:
-	- 7 years in Nice, France :fr:
-	- 4 years in London, UK :guardsman:
-    - 5 months in New York City, US :statue_of_liberty: :us:
+	- 1 year in Switzerland, Villars-sur-Ollons
+	- 7 years in Nice, France
+    - 4 years in London, UK
+    - 5 months in New York City, US :us:
 - Fluent in English :gb:, français :fr: y un poco de español :es:
-- I like [Quora](https://www.quora.com/profile/Quentin-McGaw), 
-  trading, my [Raspberry Pi](../images/raspberrypi.jpg),
-  [Github](https://www.github.com/qdm12) :octocat:, going to the gym :muscle:,
-  skiing :ski:, cycling :bicyclist:, 9gag :blush:,
-  [Ebay](http://feedback.ebay.ie/ws/eBayISAPI.dll?ViewFeedback2&userid=dowi9876&ftab=FeedbackAsSeller&searchInterval=30) :dollar:,
-  Reddit, and [assembling desktops](https://drive.google.com/drive/folders/0B5UPjZHikV5gQ3pyTVR2M3RMaUk?usp=sharing) :floppy_disk: from time to time.
+- I like [Quora](https://www.quora.com/profile/Quentin-McGaw), trading, 
+  my [Raspberry Pi](../images/raspberrypi.jpg), 
+  [Github](https://www.github.com/qdm12), going to the gym, skiing, cycling, 
+  [Ebay](http://feedback.ebay.ie/ws/eBayISAPI.dll?ViewFeedback2&userid=dowi9876&ftab=FeedbackAsSeller&searchInterval=30),
+  Reddit, and [assembling desktops](https://drive.google.com/drive/folders/0B5UPjZHikV5gQ3pyTVR2M3RMaUk?usp=sharing) from time to time.
 - Check my NYU profile [**here**](https://nyu-csm.symplicity.com/profiles/quentin.mcgaw)
 - My resume can be downloaded [**here**](https://github.com/qdm12/PersonalWebsite/raw/master/documents/resume.pdf)
 - You can also have a look at my **vizualize.me** [webpage](http://vizualize.me/quentinmcgaw)
@@ -59,7 +60,7 @@
     - Cryptography (secret sharing especially)
     - Understanding of the Bitcoin protocol
     - Python programming
-    - Networking, rabbitMQ
+    - Networking, RabbitMQ
 - The final outcome was the patenting of my solution under the company's name.
 
 ### Summer internship at STMicroelectronics, 2014
@@ -84,7 +85,7 @@
 ### Courses
 - DevOps
     - Project [**here**](https://qdm12.github.io/Devops_RESTful)
-    - Advanced Git, Zenhub :octocat:
+    - Advanced Git, Zenhub and GitKran 2.0 :octocat:
     - Vagrant
     - Flask and Python
     - Travis CI, unit testing and behave
@@ -114,11 +115,11 @@
 ### Personal projects
 - [Portfolio management](https://github.com/qdm12/Portfolio)
   - Written in Python
-  - Web parsing
-  - Excel manipulations
+  - Web parsing and yahoo finance API
+  - Excel manipulations with *openpyxl*
   - Use of threads
   - Flask server and Resilio
-  - Push notifications to mobile devices  
+  - Push notifications to mobile devices (Pushbullet)
 - [My computing course](https://github.com/qdm12/My-Computing-course)
 - [ThumbGifs](https://github.com/qdm12/ThumbGifs) (which is used for this document actually)
 
