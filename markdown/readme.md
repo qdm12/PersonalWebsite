@@ -246,7 +246,7 @@ I have obtained 57.43% overall
     - C & C++
 - Mathematics
 - Professional engineering
-    - [Report on Micro NAND flask memory chips](../documents/Profressional%20report%20-%20Micron%2020nm%20MLC%20NAND%20flash%20128Gb%20memory%20chip.pdf)
+    - [Report on Micro NAND flask memory chips](../documents/Professional%20report%20-%20Micron%2020nm%20MLC%20NAND%20flash%20128Gb%20memory%20chip.pdf)
 - Analysis of circuits
     - Use of Cadsoft Eagle and PSPice
 - Digital electronics
