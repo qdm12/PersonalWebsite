@@ -103,9 +103,10 @@
     - PhoneGap and monetizing the app
     - [![Chess gif](https://www.dropbox.com/s/14k8rsisrs03ak5/chess_normal.gif?dl=1)](https://github.com/qdm12/Chess_2016)
 - Database Systems
-    - Microsoft Visio
-	- SQL and non-SQL databases
-- [Programming languages](https://github.com/qdm12/courses/tree/master/Programming%20languages
+    - Microsoft Visio (ER diagram, Crow's feet notation etc.)
+	- SQL databases
+    - Normalization, minimum cover, etc.
+- [Programming languages](https://github.com/qdm12/courses/tree/master/Programming%20languages)
     - Scala, Java, ML, Scheme, Ada
     - Syntax, scoping, call stack, recursion, lambda calculus, dynamic storage
 - [Fundamental algorithms](https://github.com/qdm12/courses/tree/master/Fundamental%20Algorithms)
@@ -120,7 +121,7 @@
 - [AdsUp](https://sites.google.com/view/adsup/home)
     - Started working on it on 1st April 2017 for several days.
     - Development still ongoing today (June 2017)
-    - [![AdsUp gif](https://lh6.googleusercontent.com/0Zs3YkcZ3ijWgP8XevbNvGlTAjWqvyJOC2Ntn7srdQim37ZgyiJiwisqGudm-G56WoenDCVu=w371)](https://sites.google.com/view/adsup/home)
+    - [![AdsUp gif](https://www.dropbox.com/s/nzsxc891lpbj62l/adsup.gif?dl=1)](https://sites.google.com/view/adsup/home)
 - [Portfolio management](https://github.com/qdm12/Portfolio)
   - Written in Python
   - Web parsing and yahoo finance API
