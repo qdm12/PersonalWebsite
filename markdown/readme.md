@@ -3,12 +3,12 @@
 ![Picture of myself](../images/quentin.jpg)
 
 ## Introduction
-- Doing a [**Master's** of **Computer science** at New York University](https://cs.nyu.edu/home/master/prospective_mscs.html).
+- Doing a [**Master** of **Computer science** at New York University](https://cs.nyu.edu/home/master/prospective_mscs.html).
 - Graduating in May 2018.
-- Graduated from my [**Master's** in **Electrical and electronic engineering with 
+- Graduated from my [**Master** in **Electrical and electronic engineering with 
   management** from Imperial College London](https://www.imperial.ac.uk/study/ug/courses/electrical-engineering-department/electrical-and-electronic-engineering-management/) 
   in June 2016 with upper second class honours.
-- I am turning 22 years old in March 2017
+- I am 22 years old
 - Expertise in:
 	- Cryptography and web security
 	- Bitcoin protocol
@@ -23,27 +23,25 @@
 - Other knowledge in:
 	- FPGAs design
 	- Artificial intelligence
-	- Machine learning
 	- Digital Signal processing
 	- Mathematics, Control engineering
 - French and Mauritian, and lived:
-	- 11 years in Luxembourg City
-	- 1 year in Switzerland, Villars-sur-Ollons
+	- 11 years in Luxembourg City, Luxembourg
+	- 1 year in Villars-sur-Ollons, Switzerland
 	- 7 years in Nice, France
     - 4 years in London, UK
-    - 5 months in New York City, US :us:
+    - 5 months in New York City, US
 - Fluent in English :gb:, français :fr: y un poco de español :es:
 - I like [Quora](https://www.quora.com/profile/Quentin-McGaw), trading, 
-  my [Raspberry Pi](../images/raspberrypi.jpg), 
-  [Github](https://www.github.com/qdm12), going to the gym, skiing, cycling, 
+  my [Raspberry Pi](../images/raspberrypi.jpg), going to the gym, skiing, cycling, 
   [Ebay](http://feedback.ebay.ie/ws/eBayISAPI.dll?ViewFeedback2&userid=dowi9876&ftab=FeedbackAsSeller&searchInterval=30),
   Reddit, and [assembling desktops](https://drive.google.com/drive/folders/0B5UPjZHikV5gQ3pyTVR2M3RMaUk?usp=sharing) from time to time.
-- Check my NYU profile [**here**](https://nyu-csm.symplicity.com/profiles/quentin.mcgaw)
-- My resume can be downloaded [**here**](https://github.com/qdm12/PersonalWebsite/raw/master/documents/resume.pdf)
-- You can also have a look at my **vizualize.me** [webpage](http://vizualize.me/quentinmcgaw)
+- [My NYU Simplicity profile](https://nyu-csm.symplicity.com/profiles/quentin.mcgaw)
+- [My resume](https://github.com/qdm12/PersonalWebsite/raw/master/documents/resume.pdf)
+- [My **vizualize.me** webpage](http://vizualize.me/quentinmcgaw)
 
-[//]: # (- Click on the following animation to play my introduction video)
-[//]: # ([![Quentin McGaw introduction video](../gifs/video_introduction.gif)](https://www.youtube.com)) 
+[//1]: # (- Click on the following animation to play my introduction video)
+[//2]: # ([![Quentin McGaw introduction video](../gifs/video_introduction.gif)](https://www.youtube.com))
   
 ***
 
@@ -107,12 +105,22 @@
 - Database Systems
     - Microsoft Visio
 	- SQL and non-SQL databases
-- [Programming languages](https://github.com/qdm12/Programming-languages)
-    - Scala
-- Fundamental algorithms
-    - Heap algorithms
+- [Programming languages](https://github.com/qdm12/courses/tree/master/Programming%20languages
+    - Scala, Java, ML, Scheme, Ada
+    - Syntax, scoping, call stack, recursion, lambda calculus, dynamic storage
+- [Fundamental algorithms](https://github.com/qdm12/courses/tree/master/Fundamental%20Algorithms)
+    - Data structures: Heap, binary search trees, Hash tables, 
+    - Sort algorithms: Quicksort, Countingsort, Radixsort, Bucketsort, Mergesort
+    - Dynammic programming: LCS, Parenthesizations, Matrix-chain-product
+    - Optimization: Activity selector, Rod cutting problem
+    - Graphs: BFS, DFS, Top-sort, Minimum Spanning tree, Kruskal, Prim, Dijkstra
+    - Others: Huffman coding, P/N/NP, Arithmetic (Euclid, PKI etc.)
 
 ### Personal projects
+- [AdsUp](https://sites.google.com/view/adsup/home)
+    - Started working on it on 1st April 2017 for several days.
+    - Development still ongoing today (June 2017)
+    - [![AdsUp gif](https://lh6.googleusercontent.com/0Zs3YkcZ3ijWgP8XevbNvGlTAjWqvyJOC2Ntn7srdQim37ZgyiJiwisqGudm-G56WoenDCVu=w371)](https://sites.google.com/view/adsup/home)
 - [Portfolio management](https://github.com/qdm12/Portfolio)
   - Written in Python
   - Web parsing and yahoo finance API
@@ -242,8 +250,7 @@ I have obtained 57.43% overall
 
 ### First year, 2012-2013
 #### Courses
-- Software engineering
-    - C & C++
+- Software engineering: C & C++
 - Mathematics
 - Professional engineering
     - [Report on Micro NAND flask memory chips](../documents/Professional%20report%20-%20Micron%2020nm%20MLC%20NAND%20flash%20128Gb%20memory%20chip.pdf)
@@ -303,11 +310,11 @@ You can check out the certificate [here](../documents/imperial_degree.pdf)
 [![Scotland hotel picture](../images/scotland.jpg)](https://goo.gl/maps/d6Waq2cGDsp)
 - All my grades are accessible in this [**formatted spreadsheet**](https://docs.google.com/spreadsheets/d/1udRYqsP2acNWp2wQk6SEaNb65T-0Gl_vL5lXWiQSeGQ/edit?usp=sharing)
 - I write some funny theories like this [**one**](../documents/fun%20theory.md)
-- My Raspberry Pi uses openVPN and another Ethernet connection for SSH access :trollface:
+- I use my Raspberry Pi for an extensive range of applications, from Alexa to Bitcoin to torrenting to Plex :trollface:
 
 ![Raspberry Pi picture](../images/raspberrypi.jpg)
 
-- Some desktop computers I assembled :computer:
+- Some desktop computers I assembled (that I don't have anymore !) :computer:
 
 ![Desktop 1](../images/desktop1.jpg)
 ![Desktop 2](../images/desktop2.jpg)
