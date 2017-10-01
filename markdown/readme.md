@@ -3,7 +3,7 @@
 ![Picture of myself](../images/quentin.jpg)
 
 ## Introduction
-- Doing a [**Master** of **Computer science** at New York University](https://cs.nyu.edu/home/master/prospective_mscs.html).
+- Currently doing a [**Master** of **Computer science** at New York University](https://cs.nyu.edu/home/master/prospective_mscs.html).
 - Graduating in May 2018.
 - Graduated from my [**Master** in **Electrical and electronic engineering with 
   management** from Imperial College London](https://www.imperial.ac.uk/study/ug/courses/electrical-engineering-department/electrical-and-electronic-engineering-management/) 
@@ -11,38 +11,38 @@
 - I am 22 years old
 - Expertise in:
 	- Cryptography and web security
-	- Bitcoin protocol
+	- Bitcoin protocol, Ethereum (in progress)
     - DevOps
 	- OOP with C++ and Python
-    - Testing
 	- Web technologies
+    - Unit testing
+	- Big Data with Hadoop
 	- Parallel computing with GPUs and openCL
 	- Economy, corporate finance, accounting
-	- Development of mobile applications
+	- Development of mobile applications on Android
+	- Design with Adobe XD, Gimp and InVision
 	- Project management, entrepreneurship, innovation management
 - Other knowledge in:
 	- FPGAs design
 	- Artificial intelligence
 	- Digital Signal processing
+	- Fundamental algorithms
 	- Mathematics, Control engineering
 - French and Mauritian, and lived:
-	- 11 years in Luxembourg City, Luxembourg
-	- 1 year in Villars-sur-Ollons, Switzerland
+	- 5 months in New York City, US
+	- 4 years in London, UK
 	- 7 years in Nice, France
-    - 4 years in London, UK
-    - 5 months in New York City, US
+	- 1 year in Villars-sur-Ollons, Switzerland
+	- 11 years in Luxembourg
 - Fluent in English :gb:, français :fr: y un poco de español :es:
-- I like [Quora](https://www.quora.com/profile/Quentin-McGaw), trading, 
-  my [Raspberry Pi](../images/raspberrypi.jpg), going to the gym, skiing, cycling, 
-  [Ebay](http://feedback.ebay.ie/ws/eBayISAPI.dll?ViewFeedback2&userid=dowi9876&ftab=FeedbackAsSeller&searchInterval=30),
-  Reddit, and [assembling desktops](https://drive.google.com/drive/folders/0B5UPjZHikV5gQ3pyTVR2M3RMaUk?usp=sharing) from time to time.
+- I also like [Quora](https://www.quora.com/profile/Quentin-McGaw), trading, 
+  my [Raspberry Pi](https://github.com/qdm12/RaspberryPi), the gym, skiing, cycling, 
+  [Ebay](http://feedback.ebay.ie/ws/eBayISAPI.dll?ViewFeedback2&userid=dowi9876&ftab=FeedbackAsSeller&searchInterval=30), Audiobooks, 
+  Reddit, and [assembling desktops](#Computers%20I%20assembled) from time to time.
 - [My NYU Simplicity profile](https://nyu-csm.symplicity.com/profiles/quentin.mcgaw)
 - [My resume](https://github.com/qdm12/PersonalWebsite/raw/master/documents/resume.pdf)
 - [My **vizualize.me** webpage](http://vizualize.me/quentinmcgaw)
 
-[//1]: # (- Click on the following animation to play my introduction video)
-[//2]: # ([![Quentin McGaw introduction video](../gifs/video_introduction.gif)](https://www.youtube.com))
-  
 ***
 
 ## Work experience :office:
@@ -51,12 +51,12 @@
 
 [![Coinplus](../images/coinplus.jpg)](https://www.linkedin.com/company/coinplus)
 
-- Six months in a Bitcoin startup in Luxembourg.
+- 6 months in a Bitcoin startup in Luxembourg.
 	- Regulated and secured storage of bitcoins
 	- Regulated transactions of bitcoins
 - My role as a software engineer was to develop a security solution for the storage of Bitcoin private keys
-    - Cryptography (secret sharing especially)
-    - Understanding of the Bitcoin protocol
+    - Cryptography (PKI, RSA, ECDSA, secret sharing...)
+    - Bitcoin protocol
     - Python programming
     - Networking, RabbitMQ
 - The final outcome was the patenting of my solution under the company's name.
@@ -65,7 +65,7 @@
 
 [![STMicroelectronics](../images/stmicro.jpg)](http://www.st.com/content/st_com/en/about/careers/st-locations/emea/france/sophia_antipolis.html)
 
-- Three months at STMicroelectronics in South of France.
+- 3 months at STMicroelectronics in South of France.
 	- In the NFC mobile application development team of 15 persons.
 	- The company was developing a new NFC chip for Android smartphones.
 - My role was to add support for the detection of multiple NFC cards simultaneously by an Android smartphone with their chip
@@ -81,9 +81,19 @@
 [![New York University](../images/nyu.jpg)](https://cims.nyu.edu/)
 
 ### Courses
+- Cryptocurrency and decentralized ledgers
+	- **Bitcoin** protocol: mining, transactions, cryptography etc.
+	- **Ethereum**: Solidify (*in progress*)
+- [Real time big data analytics](https://github.com/qdm12/courses/tree/master/Real%20time%20big%20data%20analytics)
+	- Hadoop with NYU's Dumbo clusters in *Java* and *Python*
+	- Map-Reduce (in progress)
+- Design and Development: Web and mobile apps
+	- Dreamweaver (in progress)
+- [Technology, design and entrepreneurship](https://github.com/qdm12/courses/tree/master/Technology%20and%20entrepreneurship)
+	- Ended up with a project I am still working on today (Oct 2017)
 - DevOps
     - Project [**here**](https://qdm12.github.io/Devops_RESTful)
-    - Advanced Git, Zenhub and GitKran 2.0 :octocat:
+    - Advanced Git, Zenhub and GitKraken :octocat:
     - Vagrant
     - Flask and Python
     - Travis CI, unit testing and behave
@@ -92,9 +102,10 @@
     - IBM Bluemix PaaS
     - Web security
     - Swagger
-- Operating System
-    - C++ assignments: scheduler, linker, IO, memory management
-    - Processes, threads, scheduling, concurrency, memory management, IO, file systems, Networking, cloud and distributed computing
+- [Database Systems](https://github.com/qdm12/courses/tree/master/Database%20systems)
+    - Microsoft Visio (ER diagram, Crow's feet notation etc.)
+	- SQL databases
+    - Normalization, minimum cover, etc.
 - Mobile online social gaming
     - Chess game project [**here**](https://github.com/qdm12/Chess_2016)
     - Typescript, HTML, CSS
@@ -102,10 +113,9 @@
     - Artificial intelligence
     - PhoneGap and monetizing the app
     - [![Chess gif](https://www.dropbox.com/s/14k8rsisrs03ak5/chess_normal.gif?dl=1)](https://github.com/qdm12/Chess_2016)
-- Database Systems
-    - Microsoft Visio (ER diagram, Crow's feet notation etc.)
-	- SQL databases
-    - Normalization, minimum cover, etc.
+- Operating System
+    - C++ assignments: scheduler, linker, IO, memory management
+    - Processes, threads, scheduling, concurrency, memory management, IO, file systems, Networking, cloud and distributed computing
 - [Programming languages](https://github.com/qdm12/courses/tree/master/Programming%20languages)
     - Scala, Java, ML, Scheme, Ada
     - Syntax, scoping, call stack, recursion, lambda calculus, dynamic storage
@@ -118,17 +128,17 @@
     - Others: Huffman coding, P/N/NP, Arithmetic (Euclid, PKI etc.)
 
 ### Personal projects
+- Patat (under closed development) (in progress)
+- [My Blockchain Course](https://github.com/qdm12/blockchain-course) (in progress)
+- Design of simple desktop web pages using Adobe XD for a travelling website (for a Psychological study)
+	- [Male version](https://xd.adobe.com/view/844b6668-0d5c-4d92-b30f-6bcbf3ce8479/?fullscreen)
+	- [Female version](https://xd.adobe.com/view/192c9261-da69-48d6-81ac-570b5e4f5e16/?fullscreen)
 - [AdsUp](https://sites.google.com/view/adsup/home)
     - Started working on it on 1st April 2017 for several days.
-    - Development still ongoing today (June 2017)
+    - Development stopped in June 2017, due to several defects in the concept
     - [![AdsUp gif](https://www.dropbox.com/s/nzsxc891lpbj62l/adsup.gif?dl=1)](https://sites.google.com/view/adsup/home)
 - [Portfolio management](https://github.com/qdm12/Portfolio)
-  - Written in Python
-  - Web parsing and yahoo finance API
-  - Excel manipulations with *openpyxl*
-  - Use of threads
-  - Flask server and Resilio
-  - Push notifications to mobile devices (Pushbullet)
+  - Written in Python, consists in a multi-threaded program parsing web pages, using the yahoo finance API, excel and a Flask server
 - [My computing course](https://github.com/qdm12/My-Computing-course)
 - [ThumbGifs](https://github.com/qdm12/ThumbGifs) (which is used for this document actually)
 
@@ -311,17 +321,44 @@ You can check out the certificate [here](../documents/imperial_degree.pdf)
 [![Scotland hotel picture](../images/scotland.jpg)](https://goo.gl/maps/d6Waq2cGDsp)
 - All my grades are accessible in this [**formatted spreadsheet**](https://docs.google.com/spreadsheets/d/1udRYqsP2acNWp2wQk6SEaNb65T-0Gl_vL5lXWiQSeGQ/edit?usp=sharing)
 - I write some funny theories like this [**one**](../documents/fun%20theory.md)
-- I use my Raspberry Pi for an extensive range of applications, from Alexa to Bitcoin to torrenting to Plex :trollface:
+- I use my Raspberry Pi for an extensive range of applications, from Alexa to Bitcoin to torrenting to servers to Plex
 
 ![Raspberry Pi picture](../images/raspberrypi.jpg)
 
-- Some desktop computers I assembled (that I don't have anymore !) :computer:
+## My Youtube channel
+(in progress)
 
-![Desktop 1](../images/desktop1.jpg)
-![Desktop 2](../images/desktop2.jpg)
-![Desktop 3](../images/desktop3.jpg)
-![Desktop 4](../images/desktop4.JPG)
-![Desktop 5](../images/desktop5.jpg)
-![Desktop 6](../images/desktop6.JPG)
-![Desktop 7](../images/desktop7.JPG)
-![Desktop 8](../images/desktop8.JPG)
+## Computers I assembled :computer:
+
+- See more on [Google Drive](https://drive.google.com/drive/folders/0B5UPjZHikV5gQ3pyTVR2M3RMaUk?usp=sharing)
+
+- May 2017 - now: i5 6500, 16GB DDR4, GTX 1080
+  (in progress)
+
+- March 2016 - May 2017: i5 6500, 16GB DDR4, GTX 970
+![Desktop 2016 0](../images/2016desktop0.jpg)
+![Desktop 2016 1](../images/2016desktop1.jpg)
+![Desktop 2016 2](../images/2016desktop2.jpg)
+
+- 2014 - March 2016: i5 3570k, 8GB DDR3, GTX 580 SLI/GTX 770
+![Desktop 2014 0](../images/2014desktop0.jpg)
+![Desktop 2014 1](../images/2014desktop1.jpg)
+
+- 2013 - 2014:  i5 3570k, 8GB DDR3, GTX 570/580
+![Desktop 2013 0](../images/2013desktop0.jpg)
+
+- 2012: i7 2600k, 6GB DDR3, HD 5830
+![Desktop 2012 0](../images/2012desktop0.jpg)
+![Desktop 2012 1](../images/2012desktop1.jpg)
+![Desktop 2012 2](../images/2012desktop2.jpg)
+![Desktop 2012 3](../images/2012desktop3.jpg)
+
+- 2011-2012: i7 920, 3GB DDR3, HD 5830
+![Desktop 2011 0](../images/2011desktop0.JPG)
+
+- 2010-2011: i7 920, 3GB DDR3, HD 5830
+![Desktop 2010 0](../images/2010desktop0.jpg)
+![Desktop 2010 1](../images/2010desktop0.JPG)
+
+- 2009-2010: i7 920, 3GB DDR3, HD 5830
+![Desktop 2010 0](../images/2009desktop0.jpg)
