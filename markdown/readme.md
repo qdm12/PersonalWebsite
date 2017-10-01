@@ -365,7 +365,7 @@ You can check out the certificate [here](../documents/imperial_degree.pdf)
 - 2010-2011: i7 920, 3GB DDR3, HD 5830
 
 ![Desktop 2010 0](../images/2010desktop0.jpeg)
-![Desktop 2010 1](../images/2010desktop0.jpeg)
+![Desktop 2010 1](../images/2010desktop1.jpeg)
 
 - 2009-2010: i7 920, 3GB DDR3, HD 5830
 
