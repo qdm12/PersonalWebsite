@@ -338,35 +338,35 @@ You can check out the certificate [here](../documents/imperial_degree.pdf)
 
 - March 2016 - May 2017: i5 6500, 16GB DDR4, GTX 970
 
-![Desktop 2016 0](../images/2016desktop0.jpg)
-![Desktop 2016 1](../images/2016desktop1.jpg)
-![Desktop 2016 2](../images/2016desktop2.jpg)
+![Desktop 2016 0](../images/2016desktop0.jpeg)
+![Desktop 2016 1](../images/2016desktop1.jpeg)
+![Desktop 2016 2](../images/2016desktop2.jpeg)
 
 - 2014 - March 2016: i5 3570k, 8GB DDR3, GTX 580 SLI/GTX 770
 
-![Desktop 2014 0](../images/2014desktop0.jpg)
-![Desktop 2014 1](../images/2014desktop1.jpg)
+![Desktop 2014 0](../images/2014desktop0.jpeg)
+![Desktop 2014 1](../images/2014desktop1.jpeg)
 
 - 2013 - 2014:  i5 3570k, 8GB DDR3, GTX 570/580
 
-![Desktop 2013 0](../images/2013desktop0.jpg)
+![Desktop 2013 0](../images/2013desktop0.jpeg)
 
 - 2012: i7 2600k, 6GB DDR3, HD 5830
 
-![Desktop 2012 0](../images/2012desktop0.jpg)
-![Desktop 2012 1](../images/2012desktop1.jpg)
-![Desktop 2012 2](../images/2012desktop2.jpg)
-![Desktop 2012 3](../images/2012desktop3.jpg)
+![Desktop 2012 0](../images/2012desktop0.jpeg)
+![Desktop 2012 1](../images/2012desktop1.jpeg)
+![Desktop 2012 2](../images/2012desktop2.jpeg)
+![Desktop 2012 3](../images/2012desktop3.jpeg)
 
 - 2011-2012: i7 920, 3GB DDR3, HD 5830
 
-![Desktop 2011 0](../images/2011desktop0.JPG)
+![Desktop 2011 0](../images/2011desktop0.jpeg)
 
 - 2010-2011: i7 920, 3GB DDR3, HD 5830
 
-![Desktop 2010 0](../images/2010desktop0.jpg)
-![Desktop 2010 1](../images/2010desktop0.JPG)
+![Desktop 2010 0](../images/2010desktop0.jpeg)
+![Desktop 2010 1](../images/2010desktop0.jpeg)
 
 - 2009-2010: i7 920, 3GB DDR3, HD 5830
 
-![Desktop 2010 0](../images/2009desktop0.jpg)
+![Desktop 2010 0](../images/2009desktop0.jpeg)
