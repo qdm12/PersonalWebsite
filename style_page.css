@@ -28,10 +28,10 @@
 		transform: translateY(0);
 	}
 	40% {
-		transform: translateY(-20px);
+		transform: translateY(-15px);
 	}
 	80% {
-		transform: translateY(-10px);
+		transform: translateY(-7px);
 	}
 }
 .left_button{
@@ -41,28 +41,37 @@
     width:auto;
     margin-top:10%;
     font-size:50%;
-    color:white;
+    color:black;
     text-decoration:none; /*No links decoration*/
 }
 .left_button:hover{
     animation: bounce 0.7s;
 }
 .fa-envelope{
-    color:white;
+    color:black;
     opacity:0.6;
     transition:all 0.8s;
 }
 .fa-envelope:hover{
-    color:#F9E79F;
+    color:gold;
     opacity:1;
 }
 .fa-linkedin{
-    color:white;
+    color:black;
     opacity:0.6;
     transition:all 0.8s;
 }
 .fa-linkedin:hover{
-    color:#4875B4;
+    color:#2777B4;
+    opacity:1;
+}
+.fa-phone{
+    color:#F6285E;
+    opacity:0.6;
+    transition:all 0.8s;
+}
+.fa-phone:hover{
+    color:#56CD90;
     opacity:1;
 }
 
@@ -85,11 +94,11 @@ section {
     background-size:600%;
     animation: background_animation 21s ease-in-out infinite;
 }
-#Education {
-  background: aqua;
+#Timeline {
+	background: gray;
 }
-#Work {
-  background: yellow;
+#Map {
+	background: gray;
 }
 #Skills {
   background: url("images/background.png");
@@ -98,13 +107,10 @@ section {
 #Projects {
   background: gray;
 }
-#Timeline {
+#Other {
     background: linear-gradient(70deg, #0c1b3f, #0a3811, #404340);
     background-size:800%;
     animation: background_animation 21s ease infinite;
-}
-#Other {
-  background: black;
 }
 
 /* Home page style */

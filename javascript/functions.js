@@ -55,15 +55,6 @@ function banner_opacity() {
 						},400);
 	});
 }
-function skype_button() {
-    //Skype - see https://www.skype.com/en/developer/create-contactme-buttons/
-    Skype.ui({
-        "name": "dropdown",
-        "element": "SkypeButton",
-        "participants": ["quentin.mcgaw"],
-        "imageSize": 32
-    });
-}
 function center_download() {
 	var center_download = $("#center_download");
     center_download.mouseover(function(){
@@ -107,7 +98,6 @@ window.onload = function(){
     smooth_scrolling();
     interactive_gradient_background();
     banner_opacity();
-    skype_button();
     center_download();
     tag_cloud();
 };
