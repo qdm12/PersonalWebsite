@@ -41,8 +41,8 @@
   [Ebay](http://feedback.ebay.ie/ws/eBayISAPI.dll?ViewFeedback2&userid=dowi9876&ftab=FeedbackAsSeller&searchInterval=30), Audiobooks, 
   Reddit, and [assembling desktops](#Computers%20I%20assembled) from time to time.
 - [My NYU Simplicity profile](https://nyu-csm.symplicity.com/profiles/quentin.mcgaw)
-- [My resume](https://github.com/qdm12/PersonalWebsite/raw/master/documents/resume.pdf)
 - [My **vizualize.me** webpage](http://vizualize.me/quentinmcgaw)
+- [My **resume**](https://docs.google.com/document/d/1gW0IHPsngqwVWQA4ERTgOxG5V7-DIBQmt1SBq5LQEzI/export?format=pdf)
 
 ***
 
