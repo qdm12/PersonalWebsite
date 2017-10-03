@@ -170,14 +170,14 @@ section {
 	align-items: center; /* align vertical */
 	text-align: center;
 	color:white; /* text color */
-	font-size: 60px;
+	font-size: 100%;
 }
 .skillbox:hover{
 	border-radius: 10%;
 	border-color:#b3b3cc;
 	background-color:#52527a;
 	opacity: 0.7;
-	font-size: 30px;
+	font-size: 35%;
 }
 
 body {
