@@ -292,13 +292,13 @@ ul {
 ul[title]::before {
     content: attr(title);
     display: block;
-	font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
+	font: 83%/1.5 Helvetica, Verdana, sans-serif;
 	margin: 0;
 	padding: 0;
 }
 
 li {
-  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  font: 41%/1.5 Helvetica, Verdana, sans-serif;
   border-bottom: 2px solid #ccc;
 }
 
