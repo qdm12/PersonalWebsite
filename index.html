@@ -2,6 +2,7 @@
 <!--Load Javascript (3d sphere, functions) -->
 <script src="javascript/jquery-3.0.0.min.js" type="text/javascript"></script>
 <script src="javascript/tagcanvas.min.js" type="text/javascript"></script>
+<script src="javascript/jquery.svg3dtagcloud.min.js" type="text/javascript"></script>
 <script src="javascript/particles.min.js" type="text/javascript"></script>
 <script src="javascript/functions.js" type="text/javascript"></script>
 <script src="javascript/three.min.js" type="text/javascript"></script>
@@ -47,31 +48,8 @@
         <a id="center_name" class="center_name" href="#Timeline">Quentin McGaw</a>
         </br></br>
         <a id="center_download" class="center_download" href="https://docs.google.com/document/d/1gW0IHPsngqwVWQA4ERTgOxG5V7-DIBQmt1SBq5LQEzI/export?format=pdf">Download resume</a>
-        </br></br>
-        <div id="myCanvasContainer">
-            <canvas width="900" height="600" id="myCanvas">
-                <p>Unfortunately, your browser does not support this tag cloud :(</p>
-            </canvas>
-        </div>
+        <div id="tag-cloud"></div>
     </div>
-	<div id="spheretags">
-		<ul>
-			<li><a target="_blank" href="https://github.com/qdm12">Github</a></li>
-			<li><a target="_blank" href="https://github.com/qdm12/PersonalWebsite/blob/master/markdown/readme.md#masters-thesis">Homomorphic Encryption</a></li>
-			<li><a target="_blank" href="https://qdm12.github.io/Devops_RESTful/">DevOps</a></li>	
-			<li><a target="_blank" href="https://github.com/qdm12/Staminapp">Stamina</a></li>
-			<li><a target="_blank" href="https://github.com/qdm12/Chess_2016">Chess</a></li>
-			<li><a target="_blank" href="https://github.com/qdm12/My-Computing-course">My course</a></li>
-			<li><a target="_blank" href="https://www.quora.com/profile/Quentin-McGaw">Quora</a></li>
-			<li><a target="_blank" href="https://github.com/qdm12/PersonalWebsite/blob/master/markdown/readme.md">Markdown</a></li>
-			<li><a target="_blank" href="https://github.com/qdm12/courses/tree/master/Cryptocurrency%20and%20decentralized%20ledgers">Bitcoin/Ethereum</a></li>
-			<li><a target="_blank" href="https://github.com/qdm12/courses/tree/master/Real%20time%20big%20data%20analytics">Big Data</a></li>
-			<li><a target="_blank" href="https://github.com/qdm12/courses/tree/master/Database%20systems">DB</a></li>
-			<li><a target="_blank" href="https://github.com/qdm12/PersonalWebsite/blob/master/markdown/readme.md#imperial-college-london-october-2012-to-june-2016">ICL</a></li>
-			<li><a target="_blank" href="https://github.com/qdm12/PersonalWebsite/blob/master/markdown/readme.md#new-york-university-september-2016-to-may-2018">NYU</a></li>
-			<li><a target="_blank" href="https://github.com/qdm12/PersonalWebsite/blob/master/markdown/readme.md#fun-facts-open_mouth">Fun facts</a></li>
-		</ul>
-	</div>
 </section>
 
 <section id="Timeline">
@@ -117,6 +95,7 @@
 
 <section id="Projects">
 <div class="fullcontainer">
+	<div id="cloudsDiv">
 	<iframe src="https://qdm12.github.io/hbc" class="projectboxiframe" style="top:8%;"></iframe>
 	<iframe src="https://qdm12.github.io/Devops_RESTful" class="projectboxiframe" style="top:36%;"></iframe>
 	<a target="_blank" href="https://sites.google.com/view/adsup">
@@ -132,6 +111,7 @@
 		<div class="projectbox" style="bottom:6%;left:6%;" >See more projects</div>
 	</a>
 	<img src="gifs/construction.gif" alt="Website part in construction now" style="position:absolute;top:70%;right:8%;z-index:1;width:8%;">
+	</div>
 </div>
 </section>
 

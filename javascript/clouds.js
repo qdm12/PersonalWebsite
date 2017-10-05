@@ -8,8 +8,7 @@ function Clouds() {
   }
 
   this.start = function() {
-    container = document.createElement('div');
-    $('#Projects').prepend(container);
+    container = document.getElementById('cloudsDiv');
 
     // Bg gradient
     var canvas = document.createElement('canvas');
@@ -125,7 +124,6 @@ function Clouds() {
         camera.position.z = -position + 8000;
         renderer.render(scene, camera);
       }
-
       init();
     }
 
