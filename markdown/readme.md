@@ -113,7 +113,7 @@
     - Jenkins and code coverage
     - Artificial intelligence
     - PhoneGap and monetizing the app
-    - [![Chess gif](https://dl.dropboxusercontent.com/content_link/ndkdc7I1gPNaLDCEBcUNQE348rkgDoAyJBvM4FwCr7nIKNuRcX1sjG34fOSgmgcT/file)](https://github.com/qdm12/Chess_2016)
+    - [![Chess gif](https://github.com/qdm12/Chess_2016/tree/gh-pages/readme/chess_onlyAI.gif)](https://github.com/qdm12/Chess_2016)
 - Operating System
     - C++ assignments: scheduler, linker, IO, memory management
     - Processes, threads, scheduling, concurrency, memory management, IO, file systems, Networking, cloud and distributed computing
