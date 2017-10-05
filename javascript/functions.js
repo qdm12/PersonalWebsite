@@ -179,8 +179,10 @@ $(document).ready( function() { /* executes first */
 
 window.onload = function(){ /* executes secondly */
 	smooth_scrolling();
-	particles();
-	Clouds.start();
+	if($(window).height() < $(window).width()){ //not mobile
+		particles();
+		Clouds.start();
+	}
 };
 $(window).resize(function() {
   console.log('window was resized');  
