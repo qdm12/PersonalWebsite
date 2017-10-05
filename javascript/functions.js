@@ -99,13 +99,13 @@ function center_download() {
     center_download.mouseover(function(){
 		center_download.stop().animate({
 			"opacity":"1.0",
-            "font-size":"75%",
+            "font-size":"3vmax",
 		}, 800);
     });
     center_download.mouseout(function(){
 		center_download.stop().animate({
 			"opacity":"0.5",
-            "font-size":"70%",
+            "font-size":"2.5vmax",
 		}, 800);
     });
 }

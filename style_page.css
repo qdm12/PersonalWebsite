@@ -3,8 +3,8 @@
     position:fixed; /*so that it follows when you scroll*/
 	top:0%;
     width:100%;
-    font-size:70%;
-	padding:1%;
+    font-size:2.5vmax;
+	padding:1.7vmin;
 	background-color:black;
 	z-index:1; /*on top of other layers*/
 	transition:all 0.4s;
@@ -47,7 +47,7 @@
     z-index:1; /*on top of other layers*/
     width:auto;
 	margin-left:0.5%;
-    font-size:50%;
+    font-size:2.75vh;
     color:black;
     text-decoration:none; /*No links decoration*/
 }
@@ -163,7 +163,7 @@ section {
 .center_name { /*Class used for center name on Home*/
     color:white;
     text-decoration:none; /*No links decoration*/
-	font-size:150%;
+	font-size:4vmax;
     font-weight:bold;
 	transition:all 0.8s;
     -webkit-transition:all 0.8s;
@@ -172,12 +172,12 @@ section {
     -ms-transition:all 0.8s;
 }
 .center_name:hover { /*Class used for center name on Home*/
-    font-size:160%;
+    font-size:5vmax;
 }
 .center_download{ /*Class used for center Download resume on Home*/
     color:white;
     text-decoration:none; /*No links decoration*/
-	font-size:70%;
+	font-size:2.5vmax;
 	opacity:0.6;
 }
 
@@ -204,7 +204,7 @@ section {
 	background-color:#29293d;
 	opacity: 0.5;
 	color:white; /* text color */
-	font-size: 90%;
+	font-size: 4.7vw;
 	transition:all 0.3s;
     -webkit-transition:all 0.3s;
     -moz-transition:all 0.3s;
@@ -216,7 +216,7 @@ section {
 	border-color:#b3b3cc;
 	background-color:#52527a;
 	opacity: 0.7;
-	font-size: 35%;
+	font-size: 2.7vmin;
 }
 .projectboxiframe{
 	position:absolute;
@@ -240,8 +240,6 @@ section {
 }
 .projectboxgif{
 	position:absolute;
-	left:40%; /* to change for some */
-	top:8%; /* to change for some */
 	opacity:0.6;
 	border:2px solid;
 	border-radius:2%;
@@ -259,18 +257,21 @@ section {
 	position:absolute;
 	width: 30%;
 	height: 20%;
-	left:5%; /* to change for some */
-	top:8%; /* to change for some */
 	display: flex;
 	justify-content: center; /* align horizontal */
 	align-items: center; /* align vertical */
 	text-align: center;
 	border:2px solid;
 	border-radius:2%;
-	border-color:#7aadff;
-	background-color:#a8ffe6;
-	color:gray;
-	font-size:70%;
+	border-color:white;
+    background-image: -ms-linear-gradient(top, #BE4DFF 0%, #3679FF 100%);
+    background-image: -moz-linear-gradient(top, #BE4DFF 0%, #3679FF 100%);
+    background-image: -o-linear-gradient(top, #BE4DFF 0%, #3679FF 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #BE4DFF), color-stop(100, #3679FF));
+    background-image: -webkit-linear-gradient(top, #BE4DFF 0%, #3679FF 100%);
+    background-image: linear-gradient(to bottom, #BE4DFF 0%, #3679FF 100%);
+	color:white;
+	font-size:2vw;
     font-weight:bold;
 	opacity:0.5;
 	transition:all 0.8s;
@@ -281,7 +282,7 @@ section {
 }
 .projectbox:hover{
 	opacity:1.0;
-	border-radius:7%;
+	border-radius:50%;
 	border-color:black;
 }
 ul {
@@ -294,14 +295,14 @@ ul[title]::before {
     content: attr(title);
     display: block;
 	font: 83%/1.5 Helvetica, Verdana, sans-serif;
-	font-size:2vw;
+	font-size:3.5vmin;
 	margin: 0;
 	padding: 0;
 }
 
 li {
   font: 41%/1.5 Helvetica, Verdana, sans-serif;
-  font-size:1.1vw;
+  font-size:1.9vmin;
   border-bottom: 2px solid #ccc;
 }
 
@@ -325,8 +326,6 @@ li a:hover {
   font-size: 140%;
   background-color: rgba(175, 255, 212, 0.35);
 }
-
-
 
 body {
 	font-size: 48px;
