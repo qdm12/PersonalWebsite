@@ -134,7 +134,7 @@ function tag_cloud() {
 function particles() {
 	/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
 	/* particlesJS.load('particles-js', '../config/particles.json', function() { */
-	particlesJS.load('particles', 'https://doc-14-3c-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/76ta9eh2pgks3ccsoduqhel7suk8mc2f/1506988800000/00228922220177749400/*/0B5UPjZHikV5gS3p3TTNpc0hTRFE?e=download', function() {
+	particlesJS.load('particles', 'config/particles.json', function() {
 	  console.log('callback - particles.js config loaded');
 	});
 }
@@ -149,4 +149,5 @@ window.onload = function(){
     tag_cloud();
 	smooth_scrolling();
 	particles();
+	//Clouds.start();
 };

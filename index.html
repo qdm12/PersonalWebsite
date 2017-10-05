@@ -1,9 +1,11 @@
 <html>
 <!--Load Javascript (3d sphere, functions) -->
-<script src="javascript/tagcanvas.min.js" type="text/javascript"></script>
-<script src="javascript/functions.js" type="text/javascript"></script>
 <script src="javascript/jquery-3.0.0.min.js" type="text/javascript"></script>
+<script src="javascript/tagcanvas.min.js" type="text/javascript"></script>
 <script src="javascript/particles.min.js" type="text/javascript"></script>
+<script src="javascript/functions.js" type="text/javascript"></script>
+<script src="javascript/three.min.js" type="text/javascript"></script>
+<script src="javascript/clouds.js" type="text/javascript"></script>
 <!--Load styles -->
 <link rel="stylesheet" type="text/css" href="style_page.css">
 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
@@ -16,21 +18,26 @@
     <a class="banner_top_button" href="#Skills">Skills</a>
 	<a class="banner_top_button" href="#Map">Map</a>
     <a class="banner_top_button" href="#Projects">Projects</a>
-    <a class="banner_top_button" href="#Other">Other</a>
+    <a class="banner_top_button" href="#Courses">Courses</a>
 </div>
-<div class="left_button" style="top:20%;margin-left:0.5%;">
+<div class="left_button" style="top:15%;">
     <a href="mailto:quentin-mcgaw@gmail.com?Subject=Enquiry%20about%20you">
         <i class="fa fa-envelope fa-2x"></i>
     </a>
 </div>
-<div class="left_button" style="top:30%;margin-left:0.5%;">
+<div class="left_button" style="top:25%;">
     <a target="_blank" href="https://www.linkedin.com/in/quentin-mcgaw-72981165">
         <i class="fa fa-linkedin fa-2x"></i>
     </a>
 </div>
-<div class="left_button" style="top:40%;margin-left:0.5%;">
+<div class="left_button" style="top:35%;">
     <a target="_blank" href="https://appear.in/quentin.mcgaw">
         <i class="fa fa-phone fa-2x"></i>
+    </a>
+</div>
+<div class="left_button" style="top:45%;">
+    <a target="_blank" href="https://www.github.com/qdm12">
+        <i class="fa fa-github fa-2x"></i>
     </a>
 </div>
 
@@ -53,15 +60,13 @@
 			<li><a target="_blank" href="https://github.com/qdm12/PersonalWebsite/blob/master/markdown/readme.md#masters-thesis">Homomorphic Encryption</a></li>
 			<li><a target="_blank" href="https://qdm12.github.io/Devops_RESTful/">DevOps</a></li>	
 			<li><a target="_blank" href="https://github.com/qdm12/Staminapp">Stamina</a></li>
-			<li><a target="_blank" href="https://github.com/qdm12/Chess_2016">Chess</a></li>	
-			<li><a target="_blank" href="https://github.com/qdm12/My-Computing-course">My course</a></li>	
+			<li><a target="_blank" href="https://github.com/qdm12/Chess_2016">Chess</a></li>
+			<li><a target="_blank" href="https://github.com/qdm12/My-Computing-course">My course</a></li>
 			<li><a target="_blank" href="https://www.quora.com/profile/Quentin-McGaw">Quora</a></li>
-            <li><a target="_blank" href="http://www.ebay.ie/usr/dowi9876">Ebay</a></li>
 			<li><a target="_blank" href="https://github.com/qdm12/PersonalWebsite/blob/master/markdown/readme.md">Markdown</a></li>
 			<li><a target="_blank" href="https://github.com/qdm12/courses/tree/master/Cryptocurrency%20and%20decentralized%20ledgers">Bitcoin/Ethereum</a></li>
 			<li><a target="_blank" href="https://github.com/qdm12/courses/tree/master/Real%20time%20big%20data%20analytics">Big Data</a></li>
 			<li><a target="_blank" href="https://github.com/qdm12/courses/tree/master/Database%20systems">DB</a></li>
-			<li><a target="_blank" href="https://github.com/qdm12/PersonalWebsite/blob/master/markdown/readme.md#personal-projects">Projects</a></li>
 			<li><a target="_blank" href="https://github.com/qdm12/PersonalWebsite/blob/master/markdown/readme.md#imperial-college-london-october-2012-to-june-2016">ICL</a></li>
 			<li><a target="_blank" href="https://github.com/qdm12/PersonalWebsite/blob/master/markdown/readme.md#new-york-university-september-2016-to-may-2018">NYU</a></li>
 			<li><a target="_blank" href="https://github.com/qdm12/PersonalWebsite/blob/master/markdown/readme.md#fun-facts-open_mouth">Fun facts</a></li>
@@ -74,7 +79,7 @@
 </section>
 
 <section id="Skills">
-<div id="container_particles">
+<div class="fullcontainer">
 	<div id="particles"></div>
 	<div class="skillbox" style="top:6.25%;left:4%;" id="Crypto" onmouseover='moreDetailsOnSkill("Crypto");' onmouseleave='restoreSkillBox("Crypto");'>
 		Crypto
@@ -111,14 +116,118 @@
 </section>
 
 <section id="Projects">
-Patat
-AdsUp
-HBC
-Raspberry Pi:
+<div class="fullcontainer">
+	<iframe src="http://qdm12.github.io/hbc" class="projectboxiframe"></iframe>
+	<iframe src="https://qdm12.github.io/Devops_RESTful" class="projectboxiframe" style="top:36%;"></iframe>
+	<a target="_blank" href="https://sites.google.com/view/adsup">
+		<img src="gifs/adsup.gif" alt="AdsUp" class="projectboxgif" style="top:8%;">
+	</a>
+	<a target="_blank" href="https://xd.adobe.com/view/7ba78938-7cf4-4cfb-b4e7-10c7618318ca">
+		<img src="gifs/redio.gif" alt="Redio" class="projectboxgif" style="top:20%;left:70%;">
+	</a>
+	<a target="_blank" href="https://github.com/qdm12/PersonalWebsite/tree/master/markdown#personal-projects">
+		<div class="projectbox" style="top:70%;left:60%;" >See more projects</div>
+	</a>
+</div>
 </section>
 
 
-<section id="Other">
+<section id="Courses">
+<div class="fullcontainer">
+	<div style="width:25%; position:absolute; left:6%; top:8%;">
+		<ul title="Fall 2017">
+			<li><a href="#">Design and Development: Web and mobile apps</a></li>
+			<li><a href="#">Cryptocurrency and decentralized ledgers</a></li>
+			<li><a href="#">Real-time big data analytics</a></li>
+		</ul>
+	</div>
+	<div style="width:25%; position:absolute; left:6%; top:35%;">
+		<ul title="Summer 2017">
+			<li><a href="#">Technology, design and entrepreneurship</a></li>
+		</ul>
+	</div>
+	
+
+	<div style="width:25%; position:absolute; left:6%; top:53%;">
+		<ul title="Spring 2017">
+			<li><a href="#">Database Systems</a></li>
+			<li><a href="#">Programming languages</a></li>
+			<li><a href="#">Fundamental algorithms</a></li>
+		</ul>
+	</div>
+
+	<div style="width:25%; position:absolute; left:6%; top:75%;">
+		<ul title="Fall 2016">
+			<li><a href="#">DevOps</a></li>
+			<li><a href="#">Mobile online social gaming</a></li>
+			<li><a href="#">Operating System</a></li>
+		</ul>
+	</div>
+
+	
+	<div style="width:25%; position:absolute; left:36%; top:8%;">
+		<ul title="Spring 2016">
+			<li><a href="#">Network and web security</a></li>
+			<li><a href="#">Mobile healthcare and machine learning</a></li>
+			<li><a href="#">Corporate Finance</a></li>
+		</ul>
+	</div>
+
+	<div style="width:25%; position:absolute; left:36%; top:35%;">
+		<ul title="Fall 2015">
+			<li><a href="#">High performance computing for engineers</a></li>
+			<li><a href="#">Managing innovation</a></li>
+			<li><a href="#">Managerial economics</a></li>
+			<li><a href="#">Coding Theory</a></li>
+		</ul>
+	</div>
+	
+	<div style="width:25%; position:absolute; left:36%; top:63%;">
+		<ul title="2014-2015">
+			<li><a href="#">Entrepreneurship</a></li>
+			<li><a href="#">Project management</a></li>
+			<li><a href="#">Accounting</a></li>
+			<li><a href="#">Digital signal processing</a></li>
+			<li><a href="#">Advanced signal processing</a></li>
+			<li><a href="#">Artificial intelligence</a></li>
+			<li><a href="#">Communication networks</a></li>
+			<li><a href="#">Real time digital signal processing</a></li>
+		</ul>
+	</div>
+
+	<div style="width:25%; position:absolute; left:68%; top:8%;">
+		<ul title="2013-2014">
+			<li><a href="#">Algorithms and data structures</a></li>
+			<li><a href="#">Introduction to computer architecture</a></li>
+			<li><a href="#">Semiconductor devices</a></li>
+			<li><a href="#">Algorithms and complexity</a></li>
+			<li><a href="#">Mathematics</a></li>
+			<li><a href="#">Digital electronics</a></li>
+			<li><a href="#">Analogue electronics</a></li>
+			<li><a href="#">Power engineering</a></li>
+			<li><a href="#">Communication systems</a></li>
+			<li><a href="#">Signal and linear systems</a></li>
+			<li><a href="#">Control engineering</a></li>
+			
+		</ul>
+	</div>
+	<div style="width:25%; position:absolute; left:68%; top:60%;">
+		<ul title="2012-2013">
+			<li><a href="#">Software engineering</a></li>
+			<li><a href="#">Mathematics</a></li>
+			<li><a href="#">Professional engineering</a></li>
+			<li><a href="#">Analysis of circuits</a></li>
+			<li><a href="#">Digital electronics</a></li>
+			<li><a href="#">Semiconductor devices</a></li>
+			<li><a href="#">Analogue electronics</a></li>
+			<li><a href="#">Energy conversion</a></li>
+			<li><a href="#">Signals and communication</a></li>
+		</ul>
+	</div>
+	
+	
+	<img src="gifs/construction.gif" alt="Website part in construction now" style="position:absolute;top:60%;left:42%;z-index:1;">
+</div>
 </section>
 
 </html>
