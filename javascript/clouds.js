@@ -23,23 +23,14 @@ if(!isMobile){
 						canvas.height = (window.innerHeight + 3);
 						var context = canvas.getContext('2d');
 						var gradient = context.createLinearGradient(0, 0, 0, canvas.height);
-						gradient.addColorStop(0, "#1C1F21");
-						gradient.addColorStop(0.35, "#1C1F21");
-						gradient.addColorStop(0.5, "#1C1F21");
-						gradient.addColorStop(1, "#1D508F");
+						gradient.addColorStop(0, "#1C1F20");
+						gradient.addColorStop(0.35, "#1C1F20");
+						gradient.addColorStop(0.5, "#1C1F20");
+						gradient.addColorStop(1, "#1D508E");
 						context.fillStyle = gradient;
 						context.fillRect(0, 0, canvas.width, canvas.height);
-						container.id = 'clouds';
 						container.style.background = 'url(' + canvas.toDataURL('image/png') + ')';
 						container.style.backgroundSize = '32px 100%';
-						container.style.position = 'absolute';
-						container.style.top = '0px';
-						container.style.left = '0px';
-						container.style.zIndex = '0';
-						container.style.width = window.innerWidth + 'px';
-						container.style.height = window.innerHeight + 'px';
-						container.style.overflow = 'hidden';
-
 						$(container).css({
 						  opacity: 0
 						});
@@ -140,7 +131,7 @@ if(!isMobile){
 					  };
 
 					  this.stop = function() {
-						$('#clouds').remove();
+						$('#cloudsDiv').remove();
 					  };
 					}
 					Clouds = new Clouds();

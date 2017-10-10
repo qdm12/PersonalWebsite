@@ -15,17 +15,15 @@ It uses:
 - The rest is coded from scratch
 
 What has to be done:
-- Organize javascripts into different files for async loadings or no loading for mobile devices
 - Make it compatible will all browsers
 - Do better mobile version
+- Replace tag cloud with [http://blog.niklasknaack.de/2017/09/svg-3d-tag-cloud-jquery-plugin-v2.html](http://blog.niklasknaack.de/2017/09/svg-3d-tag-cloud-jquery-plugin-v2.html)
 - Finish up the projects section
 - Put it on duckdns.org and maybe setup a p2p backup
-- Add an iframe of Quora or a sort of live feed
-- Add an iframe or similar to show my activity on Github
-- Add a video section for youtube
-- Make something with the blockchain (i.e. Quentin loves Bitcoin)
+- Add an iframe of Quora or a sort of live feed (**IMPOSSIBLE**)
 - Add more of those fancy backgrounds for the desktop version, with [http://particle-love.com/](http://particle-love.com/)
 - Check these links:
+   - http://blog.niklasknaack.de
    - http://www.jqueryscript.net/tags.php?/Back%20to%20top/
    - http://www.jqueryscript.net/tags.php?/Bootstrap/
    - http://www.jqueryscript.net/tags.php?/carousel

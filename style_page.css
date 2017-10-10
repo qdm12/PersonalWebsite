@@ -3,8 +3,8 @@
     position:fixed; /*so that it follows when you scroll*/
 	top:0%;
     width:100%;
-    font-size:2.5vmax;
-	padding:1.7vmin;
+    font-size:2.2vmax;
+	padding:1.8vmin;
 	background-color:black;
 	z-index:1; /*on top of other layers*/
 	transition:all 0.4s;
@@ -137,20 +137,33 @@ section {
   background-size:100%;
 }
 #Projects {
-    background: linear-gradient(70deg, #eff3f9, #c5e7f9, #b6c8ef);
-    background-size:800%;
-    animation: background_animation 14s ease infinite;
+    background: #eff3f9;
 }
 #Courses {
     background: linear-gradient(70deg, #8298bc, #708ebf, #756fbf);
     background-size:800%;
     animation: background_animation 21s ease infinite;
 }
+#OthersSection {
+	color: white;
+    background: linear-gradient(70deg, #1a3156, #424a56, #061d3f);
+    background-size:800%;
+    animation: background_animation 5s ease infinite;
+}
 
 .fullcontainer{
 	width: 100%;
     height: 100%;
     position: relative;
+}
+.backgroundContainer{
+	position:'absolute';
+	top: 0%;
+	left: 0%;
+	z-index:0;
+	width:100%;
+	height:100%;
+	overflow:hidden;
 }
 
 /* Home page style */
@@ -218,6 +231,8 @@ section {
 	opacity: 0.7;
 	font-size: 2.7vmin;
 }
+
+/* Projects */
 .projectboxiframe{
 	position:absolute;
 	left:5%;
@@ -285,6 +300,26 @@ section {
 	border-radius:50%;
 	border-color:black;
 }
+.githubiframe{
+	position:absolute;
+	left:5%;
+	top:8%; /* to change for some */
+	width: 18%;
+	height: 22%;
+	opacity:0.65;
+	transition:all 0.8s;
+    -webkit-transition:all 0.8s;
+    -moz-transition:all 0.8s;
+    -o-transition:all 0.8s;
+    -ms-transition:all 0.8s;
+}
+.githubiframe:hover{
+	width: 23%;
+	height: 36%;
+	left:5%;
+	opacity:1.0;
+	z-index:1;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -326,6 +361,24 @@ li a:hover {
   font-size: 140%;
   background-color: rgba(175, 255, 212, 0.35);
 }
+
+.youtubeiframe{
+	position:absolute;
+	left:5%; /* to change for some */
+	top:8%; /* to change for some */
+	width: 35%;
+	height: 35%;
+	opacity:0.6;
+	transition:all 0.8s;
+    -webkit-transition:all 0.8s;
+    -moz-transition:all 0.8s;
+    -o-transition:all 0.8s;
+    -ms-transition:all 0.8s;
+}
+.youtubeiframe:hover{
+	opacity:1.0;
+}
+
 
 body {
 	font-size: 48px;
