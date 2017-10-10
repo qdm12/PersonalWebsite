@@ -15,7 +15,7 @@ It uses:
 - The rest is coded from scratch
 
 What has to be done:
-- Make it compatible will all browsers
+- Make it compatible will IExplorer and Safari (untested)
 - Do better mobile version
 - Replace tag cloud with [http://blog.niklasknaack.de/2017/09/svg-3d-tag-cloud-jquery-plugin-v2.html](http://blog.niklasknaack.de/2017/09/svg-3d-tag-cloud-jquery-plugin-v2.html)
 - Finish up the projects section

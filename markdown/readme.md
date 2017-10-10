@@ -1,5 +1,5 @@
 # Quentin McGaw
-### MEng in EEE from LDN, MSc in CS from NYC, entrepreneur, crypto enthusiast, Ethereum/Bitcoin
+### MEng in EEE from London, MSc in CS from NYC, entrepreneur, crypto enthusiast, Ethereum/Bitcoin
 
 ![Picture of myself](../images/quentin.jpg)
 
@@ -30,7 +30,7 @@
 	- Fundamental algorithms
 	- Mathematics, Control engineering
 - French and Mauritian, and lived:
-	- 5 months in New York City, US
+	- 1.5 year in New York City, US
 	- 4 years in London, UK
 	- 7 years in Nice, France
 	- 1 year in Villars-sur-Ollons, Switzerland
@@ -66,7 +66,7 @@
 
 [![STMicroelectronics](../images/stmicro.jpg)](http://www.st.com/content/st_com/en/about/careers/st-locations/emea/france/sophia_antipolis.html)
 
-- 3 months at STMicroelectronics in South of France.
+- 3 months at STMicroelectronics in Sophia Antipolis, France.
 	- In the NFC mobile application development team of 15 persons.
 	- The company was developing a new NFC chip for Android smartphones.
 - My role was to add support for the detection of multiple NFC cards simultaneously by an Android smartphone with their chip
@@ -76,6 +76,8 @@
     - Use of CyanogenMod on a Nexus devices for testing during development
 
 ***
+
+## Education
 
 ## New York University, September 2016 to May 2018
 
@@ -135,8 +137,7 @@
 	- [Male version](https://xd.adobe.com/view/844b6668-0d5c-4d92-b30f-6bcbf3ce8479/?fullscreen)
 	- [Female version](https://xd.adobe.com/view/192c9261-da69-48d6-81ac-570b5e4f5e16/?fullscreen)
 - [AdsUp](https://sites.google.com/view/adsup/home)
-    - Started working on it on 1st April 2017 for several days.
-    - Development stopped in June 2017, due to several defects in the concept
+    - Started working on it on 1st April 2017
     - [![AdsUp gif](../gifs/adsup.gif)](https://sites.google.com/view/adsup/home)
 - [Portfolio management](https://github.com/qdm12/Portfolio)
   - Written in Python, consists in a multi-threaded program parsing web pages, using the yahoo finance API, excel and a Flask server
@@ -192,9 +193,6 @@
     - Full syllabus [here](corporate_finance.md)
     - ![syllabus preview](../gifs/finance_syllabus.gif)
 
-#### Results
-I have obtained 67.74% overall
-
 ### Third year, 2014-2015
 #### Courses
 - Digital signal processing
@@ -215,9 +213,6 @@ I have obtained 67.74% overall
 - Accounting
 - Project management
     - Group project on the Boeing 747 project
-    
-#### Results
-I have obtained 54.63% overall
     
 ### Second year, 2013-2014
 #### Courses
@@ -257,9 +252,6 @@ I have obtained 54.63% overall
     - A website was also designed for non-mobile users of Wasteless.
 - The final state of the group project was actually promising and we obtained surprisingly high marks :smile:
 
-#### Results
-I have obtained 57.43% overall
-
 ### First year, 2012-2013
 #### Courses
 - Software engineering: C & C++
@@ -284,9 +276,6 @@ I have obtained 57.43% overall
     - Project and team management (reports, charts, deadlines...)
     - Hardware testing (opAmps, Resistances etc.)
 - ![EEBug picture](../images/EEBug.jpg)
-    
-#### Results
-I have obtained 63.26% overall
 
 ### Graduation results
 I have obtained my Master's degree with upper second class honours and 61.32% overall
@@ -311,7 +300,9 @@ You can check out the certificate [here](../documents/imperial_degree.pdf)
 
 ***
 
-## Fun facts :open_mouth:
+## Others
+
+### Fun facts :open_mouth:
 - I have a UK driving license :red_car:
 - I climbed the [Kilimanjaro](https://goo.gl/maps/Pur81wuxvzs) mountain in Tanzania at the age of 12 :mount_fuji:
 
@@ -326,11 +317,10 @@ You can check out the certificate [here](../documents/imperial_degree.pdf)
 
 ![Raspberry Pi picture](../images/raspberrypi.jpg)
 
-## My Youtube channel
+### My Youtube channel
 (in progress)
 
-## Computer builds :computer:
-
+### Computer builds :computer:
 - See more on [Google Drive](https://drive.google.com/drive/folders/0B5UPjZHikV5gQ3pyTVR2M3RMaUk?usp=sharing)
 
 - May 2017 - now: i5 6500, 16GB DDR4, GTX 1080
@@ -371,7 +361,8 @@ You can check out the certificate [here](../documents/imperial_degree.pdf)
 
 ![Desktop 2010 0](../images/2009desktop0.jpeg)
 
-## My current Computer build
+### My current Computer build
+
 Type|Item
 :----|:----
 **Motherboard** | [EVGA - Z270 Stinger Mini ITX LGA1151 Motherboard](https://pcpartpicker.com/product/P2Z2FT/evga-z270-stinger-mini-itx-lga1151-motherboard-111-ks-e272-kr)
