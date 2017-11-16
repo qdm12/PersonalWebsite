@@ -1,13 +1,13 @@
 /* Top banner style */
 .banner_top {
     position:fixed; /*so that it follows when you scroll*/
-	top:0%;
+    top:0%;
     width:100%;
     font-size:2.2vmax;
-	padding:1.8vmin;
-	background-color:black;
-	z-index:1; /*on top of other layers*/
-	transition:all 0.4s;
+    padding:1.8vmin;
+    background-color:black;
+    z-index:1; /*on top of other layers*/
+    transition:all 0.4s;
     -webkit-transition:all 0.4s;
     -moz-transition:all 0.4s;
     -o-transition:all 0.4s;
@@ -20,33 +20,33 @@
     text-decoration:none; /*No links decoration*/
 }
 .banner_top_button:hover {
-	transition:all 0.8s;
+    transition:all 0.8s;
     -webkit-transition:all 0.8s;
     -moz-transition:all 0.8s;
     -o-transition:all 0.8s;
     -ms-transition:all 0.8s;
-	background-color:gray;
+    background-color:gray;
     color:black;
 }
 
 /* Left buttons style */
 @keyframes bounce {
-	0%, 20%, 60%, 100% {
-		transform: translateY(0);
-	}
-	40% {
-		transform: translateY(-15px);
-	}
-	80% {
-		transform: translateY(-7px);
-	}
+    0%, 20%, 60%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-15px);
+    }
+    80% {
+        transform: translateY(-7px);
+    }
 }
 .left_button{
     position:fixed; /*so that it follows when you scroll*/
-	top:10%; /*to change for vertical positioning*/
+    top:10%; /*to change for vertical positioning*/
     z-index:1; /*on top of other layers*/
     width:auto;
-	margin-left:0.5%;
+    margin-left:0.5%;
     font-size:2.75vh;
     color:black;
     text-decoration:none; /*No links decoration*/
@@ -57,7 +57,7 @@
 .fa-envelope{
     color:black;
     opacity:0.6;
-	transition:all 0.8s;
+    transition:all 0.8s;
     -webkit-transition:all 0.8s;
     -moz-transition:all 0.8s;
     -o-transition:all 0.8s;
@@ -70,7 +70,7 @@
 .fa-linkedin{
     color:black;
     opacity:0.6;
-	transition:all 0.8s;
+    transition:all 0.8s;
     -webkit-transition:all 0.8s;
     -moz-transition:all 0.8s;
     -o-transition:all 0.8s;
@@ -83,7 +83,7 @@
 .fa-phone{
     color:#F6285E;
     opacity:0.6;
-	transition:all 0.8s;
+    transition:all 0.8s;
     -webkit-transition:all 0.8s;
     -moz-transition:all 0.8s;
     -o-transition:all 0.8s;
@@ -96,7 +96,7 @@
 .fa-github{
     color:black;
     opacity:0.6;
-	transition:all 0.8s;
+    transition:all 0.8s;
     -webkit-transition:all 0.8s;
     -moz-transition:all 0.8s;
     -o-transition:all 0.8s;
@@ -127,10 +127,10 @@ section {
     animation: background_animation 21s ease-in-out infinite;
 }
 #Timeline {
-	background: gray;
+    background: gray;
 }
 #Map {
-	background: gray;
+    background: gray;
 }
 #Skills {
   background: #5d6675;
@@ -145,25 +145,25 @@ section {
     animation: background_animation 21s ease infinite;
 }
 #OthersSection {
-	color: white;
+    color: white;
     background: linear-gradient(70deg, #1a3156, #424a56, #061d3f);
     background-size:800%;
     animation: background_animation 5s ease infinite;
 }
 
 .fullcontainer{
-	width: 100%;
+    width: 100%;
     height: 100%;
     position: relative;
 }
 .backgroundContainer{
-	position:'absolute';
-	top: 0%;
-	left: 0%;
-	z-index:0;
-	width:100%;
-	height:100%;
-	overflow:hidden;
+    position:'absolute';
+    top: 0%;
+    left: 0%;
+    z-index:0;
+    width:100%;
+    height:100%;
+    overflow:hidden;
 }
 
 /* Home page style */
@@ -176,9 +176,9 @@ section {
 .center_name { /*Class used for center name on Home*/
     color:white;
     text-decoration:none; /*No links decoration*/
-	font-size:4vmax;
+    font-size:4vmax;
     font-weight:bold;
-	transition:all 0.8s;
+    transition:all 0.8s;
     -webkit-transition:all 0.8s;
     -moz-transition:all 0.8s;
     -o-transition:all 0.8s;
@@ -190,8 +190,8 @@ section {
 .center_download{ /*Class used for center Download resume on Home*/
     color:white;
     text-decoration:none; /*No links decoration*/
-	font-size:2.5vmax;
-	opacity:0.6;
+    font-size:2.5vmax;
+    opacity:0.6;
 }
 
 /* Skills */
@@ -201,124 +201,124 @@ section {
     position: absolute;
     top: 0;
     left: 0;
-	z-index: 0;
+    z-index: 0;
 }
 .skillbox{
     position: absolute;
-	z-index: 0;
-	height: 25%;
+    z-index: 0;
+    height: 25%;
     width: 28%;
-	display: flex;
-	justify-content: center; /* align horizontal */
-	align-items: center; /* align vertical */
-	text-align: center;
-	border: 2px solid;
-	border-color: #52527a;
-	background-color:#29293d;
-	opacity: 0.5;
-	color:white; /* text color */
-	font-size: 4.7vw;
-	transition:all 0.3s;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    text-align: center;
+    border: 2px solid;
+    border-color: #52527a;
+    background-color:#29293d;
+    opacity: 0.5;
+    color:white; /* text color */
+    font-size: 4.7vw;
+    transition:all 0.3s;
     -webkit-transition:all 0.3s;
     -moz-transition:all 0.3s;
     -o-transition:all 0.3s;
     -ms-transition:all 0.3s;
 }
 .skillbox:hover{
-	border-radius: 10%;
-	border-color:#b3b3cc;
-	background-color:#52527a;
-	opacity: 0.7;
-	font-size: 2.7vmin;
+    border-radius: 10%;
+    border-color:#b3b3cc;
+    background-color:#52527a;
+    opacity: 0.7;
+    font-size: 2.7vmin;
 }
 
 /* Projects */
 .projectboxiframe{
-	position:absolute;
-	left:5%;
-	top:8%; /* to change for some */
-	width: 30%;
-	height: 20%;
-	opacity:0.5;
-	transition:all 0.8s;
+    position:absolute;
+    left:5%;
+    top:8%; /* to change for some */
+    width: 30%;
+    height: 20%;
+    opacity:0.5;
+    transition:all 0.8s;
     -webkit-transition:all 0.8s;
     -moz-transition:all 0.8s;
     -o-transition:all 0.8s;
     -ms-transition:all 0.8s;
 }
 .projectboxiframe:hover{
-	width: 90%;
-	height: 50%;
-	left:5%;
-	opacity:1.0;
-	z-index:1;
+    width: 90%;
+    height: 50%;
+    left:5%;
+    opacity:1.0;
+    z-index:1;
 }
 .projectboxgif{
-	position:absolute;
-	opacity:0.6;
-	border:2px solid;
-	border-radius:2%;
-	border-color:#7aadff;
-	transition:all 0.8s;
+    position:absolute;
+    opacity:0.6;
+    border:2px solid;
+    border-radius:2%;
+    border-color:#7aadff;
+    transition:all 0.8s;
     -webkit-transition:all 0.8s;
     -moz-transition:all 0.8s;
     -o-transition:all 0.8s;
     -ms-transition:all 0.8s;
 }
 .projectboxgif:hover{
-	opacity:1.0;
+    opacity:1.0;
 }
 .projectbox{
-	position:absolute;
-	width: 30%;
-	height: 20%;
-	display: flex;
-	justify-content: center; /* align horizontal */
-	align-items: center; /* align vertical */
-	text-align: center;
-	border:2px solid;
-	border-radius:2%;
-	border-color:white;
+    position:absolute;
+    width: 30%;
+    height: 20%;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    text-align: center;
+    border:2px solid;
+    border-radius:2%;
+    border-color:white;
     background-image: -ms-linear-gradient(top, #BE4DFF 0%, #3679FF 100%);
     background-image: -moz-linear-gradient(top, #BE4DFF 0%, #3679FF 100%);
     background-image: -o-linear-gradient(top, #BE4DFF 0%, #3679FF 100%);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #BE4DFF), color-stop(100, #3679FF));
     background-image: -webkit-linear-gradient(top, #BE4DFF 0%, #3679FF 100%);
     background-image: linear-gradient(to bottom, #BE4DFF 0%, #3679FF 100%);
-	color:white;
-	font-size:2vw;
+    color:white;
+    font-size:2vw;
     font-weight:bold;
-	opacity:0.5;
-	transition:all 0.8s;
+    opacity:0.5;
+    transition:all 0.8s;
     -webkit-transition:all 0.8s;
     -moz-transition:all 0.8s;
     -o-transition:all 0.8s;
     -ms-transition:all 0.8s;
 }
 .projectbox:hover{
-	opacity:1.0;
-	border-radius:50%;
-	border-color:black;
+    opacity:1.0;
+    border-radius:50%;
+    border-color:black;
 }
 .githubiframe{
-	position:absolute;
-	left:5%;
-	top:8%; /* to change for some */
-	width: 18%;
-	height: 22%;
-	opacity:0.65;
-	transition:all 0.8s;
+    position:absolute;
+    left:5%;
+    top:8%; /* to change for some */
+    width: 18%;
+    height: 22%;
+    opacity:0.65;
+    transition:all 0.8s;
     -webkit-transition:all 0.8s;
     -moz-transition:all 0.8s;
     -o-transition:all 0.8s;
     -ms-transition:all 0.8s;
 }
 .githubiframe:hover{
-	width: 23%;
-	height: 36%;
-	left:5%;
-	opacity:1.0;
-	z-index:1;
+    width: 23%;
+    height: 36%;
+    left:5%;
+    opacity:1.0;
+    z-index:1;
 }
 ul {
   list-style-type: none;
@@ -329,10 +329,10 @@ ul {
 ul[title]::before {
     content: attr(title);
     display: block;
-	font: 83%/1.5 Helvetica, Verdana, sans-serif;
-	font-size:3.5vmin;
-	margin: 0;
-	padding: 0;
+    font: 83%/1.5 Helvetica, Verdana, sans-serif;
+    font-size:3.5vmin;
+    margin: 0;
+    padding: 0;
 }
 
 li {
@@ -363,26 +363,26 @@ li a:hover {
 }
 
 .youtubeiframe{
-	position:absolute;
-	left:5%; /* to change for some */
-	top:8%; /* to change for some */
-	width: 35%;
-	height: 35%;
-	opacity:0.6;
-	transition:all 0.8s;
+    position:absolute;
+    left:5%; /* to change for some */
+    top:8%; /* to change for some */
+    width: 35%;
+    height: 35%;
+    opacity:0.6;
+    transition:all 0.8s;
     -webkit-transition:all 0.8s;
     -moz-transition:all 0.8s;
     -o-transition:all 0.8s;
     -ms-transition:all 0.8s;
 }
 .youtubeiframe:hover{
-	opacity:1.0;
+    opacity:1.0;
 }
 
 
 body {
-	font-size: 48px;
-	height: 100%;
-	width: 100%;
-	margin: 0%;
+    font-size: 48px;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
 }

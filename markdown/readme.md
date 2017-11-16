@@ -11,30 +11,30 @@
   in June 2016 with upper second class honours.
 - I am 22 years old
 - Expertise in:
-	- Cryptography and web security
-	- Bitcoin protocol, Ethereum (in progress)
+    - Cryptography and web security
+    - Bitcoin protocol, Ethereum (in progress)
     - DevOps
-	- OOP with C++ and Python
-	- Web technologies
+    - Golang, Python, C++, Java
+    - Web languages: Javascript, HTML, NodeJS, CSS, PHP
     - Unit testing
-	- Big Data with Hadoop
-	- Parallel computing with GPUs and openCL
-	- Economy, corporate finance, accounting
-	- Development of mobile applications on Android
-	- Design with Adobe XD, Gimp and InVision
-	- Project management, entrepreneurship, innovation management
+    - Big Data with Hadoop
+    - Parallel computing with GPUs and openCL
+    - Economy, corporate finance, accounting
+    - Development of mobile applications on Android
+    - Design with Adobe XD, Gimp and InVision
+    - Project management, entrepreneurship, innovation management
 - Other knowledge in:
-	- FPGAs design
-	- Artificial intelligence
-	- Digital Signal processing
-	- Fundamental algorithms
-	- Mathematics, Control engineering
+    - FPGAs design
+    - Artificial intelligence
+    - Digital Signal processing
+    - Fundamental algorithms
+    - Mathematics, Control engineering
 - French and Mauritian, and lived:
-	- 1.5 year in New York City, US
-	- 4 years in London, UK
-	- 7 years in Nice, France
-	- 1 year in Villars-sur-Ollons, Switzerland
-	- 11 years in Luxembourg
+    - 1.5 year in New York City, US
+    - 4 years in London, UK
+    - 7 years in Nice, France
+    - 1 year in Villars-sur-Ollons, Switzerland
+    - 11 years in Luxembourg
 - Fluent in English :gb:, français :fr: y un poco de español :es:
 - I also like [Quora](https://www.quora.com/profile/Quentin-McGaw), trading, 
   my [Raspberry Pi](https://github.com/qdm12/RaspberryPi), the gym, skiing, cycling, 
@@ -53,8 +53,8 @@
 [![Coinplus](../images/coinplus.jpg)](https://www.linkedin.com/company/coinplus)
 
 - 6 months in a Bitcoin startup in Luxembourg.
-	- Regulated and secured storage of bitcoins
-	- Regulated transactions of bitcoins
+    - Regulated and secured storage of bitcoins
+    - Regulated transactions of bitcoins
 - My role as a software engineer was to develop a security solution for the storage of Bitcoin private keys
     - Cryptography (PKI, RSA, ECDSA, secret sharing...)
     - Bitcoin protocol
@@ -67,8 +67,8 @@
 [![STMicroelectronics](../images/stmicro.jpg)](http://www.st.com/content/st_com/en/about/careers/st-locations/emea/france/sophia_antipolis.html)
 
 - 3 months at STMicroelectronics in Sophia Antipolis, France.
-	- In the NFC mobile application development team of 15 persons.
-	- The company was developing a new NFC chip for Android smartphones.
+    - In the NFC mobile application development team of 15 persons.
+    - The company was developing a new NFC chip for Android smartphones.
 - My role was to add support for the detection of multiple NFC cards simultaneously by an Android smartphone with their chip
     - Android OS modifications in C, C++ and Java
     - Android app development to showcase the OS modifications made
@@ -85,15 +85,15 @@
 
 ### Courses
 - [Cryptocurrency and decentralized ledgers](https://github.com/qdm12/courses/tree/master/Cryptocurrency%20and%20decentralized%20ledgers)
-	- **Bitcoin** protocol: mining, transactions, cryptography etc.
-	- **Ethereum**: Solidify (*in progress*)
+    - **Bitcoin** protocol: mining, transactions, cryptography etc.
+    - **Ethereum**: Solidity-written smart contracts
 - [Real time big data analytics](https://github.com/qdm12/courses/tree/master/Real%20time%20big%20data%20analytics)
-	- Hadoop with NYU's Dumbo clusters in *Java* and *Python*
-	- Map-Reduce (in progress)
+    - Hadoop with NYU's Dumbo clusters in *Java* and *Python*
+    - Map-Reduce (in progress)
 - Design and Development: Web and mobile apps
-	- Dreamweaver (in progress)
+    - Dreamweaver (in progress)
 - [Technology, design and entrepreneurship](https://github.com/qdm12/courses/tree/master/Technology%20and%20entrepreneurship)
-	- Ended up with a project I am still working on today (Oct 2017)
+    - Ended up with a project I am still working on today (Oct 2017)
 - DevOps
     - Project [**here**](https://qdm12.github.io/Devops_RESTful)
     - Advanced Git, Zenhub and GitKraken :octocat:
@@ -107,7 +107,7 @@
     - Swagger
 - [Database Systems](https://github.com/qdm12/courses/tree/master/Database%20systems)
     - Microsoft Visio (ER diagram, Crow's feet notation etc.)
-	- SQL databases
+    - SQL databases
     - Normalization, minimum cover, etc.
 - Mobile online social gaming
     - Chess game project [**here**](https://github.com/qdm12/Chess_2016)
@@ -134,8 +134,8 @@
 - Patat (under closed development) (in progress)
 - [My Blockchain Course](https://github.com/qdm12/blockchain-course) (in progress)
 - Design of simple desktop web pages using Adobe XD for a travelling website (for a Psychological study)
-	- [Male version](https://xd.adobe.com/view/844b6668-0d5c-4d92-b30f-6bcbf3ce8479/?fullscreen)
-	- [Female version](https://xd.adobe.com/view/192c9261-da69-48d6-81ac-570b5e4f5e16/?fullscreen)
+    - [Male version](https://xd.adobe.com/view/844b6668-0d5c-4d92-b30f-6bcbf3ce8479/?fullscreen)
+    - [Female version](https://xd.adobe.com/view/192c9261-da69-48d6-81ac-570b5e4f5e16/?fullscreen)
 - [AdsUp](https://sites.google.com/view/adsup/home)
     - Started working on it on 1st April 2017
     - [![AdsUp gif](../gifs/adsup.gif)](https://sites.google.com/view/adsup/home)
@@ -170,7 +170,7 @@
 - Coding Theory
     - Cryptography
     - Communication theory
-	- [30 minutes course I gave to fellow students](../documents/Presentation%20coding%20theory%20Bitcoin.pptx)
+    - [30 minutes course I gave to fellow students](../documents/Presentation%20coding%20theory%20Bitcoin.pptx)
 - High performance computing for engineers
     - Amazon web services (AWS)
     - C++, OpenCL and TBB (intel)
@@ -180,7 +180,7 @@
     - [**Android app**](https://github.com/qdm12/Staminapp) development with Android Wear
     - [**Machine learning**](https://github.com/qdm12/Staminaputations) in Python (clustering)
     - NodeJS, SQL database
-	- Report available [here](../documents/Stamina%20report.pdf)
+    - Report available [here](../documents/Stamina%20report.pdf)
     - Click on the following animation to play the video
         - [![Stamina video](../gifs/video_stamina.gif)](https://drive.google.com/open?id=0B5UPjZHikV5gWVBwUnVpWjZHQVU)
 - Managing innovation
@@ -198,7 +198,7 @@
 - Digital signal processing
 - Advanced signal processing
     - Use of Matlab
-	- [Coursework report](../documents/Advanced%20signal%20processing%20report.pdf)
+    - [Coursework report](../documents/Advanced%20signal%20processing%20report.pdf)
 - Artificial intelligence
     - Use of Prologue
 - Communication networks
