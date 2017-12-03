@@ -5,6 +5,7 @@ function interactive_gradient_background() {
         $("#Home").css("background-image", bg);
     });
 }
+
 function center_download() {
     var center_download = $("#center_download");
     center_download.mouseover(function(){

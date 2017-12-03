@@ -1,6 +1,15 @@
 var isMobile = false;
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){isMobile = true;}
 
+function smooth_scrolling() {
+    $('a').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $(this).attr('href') ).offset().top
+        }, 500);
+        return false;
+    });
+}
+
 function banner_opacity() {
     var banner_opacity_mouseover = 0.93;
     var banner_opacity_mouseout = 0.66;
@@ -27,30 +36,25 @@ function banner_opacity() {
     });
 }
 
-$(document).ready( function() { /* executes first */
-    banner_opacity();
-    if(!isMobile){
-        $.getScript('javascript/startup_desktop.js',
-                    function() {interactive_gradient_background();
-                                center_download();}
-                    );
-    }
-});
-
-function smooth_scrolling() {
-    //Smooth Scrolling
-    $('a').click(function(){
-        $('html, body').animate({
-            scrollTop: $( $(this).attr('href') ).offset().top
-        }, 500);
-        return false;
-    });
-}
-
-window.onload = function(){ /* executes secondly */
+window.onload = function(){ /* executes first */
     smooth_scrolling();
 };
 
-$(window).resize(function() {
-
+$(document).ready( function() { /* executes secondly */
+    banner_opacity();
+    if(!isMobile){
+        $.getScript(
+            'javascript/startup_desktop.js',
+            function() {
+                interactive_gradient_background();
+                center_download();
+            }
+        );
+    }
 });
+
+
+
+
+
+$(window).resize(function() {});
