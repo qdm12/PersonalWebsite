@@ -7,29 +7,29 @@ function moreDetailsOnSkill(skillboxID) {
         case "Crypto":
             display.innerHTML = "Bitcoin, Ethereum (Solidity)<br>Cryptography<br>Homomorphic encryption thesis<br>Network and web security<br>Kali Linux";
             break;
-        case "Programming":
-            display.innerHTML = "Python 2 & 3<br>Golang<br>C++ and C<br>Java, Android and Scala<br>Javascript and NodeJS";
+        case "Backend":
+            display.innerHTML = "Golang<br>NodeJS<br>Python 2 & 3<br>Java & Scala<br>C++ and C"
+            break;
+        case "Frontend":
+            display.innerHTML = "Javascript, CSS, HTML and Cordova/PhoneGap<br>Android SDK<br>Kivy (Python)"
             break;
         case "Devops":
             display.innerHTML = "Github, Zenhub, GitKraken & BitBucket<br>Vagrant and Virtual Box<br>Docker and IBM Bluemix<br>Travis CI and unit testing<br>Swagger and RESTful APIs";
             break;
-        case "Web":
-            display.innerHTML = "HTML, CSS, Javascript, a bit of PHP<br>Database Systems: SQL and Redis<br>Network architecture course";
+        case "Databases":
+            display.innerHTML = "MySQL & SQlite<br>Redis<br>Hadoop (Java, Python)<br>Impala, Hive, Spark ...<br>Cloudera Quickstart VMs and clusters";
             break;
         case "Design":
             display.innerHTML = "Adobe XD<br>inVision<br>Gimp<br>Patience and a decent taste";
             break;
         case "HPC":
-            display.innerHTML = "Hadoop (in Java and Python)<br>GPUs with openCL (C++)<br>Multi-core / Multi-threading<br>Cloudera QuickStart VM";
+            display.innerHTML = "GPUs with openCL (C++)<br>Multi-core / Multi-threading<br>";
             break;
         case "Management":
             display.innerHTML = "Corporate finance<br>Economics<br>Project management<br>Innovation management<br>Entrepreneurship<br>Accounting";
             break;
         case "Others":
-            display.innerHTML = "ARM7, FPGA Programming and Verilog<br>AI, Digital signal processing<br>Mathematics, Fundamental Algorithms and Control Engineering<br>Computer Assembly";
-            break;
-        case "Languages":
-            display.innerHTML = "English<br>French<br>Spanish";
+            display.innerHTML = "ARM7, FPGA & Verilog<br>AI, Signal processing<br>Mathematics, Fundamental Algorithms & Control Engineering<br>Computer Assembly<br>English, french, spanish";
             break;
         default:
             display.innerHTML = "????????????";
