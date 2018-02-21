@@ -2,7 +2,7 @@
 
 **Tags**: EEE_MEng, CS_MSc, Entrepreneur, FullStackDev, Cryptocurrecies, Security, Cloud, Passionate
 
-![Picture of myself](../images/quentin.jpg)
+[![Picture of myself](../images/quentin.jpg)](https://quentinmcgaw.info)
 
 ## Introduction
 
@@ -23,7 +23,7 @@
 
 ## Links
 
-- [My website](???)
+- [https://quentinmcgaw.info](https://quentinmcgaw.info)
 - [My **resume**](https://docs.google.com/document/d/1gW0IHPsngqwVWQA4ERTgOxG5V7-DIBQmt1SBq5LQEzI/export?format=pdf)
 - [My NYU Simplicity profile](https://nyu-csm.symplicity.com/profiles/quentin.mcgaw)
 - [My **vizualize.me** webpage](http://vizualize.me/quentinmcgaw)
@@ -154,7 +154,10 @@
 [![New York University](../images/nyu.jpg)](https://cims.nyu.edu/)
 
 ### Courses
+
 - [Cloud computing](https://github.com/qdm12/courses/tree/master/Cloud%20computing)
+    - AWS with CloudFoundry & Bosh
+    - Ongoing project
 - [.NET Web development](https://github.com/qdm12/courses/tree/master/.NET%20Web%20development)
 - [Cryptocurrency and decentralized ledgers](https://github.com/qdm12/courses/tree/master/Cryptocurrency%20and%20decentralized%20ledgers)
     - **Bitcoin** protocol: mining, transactions, cryptography etc.
@@ -162,22 +165,25 @@
 - [Real time big data analytics](https://github.com/qdm12/courses/tree/master/Real%20time%20big%20data%20analytics)
     - Hadoop with NYU's Dumbo clusters in *Java* and *Python*
     - Hive, Impala, Spark, Pig etc.
-    - [Bitcoin Use Trends](https://github.com/qdm12/BitcoinUses) project
+    - [**Bitcoin Use Trends**](https://github.com/qdm12/BitcoinUses) project
+    
+    [![Bitcoin Use trends website](../images/bitcoinuses.png)](https://qdm12.github.io/BitcoinUses/results/)
+    
 - [Design and Development: Web and mobile apps](https://github.com/qdm12/courses/tree/master/Design%20and%20development%20of%20mobile%20and%20web%20apps)
-    - [Bill Splitter project](https://github.com/qdm12/BillSplitter)
+    - [**Bill Splitter** project](https://github.com/qdm12/BillSplitter)
+    
+    [![Bill Splitter](../images/billsplitter.png)](https://github.com/qdm12/BillSplitter)
+    
 - [Technology, design and entrepreneurship](https://github.com/qdm12/courses/tree/master/Technology%20and%20entrepreneurship)
-    - Ended up with a project I am still working on today (March 2018)
+    - Ended up with the *Coyummy* project I am still working on (March 2018)
 - DevOps
-    - Project [**here**](https://qdm12.github.io/Devops_RESTful)
+    - [Project](https://qdm12.github.io/Devops_RESTful)
     - Advanced Git, Zenhub and GitKraken :octocat:
-    - Vagrant
-    - Flask and Python
+    - Vagrant and Docker on IBM Bluemix cloud
+    - Python with Flask and a Redis database
     - Travis CI, unit testing and behave
-    - Docker
-    - Redis database
-    - IBM Bluemix PaaS
+    - RESTful API with Swagger
     - Web security
-    - Swagger
 - [Database Systems](https://github.com/qdm12/courses/tree/master/Database%20systems)
     - Microsoft Visio (ER diagram, Crow's feet notation etc.)
     - SQL databases
@@ -188,7 +194,9 @@
     - Jenkins and code coverage
     - Artificial intelligence
     - PhoneGap and monetizing the app
-    - [![Chess gif](https://github.com/qdm12/Chess_2016/tree/gh-pages/readme/chess_onlyAI.gif)](https://github.com/qdm12/Chess_2016)
+
+    [![Chess gif](https://github.com/qdm12/Chess_2016/raw/gh-pages/readme/chess_againstAI.gif)](https://github.com/qdm12/Chess_2016)
+
 - Operating System
     - C++ assignments: scheduler, linker, IO, memory management
     - Processes, threads, scheduling, concurrency, memory management, IO, file systems, Networking, cloud and distributed computing
@@ -204,14 +212,41 @@
     - Others: Huffman coding, P/N/NP, Arithmetic (Euclid, PKI etc.)
 
 ### Personal projects
-- Patat (under closed development) (in progress)
+
+- **Coyummy** - Golang/React Native project in progress (closed source)
+- Docker containers
+    - [Private Internet Access VPN](https://github.com/qdm12/private-internet-access-docker)
+    
+        [![PIA Container](https://github.com/qdm12/private-internet-access-docker/raw/master/readme/title.png)](https://github.com/qdm12/private-internet-access-docker)
+    
+    - [GoDaddy DDNS Public IP Updater](https://github.com/qdm12/godaddy-ip-ddns)
+
+        [![GoDaddy Container](https://github.com/qdm12/godaddy-ip-ddns/raw/master/readme/godaddy.png)](https://github.com/qdm12/godaddy-ip-ddns)
+
+    - [Minecraft Spigot Server](https://github.com/qdm12/spigot-docker)
+
+        [![Spigot Container](https://github.com/qdm12/spigot-docker/raw/master/readme/title.png)](https://github.com/qdm12/spigot-docker)
+
+    - [Youtube-dl Alpine container](https://github.com/qdm12/youtube-dl-docker)
+
+        [![Youtube-dl Container](https://github.com/qdm12/youtube-dl-docker/raw/master/readme/title.png)](https://github.com/qdm12/youtube-dl-docker)
+
+- [Password Derivator](https://github.com/qdm12/Password-Derivator)
+
+    [![Derivatex](../images/derivatex.png)](https://github.com/qdm12/Password-Derivator)
+
 - [My Blockchain Course](https://github.com/qdm12/blockchain-course) (in progress)
+
+    [![Blockchain course](https://github.com/qdm12/blockchain-course/raw/master/images/dependencies.png)](https://github.com/qdm12/blockchain-course)
+
 - Design of simple desktop web pages using Adobe XD for a travelling website (for a Psychological study)
     - [Male version](https://xd.adobe.com/view/844b6668-0d5c-4d92-b30f-6bcbf3ce8479/?fullscreen)
     - [Female version](https://xd.adobe.com/view/192c9261-da69-48d6-81ac-570b5e4f5e16/?fullscreen)
 - [AdsUp](https://sites.google.com/view/adsup/home)
     - Started working on it on 1st April 2017
-    - [![AdsUp gif](../gifs/adsup.gif)](https://sites.google.com/view/adsup/home)
+    
+        [![AdsUp gif](https://raw.githubusercontent.com/qdm12/PersonalWebsite/master/gifs/adsup.gif)](https://sites.google.com/view/adsup/home)
+
 - [Portfolio management](https://github.com/qdm12/Portfolio)
   - Written in Python, consists in a multi-threaded program parsing web pages, using the yahoo finance API, excel and a Flask server
 - [My computing course](https://github.com/qdm12/My-Computing-course)
