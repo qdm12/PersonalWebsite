@@ -28,7 +28,7 @@
 - [My NYU Simplicity profile](https://nyu-csm.symplicity.com/profiles/quentin.mcgaw)
 - [My **vizualize.me** webpage](http://vizualize.me/quentinmcgaw)
 
-## Expertise
+## Expertise - Full stack dev and more
 
 - Server Admin / DevOps
     - Advanced SSH (Setup, connecting, SFTP, tunneling, etc.)
@@ -259,6 +259,7 @@
 [![Imperial College London](../images/imperial.jpg)](https://www.imperial.ac.uk/study/ug/courses/electrical-engineering-department/electrical-and-electronic-engineering-management/)
 
 ### Master's thesis
+
 - [**hbc**](https://qdm12.github.io/hbc/) for Homomorphic binary circuits
 - My aim was to develop easy to use digital circuits using fully homomorphic encryption.
     - Understanding of the [HElib library](https://github.com/shaih/HElib)
@@ -271,7 +272,9 @@
 [![Homomorphic encryption presentation video](../gifs/video_homomorphic.gif)](https://youtu.be/n-adgQWZYxI)
 
 ### Final year, 2015-2016
+
 #### Courses
+
 - Network and web security
     - Javascript, HTML, SQL
     - Cryptography
@@ -302,7 +305,9 @@
     - ![syllabus preview](../gifs/finance_syllabus.gif)
 
 ### Third year, 2014-2015
+
 #### Courses
+
 - Digital signal processing
 - Advanced signal processing
     - Use of Matlab
@@ -323,7 +328,9 @@
     - Group project on the Boeing 747 project
     
 ### Second year, 2013-2014
+
 #### Courses
+
 - Algorithms and data structures
     - C, C++
     - Binary trees and so on
@@ -345,6 +352,7 @@
 - Control engineering
 
 #### Year group project: *Wasteless*
+
 - Leader of a team of 7 students
 - Goal was to develop an ecosystem to reduce the waste of expired food :meat_on_bone:
     - Push notification to the smartphone of the user about food products nearly expired :warning:
@@ -361,7 +369,9 @@
 - The final state of the group project was actually promising and we obtained surprisingly high marks :smile:
 
 ### First year, 2012-2013
+
 #### Courses
+
 - Software engineering: C & C++
 - Mathematics
 - Professional engineering
@@ -377,6 +387,7 @@
 - Signals and communication
 
 #### Year group project: *EEBug*
+
 - Leader of a team of 6 students
 - Goal was to build a toy following a black line on the floor for GBP 5.00
 - It involved
@@ -386,13 +397,16 @@
 - ![EEBug picture](../images/EEBug.jpg)
 
 ### Graduation results
+
 I have obtained my Master's degree with upper second class honours and 61.32% overall
 You can check out the certificate [here](../documents/imperial_degree.pdf)
 
 ***
 
 ## French scientific baccalaureate, 2012
+
 ### Courses
+
 - Mathematics with specialty in arithmetics
 - Physics and chemistry
 - Biology and geology
@@ -402,6 +416,7 @@ You can check out the certificate [here](../documents/imperial_degree.pdf)
 - Sports
 
 ### Articles published in a french Hardware Magazine (2008, 13 years old)
+
 ![Article 1](../images/article1.jpg)
 
 ![Article 2](../images/article2.jpg)
@@ -411,6 +426,7 @@ You can check out the certificate [here](../documents/imperial_degree.pdf)
 ## Others
 
 ### Fun facts :open_mouth:
+
 - I have a UK driving license :red_car:
 - I climbed the [Kilimanjaro](https://goo.gl/maps/Pur81wuxvzs) mountain in Tanzania at the age of 12 :mount_fuji:
 
@@ -421,14 +437,16 @@ You can check out the certificate [here](../documents/imperial_degree.pdf)
 [![Scotland hotel picture](../images/scotland.jpg)](https://goo.gl/maps/d6Waq2cGDsp)
 - All my grades are accessible in this [**formatted spreadsheet**](https://docs.google.com/spreadsheets/d/1udRYqsP2acNWp2wQk6SEaNb65T-0Gl_vL5lXWiQSeGQ/edit?usp=sharing)
 - I write some funny theories like this [**one**](../documents/fun%20theory.md)
-- I use my Raspberry Pi for an extensive range of applications, from Alexa to Bitcoin to torrenting to servers to Plex
+- My portable NAS: The Raspberrypi Pi (thanks Denisa)
 
 ![Raspberry Pi picture](../images/raspberrypi.jpg)
 
 ### My Youtube channel
+
 (in progress)
 
 ### Computer builds :computer:
+
 - See more on [Google Drive](https://drive.google.com/drive/folders/0B5UPjZHikV5gQ3pyTVR2M3RMaUk?usp=sharing)
 
 - May 2017 - now: i5 6500, 16GB DDR4, GTX 1080
