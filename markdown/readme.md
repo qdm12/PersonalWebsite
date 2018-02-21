@@ -1,48 +1,118 @@
 # Quentin McGaw
-### MEng in EEE from London, MSc in CS from NYC, entrepreneur, crypto enthusiast, Ethereum/Bitcoin
+
+**Tags**: EEE_MEng, CS_MSc, Entrepreneur, FullStackDev, Cryptocurrecies, Security, Cloud, Passionate
 
 ![Picture of myself](../images/quentin.jpg)
 
 ## Introduction
-- Currently doing a [**Master** of **Computer science** at New York University](https://cs.nyu.edu/home/master/prospective_mscs.html).
-- Graduating in May 2018.
+
+- Graduating in May 2018 in a [**Master** of **Computer science** at New York University](https://cs.nyu.edu/home/master/prospective_mscs.html).
 - Graduated from my [**Master** in **Electrical and electronic engineering with 
   management** from Imperial College London](https://www.imperial.ac.uk/study/ug/courses/electrical-engineering-department/electrical-and-electronic-engineering-management/) 
   in June 2016 with upper second class honours.
-- I am 22 years old
-- Expertise in:
-    - Cryptography and web security
-    - Bitcoin protocol, Ethereum (in progress)
-    - DevOps
-    - Golang, Python, C++, Java
-    - Web languages: Javascript, HTML, NodeJS, CSS, PHP
-    - Unit testing
-    - Big Data with Hadoop
-    - Parallel computing with GPUs and openCL
-    - Economy, corporate finance, accounting
-    - Development of mobile applications on Android
-    - Design with Adobe XD, Gimp and InVision
-    - Project management, entrepreneurship, innovation management
-- Other knowledge in:
-    - FPGAs design
-    - Artificial intelligence
-    - Digital Signal processing
-    - Fundamental algorithms
-    - Mathematics, Control engineering
-- French and Mauritian, and lived:
-    - 1.5 year in New York City, US
-    - 4 years in London, UK
-    - 7 years in Nice, France
-    - 1 year in Villars-sur-Ollons, Switzerland
-    - 11 years in Luxembourg
+- Full stack developer
+- 6 years of [studies](#Education) + 1 year of [work experience](#Work%20Experience)
 - Fluent in English :gb:, français :fr: y un poco de español :es:
-- I also like [Quora](https://www.quora.com/profile/Quentin-McGaw), trading, 
-  my [Raspberry Pi](https://github.com/qdm12/RaspberryPi), the gym, skiing, cycling, 
-  [Ebay](http://feedback.ebay.ie/ws/eBayISAPI.dll?ViewFeedback2&userid=dowi9876&ftab=FeedbackAsSeller&searchInterval=30), Audiobooks, 
-  Reddit, and [assembling desktops](#Computers%20I%20assembled) from time to time.
+- French and Mauritian, and lived:
+    - 2016-2018 New York City, US
+    - 2012-2016 in London, UK
+    - 2006-2012 in Nice, France
+    - 2005-2006 in Villars-sur-Ollons, Switzerland
+    - 1995-2006 in Luxembourg
+- 22 years old
+
+## Links
+
+- [My website](???)
+- [My **resume**](https://docs.google.com/document/d/1gW0IHPsngqwVWQA4ERTgOxG5V7-DIBQmt1SBq5LQEzI/export?format=pdf)
 - [My NYU Simplicity profile](https://nyu-csm.symplicity.com/profiles/quentin.mcgaw)
 - [My **vizualize.me** webpage](http://vizualize.me/quentinmcgaw)
-- [My **resume**](https://docs.google.com/document/d/1gW0IHPsngqwVWQA4ERTgOxG5V7-DIBQmt1SBq5LQEzI/export?format=pdf)
+
+## Expertise
+
+- Server Admin / DevOps
+    - Advanced SSH (Setup, connecting, SFTP, tunneling, etc.)
+    - Advanced Shell & Bash scripting
+    - Users and groups management and permissions
+    - Basics of Apache, Nginx and Caddy
+    - Advanced use of Debian, Ubuntu, DSM, CentOS
+    - Advanced use of Docker and Vagrant
+    - Advanced use of Git, Gitea, Gitlab, GitKraken, Zenhub
+    - Travis CI
+- Cloud
+    - Advanced use of AWS
+    - Basic of Google Cloud
+    - Basic of IBM Bluemix
+    - Basic of CloudFoundry + Bosh on AWS
+- Backend
+    - Advanced Golang
+    - Advanced NodeJS
+    - Advanced Python
+    - Advanced Java
+    - Advanced RESTful API design and Swagger
+    - Unit testing
+    - Basics of Redis
+    - Basics of .NET
+    - Basics of PHP
+    - Basics of C++
+    - Basics of Ethereum Solidity
+    - Basics of openCL parallel computing
+- Database
+    - MySQL, MariaDB
+    - Firebase
+    - Big data with Hadoop, Hive, Impala, Spark etc.
+- Front end
+    - Advanced React Native with NodeJS, Babel
+    - Advanced HTML, CSS, Javascript
+    - Basics of PhoneGap, Cordova
+    - Basics of Typescript
+    - Basics of .NET
+- Design
+    - Adobe XD, inVision
+    - Gimp, Photofiltre
+    - Ngrok prototyping
+- Security
+    - Advanced cryptography
+    - Advanced web security
+    - Bitcoin protocol
+- Hardware
+    - FPGA design
+    - Digital electronics
+    - Digital signal processing
+    - Power engineering
+    - NFC technology
+    - Android OS (C, C++, Java)
+- Algorithms
+    - Advanced cryptography
+    - Fundamental algorithms
+    - Basics of Artificial intelligence
+    - Mathematics, Control engineering
+- Managerial and society
+    - Corporate finance
+    - Economics
+    - Accounting (UK only)
+    - Project management
+    - Entrepreneurship and startups
+    - Innovation management
+
+## Hobbies
+
+- Sports: Cycling, gym, skiing, running
+- Social networks: [Quora](https://www.quora.com/profile/Quentin-McGaw), [Reddit](https://www.reddit.com/user/dowitex)
+- Home Tech
+    - Synology DS918+ NAS
+        - SSH with everything running on [Docker](https://www.docker.com/): 
+            - Networking: [Caddy](https://caddyserver.com/), [Nginx](https://www.nginx.com/), [OpenVPN Server](https://hub.docker.com/r/kylemanna/openvpn/), [GoDaddy](https://hub.docker.com/r/qmcgaw/godaddy-ip-ddns), [PIA VPN](https://github.com/qdm12/private-internet-access-docker) and [DuckDNS](https://hub.docker.com/r/linuxserver/duckdns/)
+            - Work: [Gitea](https://github.com/go-gitea/gitea)
+            - Public drag-n-drop: [Linx](https://github.com/andreimarcu/linx-server), [psitransfer](https://github.com/psi-4ward/psitransfer)
+            - Media: [Plex](https://hub.docker.com/r/plexinc/pms-docker/), [Ombi](https://hub.docker.com/r/linuxserver/ombi) and [youtube-dl](https://hub.docker.com/r/qmcgaw/youtube-dl-alpine/)
+            - P2P: [Syncthing](https://hub.docker.com/r/linuxserver/syncthing/), [Deluge](https://hub.docker.com/r/linuxserver/deluge), [Resilio Sync](https://hub.docker.com/r/linuxserver/resilio-sync/)
+            - Games: [COD4x](https://github.com/qdm12/cod4-docker) and [Minecraft Spigot](https://hub.docker.com/r/qmcgaw/spigot/) servers
+    - [Raspberry Pi 3B](https://github.com/qdm12/RaspberryPi) as my *portable* NAS
+    - GliNet AR300 as my *airport* NAS
+    - [Assembling desktops](#Computers%20I%20assembled)
+- Other: Cryptocurrencies, [Ebay](http://feedback.ebay.ie/ws/eBayISAPI.dll?ViewFeedback2&userid=dowi9876&ftab=FeedbackAsSeller), Audiobooks
+- Games: Planet Side 2, Minecraft, Call of Duty 4
 
 ***
 
@@ -84,16 +154,19 @@
 [![New York University](../images/nyu.jpg)](https://cims.nyu.edu/)
 
 ### Courses
+- [Cloud computing](https://github.com/qdm12/courses/tree/master/Cloud%20computing)
+- [.NET Web development](https://github.com/qdm12/courses/tree/master/.NET%20Web%20development)
 - [Cryptocurrency and decentralized ledgers](https://github.com/qdm12/courses/tree/master/Cryptocurrency%20and%20decentralized%20ledgers)
     - **Bitcoin** protocol: mining, transactions, cryptography etc.
     - **Ethereum**: Solidity-written smart contracts
 - [Real time big data analytics](https://github.com/qdm12/courses/tree/master/Real%20time%20big%20data%20analytics)
     - Hadoop with NYU's Dumbo clusters in *Java* and *Python*
-    - Map-Reduce (in progress)
-- Design and Development: Web and mobile apps
-    - Dreamweaver (in progress)
+    - Hive, Impala, Spark, Pig etc.
+    - [Bitcoin Use Trends](https://github.com/qdm12/BitcoinUses) project
+- [Design and Development: Web and mobile apps](https://github.com/qdm12/courses/tree/master/Design%20and%20development%20of%20mobile%20and%20web%20apps)
+    - [Bill Splitter project](https://github.com/qdm12/BillSplitter)
 - [Technology, design and entrepreneurship](https://github.com/qdm12/courses/tree/master/Technology%20and%20entrepreneurship)
-    - Ended up with a project I am still working on today (Oct 2017)
+    - Ended up with a project I am still working on today (March 2018)
 - DevOps
     - Project [**here**](https://qdm12.github.io/Devops_RESTful)
     - Advanced Git, Zenhub and GitKraken :octocat:
