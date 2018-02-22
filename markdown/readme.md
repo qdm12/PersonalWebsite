@@ -30,20 +30,12 @@
 
 ## Expertise - Full stack dev and more
 
-- Server Admin / DevOps
-    - Advanced SSH (Setup, connecting, SFTP, tunneling, etc.)
-    - Advanced Shell & Bash scripting
-    - Users and groups management and permissions
-    - Basics of Apache, Nginx and Caddy
-    - Advanced use of Debian, Ubuntu, DSM, CentOS
-    - Advanced use of Docker and Vagrant
-    - Advanced use of Git, Gitea, Gitlab, GitKraken, Zenhub
-    - Travis CI
-- Cloud
-    - Advanced use of AWS
-    - Basic of Google Cloud
-    - Basic of IBM Bluemix
-    - Basic of CloudFoundry + Bosh on AWS
+Here is a sum up diagram of my skills with icons of corresponding software I am used to.
+
+![Skills diagram](../images/skills.png)
+
+And I am the swiss knife, also known as full stack developer !
+
 - Backend
     - Advanced Golang
     - Advanced NodeJS
@@ -51,7 +43,6 @@
     - Advanced Java
     - Advanced RESTful API design and Swagger
     - Unit testing
-    - Basics of Redis
     - Basics of .NET
     - Basics of PHP
     - Basics of C++
@@ -59,22 +50,41 @@
     - Basics of openCL parallel computing
 - Database
     - MySQL, MariaDB
-    - Firebase
-    - Big data with Hadoop, Hive, Impala, Spark etc.
+    - Basics of Redis
+    - Big data analytics with Hadoop, Hive, Impala, Spark etc.
 - Front end
     - Advanced React Native with NodeJS, Babel
     - Advanced HTML, CSS, Javascript
     - Basics of PhoneGap, Cordova
-    - Basics of Typescript
     - Basics of .NET
 - Design
-    - Adobe XD, inVision
+    - Adobe XD
+    - inVision
     - Gimp, Photofiltre
-    - Ngrok prototyping
 - Security
     - Advanced cryptography
     - Advanced web security
-    - Bitcoin protocol
+    - Bitcoin protocol, Ethereum Solidity
+- Server Admin
+    - Advanced SSH (Setup, connecting, SFTP, tunneling, etc.)
+    - Advanced Shell & Bash scripting
+    - Users and groups management and permissions
+    - Basics of Apache, Nginx and Caddy
+    - Advanced use of Debian, Ubuntu, DSM, CentOS
+- DevOps
+    - Advanced use of Docker and Vagrant
+    - Advanced use of Git, Gitea, Gitlab, GitKraken, Zenhub
+    - Travis CI, Coveralls, Jenkins
+- Cloud
+    - Advanced use of AWS
+    - Basics of Google Cloud
+    - Basics of IBM Bluemix
+    - Basics of CloudFoundry + Bosh on AWS
+- Algorithms
+    - Advanced cryptography
+    - Fundamental algorithms
+    - Basics of Artificial intelligence
+    - Mathematics, Control engineering
 - Hardware
     - FPGA design
     - Digital electronics
@@ -82,11 +92,6 @@
     - Power engineering
     - NFC technology
     - Android OS (C, C++, Java)
-- Algorithms
-    - Advanced cryptography
-    - Fundamental algorithms
-    - Basics of Artificial intelligence
-    - Mathematics, Control engineering
 - Managerial and society
     - Corporate finance
     - Economics
