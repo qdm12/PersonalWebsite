@@ -1,25 +1,24 @@
 # PersonalWebsite
 
 ## HTML Webpage
-My HTML-based main personal website is accessible at [https://qdm12.github.io/PersonalWebsite](https://qdm12.github.io/PersonalWebsite)
 
-[![Desktop website](images/website_desktop.jpg)](https://qdm12.github.io/PersonalWebsite)
+My HTML-based main personal website is accessible at [https://quentinmcgaw.info](https://quentinmcgaw.info) and is directly updated via Docker + WatchTower (see [Dockerfile](Dockerfile))
 
-It uses:
+[![Desktop website](images/website.jpg)](https://quentinmcgaw.info)
+
+It's made from scratch but uses the following libraries:
 - [3D tag cloud](http://www.jqueryscript.net/text/3D-Interactive-SVG-Tag-Cloud-Plugin-With-jQuery-SVG-3D-Tag-Cloud.html)
 - [Font Awesome](http://fontawesome.io/examples/) for icons such as the ones on the static left toolbar
 - The [Particles.js](https://github.com/VincentGarreau/particles.js/) library to create the interconnecting particles background
 - The [StoryMap](https://storymap.knightlab.com/)
 - The [TimeLine](https://timeline.knightlab.com/)
 - The [Three.js](https://threejs.org/) 3D library for the fog background
-- The rest is coded from scratch
 
 What has to be done:
 - Make it compatible will IExplorer and Safari (untested)
 - Do better mobile version
 - Replace tag cloud with [http://blog.niklasknaack.de/2017/09/svg-3d-tag-cloud-jquery-plugin-v2.html](http://blog.niklasknaack.de/2017/09/svg-3d-tag-cloud-jquery-plugin-v2.html)
 - Finish up the projects section
-- Put it on duckdns.org and maybe setup a p2p backup
 - Add an iframe of Quora or a sort of live feed (**IMPOSSIBLE**)
 - Replace warp drive and tag cloud with less *hungry* fancy backgrounds for the desktop version, with [http://particle-love.com/](http://particle-love.com/)
 - Check these links:
@@ -47,15 +46,17 @@ What has to be done:
    - http://createjs.com
    - http://julian.com/research/velocity
    - https://greensock.com/docs/#/HTML5/GSAP/TweenLite
-   - https://jquery.com
    - http://www.jqueryscript.net/tags.php?/Notification
    - http://www.jqueryscript.net/tags.php?/parallax/
 
 ## Markdown webpage
-My Markdown-based personal website is accessible at [https://github.com/qdm12/PersonalWebsite/blob/master/markdown/readme.md](https://github.com/qdm12/PersonalWebsite/blob/master/markdown/readme.md)
 
-[![Markdown website](images/website_markdown.jpg)](https://github.com/qdm12/PersonalWebsite/blob/master/markdown/readme.md)
+My Markdown-based personal website is accessible:
+- On Github at [https://github.com/qdm12/personal.md/blob/master/readme.md](https://github.com/qdm12/personal.md/blob/master/readme.md])
+- On my server at [https://quentinmcgaw.info/markdown](https://quentinmcgaw.info/markdown)
 
-- This is a simpler yet more complete presentation of myself
-- It contains low resolution pictures and all the links you would need to see what I've done so far
+[![Markdown website](images/website_markdown.jpg)](https://quentinmcgaw.info/markdown)
+
+- Simpler but more complete presentation of myself
+- It contains low resolution pictures, gifs and links about my work, projects and hobbies.
 - It also works very well on mobile devices
