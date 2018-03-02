@@ -1,43 +1,36 @@
-console.log('startup_late.js: Started.');
-
-function moreDetailsOnSkill(skillboxID) {
-    var display = document.getElementById(skillboxID);
-    display.innerHTML = "";
-    switch (skillboxID){
-        case "Crypto":
-            display.innerHTML = "Bitcoin, Ethereum (Solidity)<br>Cryptography<br>Homomorphic encryption thesis<br>Network and web security<br>Kali Linux";
-            break;
-        case "Backend":
-            display.innerHTML = "Golang<br>NodeJS<br>Python 2 & 3<br>Java & Scala<br>C++ and C"
-            break;
-        case "Frontend":
-            display.innerHTML = "Javascript, CSS, HTML and Cordova/PhoneGap<br>Android SDK<br>Kivy (Python)"
-            break;
-        case "Devops":
-            display.innerHTML = "Github, Zenhub, GitKraken & BitBucket<br>Vagrant and Virtual Box<br>Docker and IBM Bluemix<br>Travis CI and unit testing<br>Swagger and RESTful APIs";
-            break;
-        case "Databases":
-            display.innerHTML = "MySQL & SQlite<br>Redis<br>Hadoop (Java, Python)<br>Impala, Hive, Spark ...<br>Cloudera Quickstart VMs and clusters";
-            break;
-        case "Design":
-            display.innerHTML = "Adobe XD<br>inVision<br>Gimp<br>Patience and a decent taste";
-            break;
-        case "HPC":
-            display.innerHTML = "GPUs with openCL (C++)<br>Multi-core / Multi-threading<br>";
-            break;
-        case "Management":
-            display.innerHTML = "Corporate finance<br>Economics<br>Project management<br>Innovation management<br>Entrepreneurship<br>Accounting";
-            break;
-        case "Others":
-            display.innerHTML = "ARM7, FPGA & Verilog<br>AI, Signal processing<br>Mathematics, Fundamental Algorithms & Control Engineering<br>Computer Assembly<br>English, french, spanish";
-            break;
-        default:
-            display.innerHTML = "????????????";
+$(".skillbox").mouseover(function() {
+    switch (this.id) {
+    case "Crypto":
+        this.innerHTML = "Bitcoin, Ethereum, Cardano<br>Network and web security<br>Cryptography<br>Homomorphic encryption thesis<br>Kali Linux";
+        break;
+    case "Backend":
+        this.innerHTML = "Python, Golang, NodeJS<br>.NET, Java, Scala<br>RESTful, GraphQL<br>C++, C<br>GPUs with openCL";
+        break;
+    case "Frontend":
+        this.innerHTML = "HTML-5, CSS, JS<br>React Native, Android SDK<br>Cordova, PhoneGap<br>.NET, Kivy (Python)"
+        break;
+    case "Devops and Cloud":
+        this.innerHTML = "Docker, Vagrant and VirtualBox<br>Git, Github, Gitea and Gitlab<br>Zenhub, GitKraken, Swagger<br>Travis CI and unit testing<br>Google Cloud, AWS, Bluemix";
+        break;
+    case "Database and analytics":
+        this.innerHTML = "MySQL, SQlite<br>Redis<br>Hadoop and Map Reduce (Java, Python)<br>Impala, Hive, Spark";
+        break;
+    case "Design":
+        this.innerHTML = "Adobe XD, inVision<br>Gimp, Photofiltre<br>Patience and a decent taste";
+        break;
+    case "Server admin":
+        this.innerHTML = "SSH, Shell, Bash scripting<br>Users and groups management<br>Apache, Nginx, Caddy<br>Ubuntu, Debian, CentOS, DSM";
+        break;
+    case "Management":
+        this.innerHTML = "Corporate finance<br>Economics<br>Entrepreneurship and startups<br>Project management<br>Innovation management<br>Accounting";
+        break;
+    case "Others":
+        this.innerHTML = "English, French, Spanish<br>ARM7, FPGA & Verilog<br>AI, Signal processing<br>Power engineering, Control Engineering<br>Computer architecture<br>Android OS, NFC";
+        break;
+    default:
+        this.innerHTML = "????????????";
     }
-}
-function restoreSkillBox(skillboxID) {
-    var display = document.getElementById(skillboxID);
-    display.innerHTML = "";
-    display.innerHTML = skillboxID;
-}
-console.log('startup_late.js: Ended.');
+});
+$(".skillbox").mouseleave(function(){
+    this.innerHTML = this.id;
+});

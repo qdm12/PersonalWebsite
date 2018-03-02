@@ -1,10 +1,12 @@
 var isMobile = false;
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){isMobile = true;}
+if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    isMobile = true;
+}
 
 function smooth_scrolling() {
-    $('a').click(function(){
+    $('a').click(function () {
         $('html, body').animate({
-            scrollTop: $( $(this).attr('href') ).offset().top
+            scrollTop: $($(this).attr('href')).offset().top
         }, 500);
         return false;
     });
@@ -14,16 +16,15 @@ function banner_opacity() {
     var banner_opacity_mouseover = 0.93;
     var banner_opacity_mouseout = 0.66;
     var banner = $('#banner_top');
-    banner.mouseover(function(){
+    banner.mouseover(function () {
         banner.css("opacity", banner_opacity_mouseover);
     });
-    banner.mouseout(function(){
+    banner.mouseout(function () {
         banner.css("opacity", banner_opacity_mouseout);
     });
-    var b_pos = banner.offset().top;
     $(window).scroll(function (){
         var y = $(this).scrollTop();
-        if(y == 0){
+        if (y === 0) {
             banner_opacity_mouseover = 0.93;
             banner_opacity_mouseout = 0.66;
         } else {
@@ -31,18 +32,18 @@ function banner_opacity() {
             banner_opacity_mouseout = 0.5;
         }
         banner.stop().animate({
-                        'opacity':banner_opacity_mouseout                
-                        },400);
+            'opacity': banner_opacity_mouseout
+        }, 400);
     });
 }
 
-window.onload = function(){ /* executes first */
+window.onload = function () { /* executes first */
     smooth_scrolling();
 };
 
 $(document).ready( function() { /* executes secondly */
     banner_opacity();
-    if(!isMobile){
+    if (!isMobile) {
         $.getScript(
             'javascript/startup_desktop.js',
             function() {
@@ -53,8 +54,4 @@ $(document).ready( function() { /* executes secondly */
     }
 });
 
-
-
-
-
-$(window).resize(function() {});
+// $(window).resize(function() {});
