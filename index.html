@@ -2,22 +2,24 @@
 <!--Load Javascript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
 <script src="javascript/startup.js" type="text/javascript"></script>
-<script src="javascript/tagcloud.js" type="text/javascript" async></script>
+<script src="javascript/tagcloud.js" type="text/javascript"></script>
 <script src="javascript/startup_late.js" type="text/javascript" async></script>
-<script src="javascript/particles.js" type="text/javascript" async></script>
-<!--<script src="javascript/clouds.js" type="text/javascript" async></script>-->
 <!--Load styles -->
 <link rel="stylesheet" type="text/css" href="style_page.css">
 <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 
 <title>Quentin McGaw</title>
 
+<div id="load-screen">
+    <div class="spinner" style="z-index:3;"></div>
+</div>
+
 <div id="banner_top" class="banner_top">
     <a class="banner_top_button" href="#Home">Home</a>
-    <a class="banner_top_button" href="#Timeline">Timeline</a>
     <a class="banner_top_button" href="#Skills">Skills</a>
-    <a class="banner_top_button" href="#Map">Map</a>
     <a class="banner_top_button" href="#Projects">Projects</a>
+    <a class="banner_top_button" href="#Timeline">Timeline</a>
+    <a class="banner_top_button" href="#Map">Map</a>
     <a class="banner_top_button" href="#Courses">Courses</a>
     <a class="banner_top_button" href="#OthersSection">Others</a>
 </div>
@@ -48,7 +50,65 @@
         <a id="center_name" class="center_name" href="#Timeline">Quentin McGaw</a>
         </br></br>
         <a id="center_download" class="center_download" href="https://docs.google.com/document/d/1gW0IHPsngqwVWQA4ERTgOxG5V7-DIBQmt1SBq5LQEzI/export?format=pdf">Download resume</a>
-        <div id="tag-cloud"></div>
+    </div>
+    <div id="tag-cloud"></div>
+</section>
+
+<section id="Skills">
+    <div class="fullcontainer">
+        <div id="particles"></div>
+        <div class="skillbox" style="top:6.25%;left:4%;" id="Crypto">
+            Crypto
+        </div>
+        <div class="skillbox" style="top:6.25%;left:36%;" id="Backend">
+            Backend
+        </div>
+        <div class="skillbox" style="top:6.25%;right:4%;" id="Frontend">
+            Frontend
+        </div>
+        <div class="skillbox" style="top:37.5%;left:4%;" id="Devops and Cloud">
+            Devops and Cloud
+        </div>
+        <div class="skillbox" style="top:37.5%;left:36%;" id="Database and analytics">
+            Database and analytics
+        </div>
+        <div class="skillbox" style="top:37.5%;right:4%;" id="Design">
+            Design
+        </div>
+        <div class="skillbox" style="bottom:6.25%;left:4%;" id="Server admin">
+            Server admin
+        </div>
+        <div class="skillbox" style="bottom:6.25%;left:36%;" id="Management">
+            Management
+        </div>
+        <div class="skillbox" style="bottom:6.25%;right:4%;" id="Others">
+            Others
+        </div>
+    </div>
+</section>
+
+<section id="Projects">
+    <div class="fullcontainer">
+        <div id="cloudsDiv" class="backgroundContainer">
+        <iframe id="github_iframe" seamless="seamless" src="https://colmdoyle.github.io/gh-activity/gh-activity.html?user=qdm12&type=user" scrolling="no" class="githubiframe"></iframe>
+        <iframe id="hbc_iframe" src="https://qdm12.github.io/hbc" class="projectboxiframe" style="top:33%;" frameborder="0"></iframe>
+        <iframe id="devops_iframe" src="https://qdm12.github.io/Devops_RESTful" class="projectboxiframe" style="top:56%;" frameborder="0"></iframe>
+        
+        
+        <a target="_blank" href="https://sites.google.com/view/adsup">
+            <img src="gifs/adsup.gif" alt="AdsUp" class="projectboxgif" style="top:8%;left:38%;width:15%;max-height:50%;">
+        </a>
+        <a target="_blank" href="https://xd.adobe.com/view/7ba78938-7cf4-4cfb-b4e7-10c7618318ca">
+            <img src="gifs/redio.gif" alt="Redio" class="projectboxgif" style="top:8%;left:56%;width:17%;max-height:70%;">
+        </a>
+        <a target="_blank" href="https://github.com/qdm12/Chess_2016">
+            <img src="https://github.com/qdm12/Chess_2016/blob/gh-pages/readme/chess_onlyAI.gif?raw=true" alt="Chess" class="projectboxgif" style="top:8%;left:76%;width:20%;max-height:60%;">
+        </a>
+        <a target="_blank" href="https://github.com/qdm12/PersonalWebsite/tree/master/markdown#personal-projects">
+            <div class="projectbox" style="bottom:2%;left:5%;" >See more projects</div>
+        </a>
+        <img src="gifs/construction.gif" alt="Website part in construction now" style="position:absolute;top:70%;right:8%;z-index:1;width:8%;">
+        </div>
     </div>
 </section>
 
@@ -56,72 +116,20 @@
 <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1f_ADXFCpJjYytuUsX83w0oCaR8dQQGle75HjOfIJd0o&font=Default&lang=en&initial_zoom=2&height=100%' width='100%' height='100%' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
 </section>
 
-<section id="Skills">
-<div class="fullcontainer">
-    <div id="particles"></div>
-    <div class="skillbox" style="top:6.25%;left:4%;" id="Crypto">
-        Crypto
-    </div>
-    <div class="skillbox" style="top:6.25%;left:36%;" id="Backend">
-        Backend
-    </div>
-    <div class="skillbox" style="top:6.25%;right:4%;" id="Frontend">
-        Frontend
-    </div>
-    <div class="skillbox" style="top:37.5%;left:4%;" id="Devops and Cloud">
-        Devops and Cloud
-    </div>
-    <div class="skillbox" style="top:37.5%;left:36%;" id="Database and analytics">
-        Database and analytics
-    </div>
-    <div class="skillbox" style="top:37.5%;right:4%;" id="Design">
-        Design
-    </div>
-    <div class="skillbox" style="bottom:6.25%;left:4%;" id="Server admin">
-        Server admin
-    </div>
-    <div class="skillbox" style="bottom:6.25%;left:36%;" id="Management">
-        Management
-    </div>
-    <div class="skillbox" style="bottom:6.25%;right:4%;" id="Others">
-        Others
-    </div>
-</div>
-</section>
-
 <section id="Map">
 <iframe src="https://uploads.knightlab.com/storymapjs/15b5da5fad48f5ef4762e2dd8deeefa5/life/index.html" frameborder="0" width="100%" height="100%"></iframe>
 </section>
 
-<section id="Projects">
-<div class="fullcontainer">
-    <div id="cloudsDiv" class="backgroundContainer">
-    <iframe id="github_iframe" seamless="seamless" src="https://colmdoyle.github.io/gh-activity/gh-activity.html?user=qdm12&type=user" scrolling="no" class="githubiframe"></iframe>
-    <iframe id="hbc_iframe" src="https://qdm12.github.io/hbc" class="projectboxiframe" style="top:33%;" frameborder="0"></iframe>
-    <iframe id="devops_iframe" src="https://qdm12.github.io/Devops_RESTful" class="projectboxiframe" style="top:56%;" frameborder="0"></iframe>
-    
-    
-    <a target="_blank" href="https://sites.google.com/view/adsup">
-        <img src="gifs/adsup.gif" alt="AdsUp" class="projectboxgif" style="top:8%;left:38%;width:15%;max-height:50%;">
-    </a>
-    <a target="_blank" href="https://xd.adobe.com/view/7ba78938-7cf4-4cfb-b4e7-10c7618318ca">
-        <img src="gifs/redio.gif" alt="Redio" class="projectboxgif" style="top:8%;left:56%;width:17%;max-height:70%;">
-    </a>
-    <a target="_blank" href="https://github.com/qdm12/Chess_2016">
-        <img src="https://github.com/qdm12/Chess_2016/blob/gh-pages/readme/chess_onlyAI.gif?raw=true" alt="Chess" class="projectboxgif" style="top:8%;left:76%;width:20%;max-height:60%;">
-    </a>
-    <a target="_blank" href="https://github.com/qdm12/PersonalWebsite/tree/master/markdown#personal-projects">
-        <div class="projectbox" style="bottom:2%;left:5%;" >See more projects</div>
-    </a>
-    <img src="gifs/construction.gif" alt="Website part in construction now" style="position:absolute;top:70%;right:8%;z-index:1;width:8%;">
-    </div>
-</div>
-</section>
+
 
 
 <section id="Courses">
 <div class="fullcontainer">
     <div style="position:absolute; width:25%; top:8%; left: 6%;">
+        <ul title="Spring 2018, NYU">
+            <li><a target="_blank" href="https://github.com/qdm12/courses/tree/master/Cloud%20computing">Cloud computing</a></li>
+            <li><a target="_blank" href="https://github.com/qdm12/courses/tree/master/.NET%20Web%20development">.NET Web development</a></li>
+        </ul>
         <ul title="Fall 2017, NYU">
             <li><a target="_blank" href="https://github.com/qdm12/courses/tree/master/Design%20and%20development%20of%20mobile%20and%20web%20apps">Design and Development: Web and mobile apps</a></li>
             <li><a target="_blank" href="https://github.com/qdm12/courses/tree/master/Cryptocurrency%20and%20decentralized%20ledgers">Cryptocurrency and decentralized ledgers</a></li>

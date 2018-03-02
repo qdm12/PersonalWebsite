@@ -1,3 +1,8 @@
+var isMobile = false;
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    isMobile = true;
+}
+
 $(".skillbox").mouseover(function() {
     switch (this.id) {
     case "Crypto":
@@ -34,3 +39,14 @@ $(".skillbox").mouseover(function() {
 $(".skillbox").mouseleave(function(){
     this.innerHTML = this.id;
 });
+
+$.getScript(
+    'javascript/particles.min.js',
+    function() {
+        if (isMobile) {
+            particlesJS.load('particles', 'config/particles_mobile.json');
+        } else {
+            particlesJS.load('particles', 'config/particles.json');
+        }
+    }
+);
