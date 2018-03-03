@@ -40,6 +40,13 @@ $(".skillbox").mouseleave(function () {
     this.innerHTML = this.id;
 });
 
+// GitHubActivity.feed({
+//     username: "qdm12",
+//     // repository: "hbc",
+//     selector: "#github-feed",
+//     limit: 20 // optional
+// });
+
 $.getScript(
     'javascript/particles.min.js',
     function() {

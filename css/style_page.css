@@ -5,6 +5,8 @@ body {
     margin: 0%;
 }
 
+
+/* Loading screen */
 #load-screen {
     width: 100%;
     height: 100%;
@@ -13,226 +15,206 @@ body {
     z-index: 3;
     opacity: 0.9;
 }
-#load-screen > #spinner {
-    position: absolute;
-    content: "";
-    animation: spin 1.5s linear infinite;
-    border-style: solid;
-    border-radius: 50%;
-    border-color: #f55 transparent rgb(170, 170, 170) transparent;
-}
+
 @keyframes spin {
     to {
         transform: rotate(1turn);
     }
 }
 
-/* Top banner style */
-.banner_top {
-    position:fixed; /*so that it follows when you scroll*/
-    top:0%;
-    width:100%;
-    font-size:2.2vmax;
-    padding:1.8vmin;
-    background-color:black;
-    z-index:2; /*on top of other layers*/
-    transition:all 0.4s;
-    -webkit-transition:all 0.4s;
-    -moz-transition:all 0.4s;
-    -o-transition:all 0.4s;
-    -ms-transition:all 0.4s;
-    /*opacity is in functions.js*/
-}
-.banner_top_button{
-    margin-right:2%;
-    color:white;
-    text-decoration:none; /*No links decoration*/
-}
-.banner_top_button:hover {
-    transition:all 0.8s;
-    -webkit-transition:all 0.8s;
-    -moz-transition:all 0.8s;
-    -o-transition:all 0.8s;
-    -ms-transition:all 0.8s;
-    background-color:gray;
-    color:black;
+#load-screen > #spinner {
+    position: absolute;
+    content: "";
+    animation: spin 1.5s linear infinite;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: rgb(110, 85, 255) transparent rgb(238, 171, 95) transparent;
 }
 
-/* Left buttons style */
+
+/* Top banner with buttons */
+#banner_top {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    font-size: 2.2vmax;
+    padding: 1.8vmin;
+    background-color: black;
+    z-index: 2;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    /* opacity is in functions.js */
+}
+
+.banner_top_button {
+    margin-right: 2%;
+    color: white;
+    text-decoration: none; /*No links decoration*/
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+}
+
+.banner_top_button:hover {
+    background-color: gray;
+    color: black;
+}
+
+
+/* Left fixed buttons */
+.left_button{
+    position: fixed;
+    z-index: 2;
+    margin-left: 1%;
+    font-size: 6vmin;
+    top: 10%; /* defined in-line style in HTML */
+}
 @keyframes bounce {
     0%, 20%, 60%, 100% {
         transform: translateY(0);
     }
     40% {
-        transform: translateY(-15px);
+        transform: translateY(-25%);
     }
     80% {
-        transform: translateY(-7px);
+        transform: translateY(-8%);
     }
-}
-.left_button{
-    position:fixed; /*so that it follows when you scroll*/
-    top:10%; /*to change for vertical positioning*/
-    z-index:2; /*on top of other layers*/
-    width:auto;
-    margin-left:0.5%;
-    font-size:2.75vh;
-    color:black;
-    text-decoration:none; /*No links decoration*/
 }
 .left_button:hover{
     animation: bounce 0.7s;
 }
-.fa-envelope{
-    color:black;
-    opacity:0.6;
-    transition:all 0.8s;
-    -webkit-transition:all 0.8s;
-    -moz-transition:all 0.8s;
-    -o-transition:all 0.8s;
-    -ms-transition:all 0.8s;
+
+.fa {
+    color: black;
+    opacity: 0.6;
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
 }
+
+.fa:hover {
+    opacity: 1;
+}
+
 .fa-envelope:hover{
-    color:gold;
-    opacity:1;
+    color: gold;
 }
-.fa-linkedin{
-    color:black;
-    opacity:0.6;
-    transition:all 0.8s;
-    -webkit-transition:all 0.8s;
-    -moz-transition:all 0.8s;
-    -o-transition:all 0.8s;
-    -ms-transition:all 0.8s;
-}
+
 .fa-linkedin:hover{
-    color:#2777B4;
-    opacity:1;
+    color: #2777B4;
 }
-.fa-phone{
-    color:#F6285E;
-    opacity:0.6;
-    transition:all 0.8s;
-    -webkit-transition:all 0.8s;
-    -moz-transition:all 0.8s;
-    -o-transition:all 0.8s;
-    -ms-transition:all 0.8s;
-}
+
 .fa-phone:hover{
-    color:#56CD90;
-    opacity:1;
+    color: #56CD90;
 }
-.fa-github{
-    color:black;
-    opacity:0.6;
-    transition:all 0.8s;
-    -webkit-transition:all 0.8s;
-    -moz-transition:all 0.8s;
-    -o-transition:all 0.8s;
-    -ms-transition:all 0.8s;
-}
+
 .fa-github:hover{
-    color:orange;
-    opacity:1;
+    color: greenyellow;
 }
 
-/*Overwrites what a section size is (full screen)*/
+
+/* Sections */
 section {
-    height:100%;
-    width:100%;
+    height: 100%;
+    width: 100%;
+    position: relative;
 }
 
-/* Background gradient animation (see https://www.gradient-animator.com/) */
-@keyframes background_animation { 
-    0%{background-position:0% 81%}
-    50%{background-position:100% 20%}
-    100%{background-position:0% 81%}
+@keyframes background_gradient { 
+    0%{background-position: 0% 81%}
+    50%{background-position: 100% 20%}
+    100%{background-position: 0% 81%}
 }
+
 #Home {
-    /*Gradient animated background*/
     background: linear-gradient(150deg, #2f8770, #355d9f, #ff884d);
-    background-size:600%;
-    animation: background_animation 21s ease-in-out infinite;
+    background-size: 600%;
+    animation: background_gradient 21s ease-in-out infinite;
 }
+
 #Timeline {
     background: gray;
 }
+
 #Map {
     background: gray;
 }
+
 #Skills {
   background: #5d6675;
-  background-size:100%;
+  /* background-size: 100%; */
 }
+
 #Projects {
     background: #eff3f9;
 }
+
 #Courses {
     background: linear-gradient(70deg, #8298bc, #708ebf, #756fbf);
-    background-size:800%;
-    animation: background_animation 21s ease infinite;
+    background-size: 800%;
+    animation: background_gradient 21s ease infinite;
 }
+
 #OthersSection {
     color: white;
     background: linear-gradient(70deg, #1a3156, #424a56, #061d3f);
     background-size:800%;
-    animation: background_animation 5s ease infinite;
+    animation: background_gradient 5s ease infinite;
 }
 
-.fullcontainer{
+/* Home section */
+#Home > #center_container {
+    position: absolute;
+    top: 12%;
     width: 100%;
-    height: 100%;
-    position: relative;
-}
-.backgroundContainer{
-    position:'absolute';
-    top: 0%;
-    left: 0%;
-    width:100%;
-    height:100%;
-    overflow:hidden;
-}
-
-/* Home page style */
-.center_container {
-    position:absolute;
-    top:10%;
-    width:100%;
     z-index: 1;
-    text-align:center;
+    text-align: center;
 }
-.center_name { /*Class used for center name on Home*/
-    color:white;
-    text-decoration:none; /*No links decoration*/
-    font-size:4vmax;
-    font-weight:bold;
-    transition:all 0.8s;
-    -webkit-transition:all 0.8s;
-    -moz-transition:all 0.8s;
-    -o-transition:all 0.8s;
-    -ms-transition:all 0.8s;
+
+#Home > #center_container > #center_name {
+    color: white;
+    text-decoration: none;
+    font-size: 4vmax;
+    font-weight: bold;
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
 }
-.center_name:hover { /*Class used for center name on Home*/
-    font-size:5vmax;
+
+#Home > #center_container > #center_name:hover {
+    font-size: 4.5vmax;
 }
-.center_download { /*Class used for center Download resume on Home*/
-    color:white;
-    text-decoration:none; /*No links decoration*/
-    font-size:2.5vmax;
-    opacity:0.6;
+
+#Home > #center_container > #center_download {
+    color: white;
+    text-decoration: none; /*No links decoration*/
+    font-size: 2.5vmax;
+    opacity: 0.6;
+    /* Check JS for hover animation */
 }
-#tag-cloud {
+
+#Home > #tag-cloud {
     position: absolute;
 }
 
-/* Skills */
+
+/* Skills section */
 #particles {
+    position: absolute;
     width: 100%;
     height: 100%;
-    position: absolute;
-    top: 0;
+    /* top: 0;
     left: 0;
-    /* z-index: 0; */
+    z-index: 0; */
 }
 .skillbox{
     position: absolute;
