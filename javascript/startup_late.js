@@ -47,6 +47,17 @@ $(".skillbox").mouseleave(function () {
     this.innerHTML = this.id.replace('-', ' ');
 });
 
+$.getScript(
+    'javascript/particles.min.js',
+    function () {
+        if (isMobile) {
+            particlesJS.load('particles', 'config/particles_mobile.json');
+        } else {
+            particlesJS.load('particles', 'config/particles.json');
+        }
+    }
+);
+
 if (isMobile) {
     $("#Projects > #github-feed").hide();
 } else {
@@ -62,13 +73,18 @@ if (isMobile) {
     );
 }
 
-$.getScript(
-    'javascript/particles.min.js',
-    function () {
-        if (isMobile) {
-            particlesJS.load('particles', 'config/particles_mobile.json');
-        } else {
-            particlesJS.load('particles', 'config/particles.json');
-        }
+$(document).ready(function() {
+    if (isMobile) {
+        $("#Projects > #slides").css({
+            width: '80%',
+            left: '10%',
+            height: '80%',
+            top: '10%'
+        });
     }
-);
+    $('#slides').slick({
+        autoplay: true,
+        autoplaySpeed: 5000,
+    });
+  });
+
