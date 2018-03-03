@@ -232,7 +232,7 @@ section {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 0;
+    /* z-index: 0; */
 }
 .skillbox{
     position: absolute;
@@ -247,12 +247,12 @@ section {
     background-color:#29293d;
     opacity: 0.5;
     color:white; /* text color */
-    font-size: 4.7vw;
-    transition:all 0.3s;
-    -webkit-transition:all 0.3s;
-    -moz-transition:all 0.3s;
-    -o-transition:all 0.3s;
-    -ms-transition:all 0.3s;
+    font-size: 4vw;
+    transition:all 0.6s;
+    -webkit-transition:all 0.6s;
+    -moz-transition:all 0.6s;
+    -o-transition:all 0.6s;
+    -ms-transition:all 0.6s;
 }
 .skillbox:hover{
     border-radius: 10%;

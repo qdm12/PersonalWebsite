@@ -9,13 +9,13 @@ $.getScript(
         if ($(window).height() > $(window).width()) {
             $('#tag-cloud').css({
                 top: '40%',
-                width: '80%',
-                left: '10%'
+                width: '70%',
+                left: '15%'
             });
             dim = {
                 width: '100%',
                 height: '80%',
-                radius: '85%'
+                radius: '75%'
             };
         } else {
             $('#tag-cloud').css({
