@@ -44,7 +44,7 @@ $(".skillbox").mouseover(function () {
     }
 });
 $(".skillbox").mouseleave(function () {
-    this.innerHTML = this.id.replace('-', ' ');
+    $(this).text(this.id.replace(new RegExp('-', 'g'), ' '));
 });
 
 $.getScript(
@@ -76,15 +76,11 @@ if (isMobile) {
 $(document).ready(function() {
     if (isMobile) {
         $("#Projects > #slides").css({
-            width: '80%',
-            left: '10%',
+            width: '86%',
+            left: '7%',
             height: '80%',
             top: '10%'
         });
     }
-    $('#slides').slick({
-        autoplay: true,
-        autoplaySpeed: 5000,
-    });
-  });
+});
 
