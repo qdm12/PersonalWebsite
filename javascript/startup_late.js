@@ -2,11 +2,18 @@ var isMobile = false;
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     isMobile = true;
 }
+if ($(window).height() > $(window).width()){
+    isMobile = true;
+}
+
+$(".skillbox").each(function() {
+    $(this).text(this.id.replace(new RegExp('-', 'g'), ' '));
+});
 
 $(".skillbox").mouseover(function () {
     switch (this.id) {
     case "Crypto":
-        this.innerHTML = "Bitcoin, Ethereum, Cardano<br>Network and web security<br>Cryptography<br>Homomorphic encryption thesis<br>Kali Linux";
+        $(this).html("Bitcoin, Ethereum, Cardano<br>Network and web security<br>Cryptography<br>Homomorphic encryption thesis<br>Kali Linux");
         break;
     case "Backend":
         this.innerHTML = "Python, Golang, NodeJS<br>.NET, Java, Scala<br>RESTful, GraphQL<br>C++, C<br>GPUs with openCL";
@@ -14,16 +21,16 @@ $(".skillbox").mouseover(function () {
     case "Frontend":
         this.innerHTML = "HTML-5, CSS, JS<br>React Native, Android SDK<br>Cordova, PhoneGap<br>.NET, Kivy (Python)"
         break;
-    case "Devops and Cloud":
+    case "Devops-and-Cloud":
         this.innerHTML = "Docker, Vagrant and VirtualBox<br>Git, Github, Gitea and Gitlab<br>Zenhub, GitKraken, Swagger<br>Travis CI and unit testing<br>Google Cloud, AWS, Bluemix";
         break;
-    case "Database and analytics":
+    case "Database-and-analytics":
         this.innerHTML = "MySQL, SQlite<br>Redis<br>Hadoop and Map Reduce (Java, Python)<br>Impala, Hive, Spark";
         break;
     case "Design":
         this.innerHTML = "Adobe XD, inVision<br>Gimp, Photofiltre<br>Patience and a decent taste";
         break;
-    case "Server admin":
+    case "Server-admin":
         this.innerHTML = "SSH, Shell, Bash scripting<br>Users and groups management<br>Apache, Nginx, Caddy<br>Ubuntu, Debian, CentOS, DSM";
         break;
     case "Management":
@@ -37,19 +44,27 @@ $(".skillbox").mouseover(function () {
     }
 });
 $(".skillbox").mouseleave(function () {
-    this.innerHTML = this.id;
+    this.innerHTML = this.id.replace('-', ' ');
 });
 
-// GitHubActivity.feed({
-//     username: "qdm12",
-//     // repository: "hbc",
-//     selector: "#github-feed",
-//     limit: 20 // optional
-// });
+if (isMobile) {
+    $("#Projects > #github-feed").hide();
+} else {
+    $.getScript(
+        'javascript/github-activity.js',
+        function () {
+            GitHubActivity.feed({
+                username: "qdm12",
+                selector: "#github-feed"
+                // repository: "hbc"
+            });
+        }
+    );
+}
 
 $.getScript(
     'javascript/particles.min.js',
-    function() {
+    function () {
         if (isMobile) {
             particlesJS.load('particles', 'config/particles_mobile.json');
         } else {
