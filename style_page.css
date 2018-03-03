@@ -10,26 +10,21 @@ body {
     height: 100%;
     background: black;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     opacity: 0.9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-@keyframes spinner {
-    to {transform: rotate(360deg);}
-  }
-
-.spinner:before {
-    content: '';
+#load-screen > #spinner {
     position: absolute;
-    width: 20vh;
-    height: 20vh;
-    margin-left: -5%;
+    content: "";
+    animation: spin 1.5s linear infinite;
+    border-style: solid;
     border-radius: 50%;
-    border: 15px solid #ccc;
-    border-top-color: #333;
-    animation: spinner 1.1s linear infinite;
+    border-color: #f55 transparent rgb(170, 170, 170) transparent;
+}
+@keyframes spin {
+    to {
+        transform: rotate(1turn);
+    }
 }
 
 /* Top banner style */
@@ -40,7 +35,7 @@ body {
     font-size:2.2vmax;
     padding:1.8vmin;
     background-color:black;
-    z-index:1; /*on top of other layers*/
+    z-index:2; /*on top of other layers*/
     transition:all 0.4s;
     -webkit-transition:all 0.4s;
     -moz-transition:all 0.4s;
@@ -78,7 +73,7 @@ body {
 .left_button{
     position:fixed; /*so that it follows when you scroll*/
     top:10%; /*to change for vertical positioning*/
-    z-index:1; /*on top of other layers*/
+    z-index:2; /*on top of other layers*/
     width:auto;
     margin-left:0.5%;
     font-size:2.75vh;
@@ -193,7 +188,6 @@ section {
     position:'absolute';
     top: 0%;
     left: 0%;
-    z-index:0;
     width:100%;
     height:100%;
     overflow:hidden;
@@ -202,8 +196,9 @@ section {
 /* Home page style */
 .center_container {
     position:absolute;
-    top:15%;
+    top:10%;
     width:100%;
+    z-index: 1;
     text-align:center;
 }
 .center_name { /*Class used for center name on Home*/
@@ -228,9 +223,6 @@ section {
 }
 #tag-cloud {
     position: absolute;
-    width: 70%;
-    left: 15%;
-    top: 30%; /*40% for mobile*/
 }
 
 /* Skills */
@@ -244,7 +236,6 @@ section {
 }
 .skillbox{
     position: absolute;
-    z-index: 0;
     height: 25%;
     width: 28%;
     display: flex;

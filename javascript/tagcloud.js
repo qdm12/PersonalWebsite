@@ -1,37 +1,31 @@
-var isMobile = false;
-if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-    isMobile = true;
-}
-
 $.getScript(
     'javascript/jquery.svg3dtagcloud.min.js',
     function () {
-        console.log($(window).width()+"; "+ $(window).height());
         var dim = {
             width: '',
             height: '',
             radius: ''
         };
-        if (isMobile || $(window).height() > $(window).width()) {
+        if ($(window).height() > $(window).width()) {
             $('#tag-cloud').css({
-                top: '45%',
+                top: '40%',
                 width: '80%',
                 left: '10%'
             });
-            var dim = {
+            dim = {
                 width: '100%',
                 height: '80%',
                 radius: '85%'
             };
         } else {
             $('#tag-cloud').css({
-                top: '30%',
+                top: '25%',
                 width: '70%',
                 left: '15%'
             });
-            var dim = {
-                width: '100%',
-                height: '60%',
+            dim = {
+                width: '90%',
+                height: '55%',
                 radius: '50%'
             };
         }
@@ -65,7 +59,7 @@ $.getScript(
             bgColor: 'black',
             opacityOver: 1.00,
             opacityOut: 0.2,
-            opacitySpeed: 50,
+            opacitySpeed: 5,
             fov: 400,
             speed: 0.2,
             fontFamily: 'Oswald, Arial, sans-serif',

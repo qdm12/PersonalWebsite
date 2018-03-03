@@ -3,7 +3,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     isMobile = true;
 }
 
-$(".skillbox").mouseover(function() {
+$(".skillbox").mouseover(function () {
     switch (this.id) {
     case "Crypto":
         this.innerHTML = "Bitcoin, Ethereum, Cardano<br>Network and web security<br>Cryptography<br>Homomorphic encryption thesis<br>Kali Linux";
@@ -36,7 +36,7 @@ $(".skillbox").mouseover(function() {
         this.innerHTML = "????????????";
     }
 });
-$(".skillbox").mouseleave(function(){
+$(".skillbox").mouseleave(function () {
     this.innerHTML = this.id;
 });
 
