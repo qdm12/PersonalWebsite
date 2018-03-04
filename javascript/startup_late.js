@@ -6,11 +6,11 @@ if ($(window).height() > $(window).width()){
     isMobile = true;
 }
 
-$(".skillbox").each(function() {
+$("#Skills .skillbox").each(function() {
     $(this).text(this.id.replace(new RegExp('-', 'g'), ' '));
 });
 
-$(".skillbox").mouseover(function () {
+$("#Skills .skillbox").mouseover(function () {
     switch (this.id) {
     case "Crypto":
         $(this).html("Bitcoin, Ethereum, Cardano<br>Network and web security<br>Cryptography<br>Homomorphic encryption thesis<br>Kali Linux");
@@ -43,7 +43,7 @@ $(".skillbox").mouseover(function () {
         this.innerHTML = "????????????";
     }
 });
-$(".skillbox").mouseleave(function () {
+$("#Skills .skillbox").mouseleave(function () {
     $(this).text(this.id.replace(new RegExp('-', 'g'), ' '));
 });
 
