@@ -82,10 +82,7 @@ $(document).ready(function() {
             top: '15%'
         });
         $("#Skills .skillbox").css({
-            fontSize: '4.5vmax',
-            left: '8%',
-            height: '56%',
-            top: '15%'
+            fontSize: '4.5vmax'
         });
         $("#banner_top").css({
             fontSize: '3.5vw',
