@@ -76,10 +76,10 @@ if (isMobile) {
 $(document).ready(function() {
     if (isMobile) {
         $("#Projects > #slides").css({
-            width: '86%',
-            left: '7%',
-            height: '80%',
-            top: '10%'
+            width: '84%',
+            left: '8%',
+            height: '56%',
+            top: '15%'
         });
     }
 });

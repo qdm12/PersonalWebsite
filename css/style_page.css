@@ -254,8 +254,6 @@ section {
 
 #Projects > #slides {
     position: absolute;
-    border-radius: 6%;
-    border: 1px solid rgb(234, 252, 245);
     width: 57%;
     height: 80%;
     right: 5%;
@@ -265,7 +263,7 @@ section {
     position: absolute;
     z-index: 1;
     top: 30%;
-    font-size: 3vw;
+    font-size: 3vmax;
     color: rgb(60, 93, 95);
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -280,26 +278,26 @@ section {
     color: rgb(55, 190, 84);
 }
 #Projects > #slides > #previous {
-    left: 1%;
+    left: 0;
 }
 
 #Projects > #slides > #next {
-    right: 1%;
+    right: 0;
 }
 #Projects > #slides > #dots {
     position: absolute;
     width: 100%;
-    bottom: 1%;
+    bottom: 0;
     display: flex;
     justify-content: center;
 }
 #Projects > #slides > #dots > .dot {
     background: "transparent";
     z-index: 1;
-    width: 0.6vw;
-    height: 0.6vw;
-    margin-right: 1.5vw;
-    border: 0.2vw solid rgb(83, 83, 83);
+    width: 0.8vmax;
+    height: 0.8vmax;
+    margin-right: 1.5vmax;
+    border: 0.2vmax solid rgb(83, 83, 83);
     border-radius: 50%;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -315,22 +313,22 @@ section {
     height: 100%;
 }
 #Projects > #slides > .slide > .title {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 3%;
-    font-size: 2.6vw;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 2%;
+    font-size: 2.6vmax;
     font-weight: bold;
     z-index: 1;
 }
 #Projects > #slides > .slide > .tags {
-    margin-left: 12%;
+    margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 3%;
 }
 #Projects > #slides > .slide > .tags > .tag {
     display: inline-block;
-    font-size: 1.4vw;
-    padding-right: 3%;
+    font-size: 1.2vmax;
+    padding-right: 0.7vmax;
 }
 #Projects > #slides > .slide > .imageContainer {
     float: left;
@@ -338,8 +336,8 @@ section {
     justify-content: center;
     align-items: center;
     width: 45%;
-    max-height: 70%;
-    margin-left: 13%;
+    max-height: 60%;
+    margin-left: 10%;
 }
 #Projects > #slides > .slide > .imageContainer > .image {
     height: 100%;
@@ -350,18 +348,14 @@ section {
     float: right;
     width: 32%;
     height: 60%;
-    margin-top: 3%;
-    margin-right: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.4vw;
+    margin-right: 7%;
+    font-size: 1.1vmax;
 }
 
 #Projects > #slides > .slide > .link {
-    margin-top: 1%;
+    margin-top: 2%;
     margin-left: 15%;
-    font-size: 1.6vw;
+    font-size: 1.4vmax;
 }
 #Projects > #slides a {
     text-decoration: none;
