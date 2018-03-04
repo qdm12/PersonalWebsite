@@ -37,8 +37,8 @@ body {
     position: fixed;
     top: 0%;
     width: 100%;
-    font-size: 2.2vmax;
-    padding: 1.8vmin;
+    font-size: 2.2vw;
+    padding: 0.8vw;
     background-color: black;
     z-index: 2;
     transition: all 0.4s;
@@ -49,7 +49,7 @@ body {
     /* opacity is in functions.js */
 }
 
-.banner_top_button {
+#banner_top > .banner_top_button {
     margin-right: 2%;
     color: white;
     text-decoration: none; /*No links decoration*/
@@ -60,14 +60,14 @@ body {
     -ms-transition: all 0.8s;
 }
 
-.banner_top_button:hover {
+#banner_top > .banner_top_button:hover {
     background-color: gray;
     color: black;
 }
 
 
 /* Left fixed buttons */
-.left_button{
+.left_button {
     position: fixed;
     z-index: 2;
     margin-left: 1%;
@@ -85,11 +85,11 @@ body {
         transform: translateY(-8%);
     }
 }
-.left_button:hover{
+.left_button:hover {
     animation: bounce 0.7s;
 }
 
-.fa {
+.left_button .fa {
     color: black;
     opacity: 0.6;
     transition: all 0.8s;
@@ -99,23 +99,23 @@ body {
     -ms-transition: all 0.8s;
 }
 
-.fa:hover {
+.left_button .fa:hover {
     opacity: 1;
 }
 
-.fa-envelope:hover{
+.left_button .fa-envelope:hover{
     color: gold;
 }
 
-.fa-linkedin:hover{
+.left_button .fa-linkedin:hover{
     color: #2777B4;
 }
 
-.fa-phone:hover{
+.left_button .fa-phone:hover{
     color: #56CD90;
 }
 
-.fa-github:hover{
+.left_button .fa-github:hover{
     color: greenyellow;
 }
 
