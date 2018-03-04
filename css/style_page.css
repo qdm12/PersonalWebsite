@@ -152,11 +152,13 @@ section {
 }
 
 #Projects {
-    background: #eff3f9;
+    background: linear-gradient(150deg, #bcffed, #b1cfff, #ffd6c2);
+    background-size: 500%;
+    animation: background_gradient 21s ease-in-out infinite;
 }
 
 #Courses {
-    background: linear-gradient(70deg, #8298bc, #708ebf, #756fbf);
+    background: linear-gradient(70deg, #ff9797, #f0d7bb, #bfb9ff);
     background-size: 800%;
     animation: background_gradient 21s ease infinite;
 }
@@ -252,7 +254,8 @@ section {
 
 #Projects > #slides {
     position: absolute;
-    background: white;
+    border-radius: 6%;
+    border: 1px solid rgb(234, 252, 245);
     width: 57%;
     height: 80%;
     right: 5%;
@@ -283,6 +286,28 @@ section {
 #Projects > #slides > #next {
     right: 1%;
 }
+#Projects > #slides > #dots {
+    position: absolute;
+    width: 100%;
+    bottom: 1%;
+    display: flex;
+    justify-content: center;
+}
+#Projects > #slides > #dots > .dot {
+    background: "transparent";
+    z-index: 1;
+    width: 0.6vw;
+    height: 0.6vw;
+    margin-right: 1.5vw;
+    border: 0.2vw solid rgb(83, 83, 83);
+    border-radius: 50%;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+}
+
 
 #Projects > #slides > .slide {
     position: absolute;
@@ -292,36 +317,39 @@ section {
 #Projects > #slides > .slide > .title {
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 4%;
-    font-size: 3vw;
+    margin-bottom: 3%;
+    font-size: 2.6vw;
+    font-weight: bold;
+    z-index: 1;
 }
 #Projects > #slides > .slide > .tags {
     margin-left: 12%;
     margin-right: 10%;
-    margin-bottom: 4%;
+    margin-bottom: 3%;
 }
 #Projects > #slides > .slide > .tags > .tag {
     display: inline-block;
-    font-size: 1.7vw;
-    padding-right: 5%;
+    font-size: 1.4vw;
+    padding-right: 3%;
 }
 #Projects > #slides > .slide > .imageContainer {
     float: left;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 35%;
-    height: 70%;
+    width: 45%;
+    max-height: 70%;
     margin-left: 13%;
 }
 #Projects > #slides > .slide > .imageContainer > .image {
-    border-radius: 5%;
-    border: 2px solid rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 #Projects > #slides > .slide > .description {
     float: right;
-    width: 38%;
-    height: 67%;
+    width: 32%;
+    height: 60%;
     margin-top: 3%;
     margin-right: 10%;
     display: flex;
@@ -331,7 +359,7 @@ section {
 }
 
 #Projects > #slides > .slide > .link {
-    margin-top: 4%;
+    margin-top: 1%;
     margin-left: 15%;
     font-size: 1.6vw;
 }
