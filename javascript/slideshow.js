@@ -129,6 +129,13 @@ var autoplayTime = 8000;
 var autoplayID;
 function goToSlide(fromIndex, toIndex) {
     var duration = 600;
+    // Just to avoid JS bugs when off the browser
+    for (var i = 0; i < entries.length; i++) {
+        if (i != fromIndex && i != toIndex) {
+            $(slides + " > #dots > #dot-" + i).css({background: "transparent"});
+            $(slides + " > #slide-" + i).hide();
+        }
+    }
     $(slides + " > #dots > #dot-" + fromIndex).css({background: "transparent"});
     $(slides + " > #slide-" + fromIndex).fadeOut(duration, function () {
         $(slides + " > #dots > #dot-" + toIndex).css({background: "rgb(130, 170, 200)"});
