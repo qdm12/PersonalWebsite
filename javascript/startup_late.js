@@ -81,11 +81,8 @@ $(document).ready(function() {
             height: '56%',
             top: '15%'
         });
-        $("#Skills .skillbox").css({
-            fontSize: '4.5vmax'
-        });
         $("#banner_top").css({
-            fontSize: '3.5vw',
+            fontSize: '3.2vw',
             padding: '3.2vw'
         });
     }
