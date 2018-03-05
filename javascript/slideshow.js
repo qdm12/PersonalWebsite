@@ -128,7 +128,7 @@ var autoplayTime = 8000;
 // Logic
 var autoplayID;
 function goToSlide(fromIndex, toIndex) {
-    var duration = 600;
+    var duration = 350;
     // Just to avoid JS bugs when off the browser
     for (var i = 0; i < entries.length; i++) {
         if (i != fromIndex && i != toIndex) {
@@ -173,7 +173,6 @@ $(document).ready(function () {
         $('<div class="description">' + entries[i].description + '</div>').appendTo(slide);
         $('<div style="clear:both;"></div>').appendTo(slide);
         $('<div class="link"><a target="_blank" href=' + entries[i].link + '>Click <b>here</b></a> for more details</div>').appendTo(slide);
-        console.log(slide);
         slide.hide();
         slide.appendTo($(slides));
         $('<div id="dot-' + i + '" class="dot"></div>').appendTo($(slides + " > #dots"));
