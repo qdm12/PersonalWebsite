@@ -6,10 +6,6 @@ if ($(window).height() > $(window).width()){
     isMobile = true;
 }
 
-$("#Skills .skillbox").each(function() {
-    $(this).text(this.id.replace(new RegExp('-', 'g'), ' '));
-});
-
 $("#Skills .skillbox").mouseover(function () {
     switch (this.id) {
     case "Crypto":
@@ -74,6 +70,9 @@ if (isMobile) {
 }
 
 $(document).ready(function() {
+    $("#Skills .skillbox").each(function() {
+        $(this).text(this.id.replace(new RegExp('-', 'g'), ' '));
+    });
     if (isMobile) {
         $("#Projects > #slides").css({
             width: '84%',
