@@ -126,21 +126,16 @@ var slideIndex = 0; //entries.length - 1;
 var autoplayTime = 8000;
 
 // Logic
-var autoplayID;
+var autoplayID = null;
 function goToSlide(fromIndex, toIndex) {
+    clearInterval(autoplayID);
     var duration = 350;
-    // Just to avoid JS bugs when off the browser
-    for (var i = 0; i < entries.length; i++) {
-        if (i != fromIndex && i != toIndex) {
-            $(slides + " > #dots > #dot-" + i).css({background: "transparent"});
-            $(slides + " > #slide-" + i).hide();
-        }
-    }
     $(slides + " > #dots > #dot-" + fromIndex).css({background: "transparent"});
     $(slides + " > #slide-" + fromIndex).fadeOut(duration, function () {
         $(slides + " > #dots > #dot-" + toIndex).css({background: "rgb(130, 170, 200)"});
         $(slides + " > #slide-" + toIndex).fadeIn(duration);
     });
+    autoplayID = autoPlay();
     return toIndex;
 }
 
@@ -153,6 +148,22 @@ function autoPlay() {
         slideIndex = goToSlide(slideIndex, toIndex);
     }, autoplayTime);
     return intervalID;
+}
+
+function previousSlide() {
+    var toIndex = Number(slideIndex) - 1;
+    if (toIndex < 0) {
+        toIndex = entries.length - 1;
+    }
+    slideIndex = goToSlide(slideIndex, toIndex);
+}
+
+function nextSlide() {
+    var toIndex = Number(slideIndex) + 1;
+    if (toIndex > entries.length - 1) {
+        toIndex = 0;
+    }
+    slideIndex = goToSlide(slideIndex, toIndex);
 }
 
 $(document).ready(function () {
@@ -184,20 +195,12 @@ $(document).ready(function () {
 
     // Previous Button
     $(slides + " > #previous").click(function () {
-        var toIndex = Number(slideIndex) - 1;
-        if (toIndex < 0) {
-            toIndex = entries.length - 1;
-        }
-        slideIndex = goToSlide(slideIndex, toIndex);
+        previousSlide();
     });
 
     // Next Button
     $(slides + " > #next").click(function () {
-        var toIndex = Number(slideIndex) + 1;
-        if (toIndex > entries.length - 1) {
-            toIndex = 0;
-        }
-        slideIndex = goToSlide(slideIndex, toIndex);
+        nextSlide();
     });
 
     // Dots buttons
@@ -215,6 +218,17 @@ $(document).ready(function () {
     });
     $(slides + " > .slide").mouseout(function() {
         autoplayID = autoPlay();
+    });
+
+    // Touch swipe
+    $(slides + " > .slide").swipe( {
+        swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
+            if (direction === "left") {
+                nextSlide();
+            } else if (direction === "right") {
+                previousSlide();
+            }
+        }
     });
 });
 
