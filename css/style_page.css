@@ -39,6 +39,8 @@ body {
     width: 100%;
     font-size: 1.8vmax;
     padding: 0.6vmax;
+    padding-top: 0.9vmax;
+    padding-bottom: 0.9vmax;
     background-color: black;
     z-index: 2;
     transition: all 0.4s;
@@ -265,6 +267,16 @@ section {
     right: 5%;
     top: 10%;
 }
+@media screen and (min-height: 100vw) {
+    #Projects > #slides {
+        width: 84%;
+        height: 56%;
+        right: 8%;
+        top: 15%;
+    }
+}
+
+
 #Projects > #slides > .button {
     position: absolute;
     z-index: 1;
@@ -423,19 +435,22 @@ li a:hover {
 
 
 /* Others section */
-.youtubeiframe{
-    position:absolute;
-    left:5%; /* to change for some */
-    top:8%; /* to change for some */
-    width: 35%;
-    height: 35%;
-    opacity:0.6;
+#OthersSection {
+}
+
+#OthersSection > .youtubeiframe{
+    margin-left: 5vmax;
+    margin-top: 5vmax;
+    width: 80vmin;
+    height: 45vmin;
+    opacity: 0.6;
     transition:all 0.8s;
     -webkit-transition:all 0.8s;
     -moz-transition:all 0.8s;
     -o-transition:all 0.8s;
     -ms-transition:all 0.8s;
 }
-.youtubeiframe:hover{
-    opacity:1.0;
+
+#OthersSection > .youtubeiframe:hover{
+    opacity: 1.0;
 }
