@@ -1,4 +1,5 @@
-$.getScript(
+$(document).ready(function () {
+    $.getScript(
     'javascript/jquery.svg3dtagcloud.min.js',
     function () {
         var dim = {
@@ -70,5 +71,5 @@ $.getScript(
             fontStretch: 'semi-condensed', //wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
             fontToUpperCase: false
         });
-    }
-);
+    });
+});
