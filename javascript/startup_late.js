@@ -6,7 +6,7 @@ if ($(window).height() > $(window).width()){
     isMobile = true;
 }
 
-$("#Skills .skillbox").mouseover(function () {
+$("#Skills > .skillbox").mouseover(function () {
     switch (this.id) {
     case "Crypto":
         $(this).html("Bitcoin, Ethereum, Cardano<br>Network and web security<br>Cryptography<br>Homomorphic encryption thesis<br>Kali Linux");
@@ -15,7 +15,7 @@ $("#Skills .skillbox").mouseover(function () {
         this.innerHTML = "Python, Golang, NodeJS<br>.NET, Java, Scala<br>RESTful, GraphQL<br>C++, C<br>GPUs with openCL";
         break;
     case "Frontend":
-        this.innerHTML = "HTML-5, CSS, JS<br>React Native, Android SDK<br>Cordova, PhoneGap<br>.NET, Kivy (Python)"
+        this.innerHTML = "HTML-5, CSS, JS<br>React Native, Android SDK<br>Cordova, PhoneGap<br>.NET, Kivy (Python)";
         break;
     case "Devops-and-Cloud":
         this.innerHTML = "Docker, Vagrant and VirtualBox<br>Git, Github, Gitea and Gitlab<br>Zenhub, GitKraken, Swagger<br>Travis CI and unit testing<br>Google Cloud, AWS, Bluemix";
@@ -39,7 +39,7 @@ $("#Skills .skillbox").mouseover(function () {
         this.innerHTML = "????????????";
     }
 });
-$("#Skills .skillbox").mouseleave(function () {
+$("#Skills > .skillbox").mouseleave(function () {
     $(this).text(this.id.replace(new RegExp('-', 'g'), ' '));
 });
 
@@ -70,7 +70,7 @@ if (isMobile) {
 }
 
 $(document).ready(function() {
-    $("#Skills .skillbox").each(function() {
+    $("#Skills > .skillbox").each(function() {
         $(this).text(this.id.replace(new RegExp('-', 'g'), ' '));
     });
     if (isMobile) {
