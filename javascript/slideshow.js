@@ -221,14 +221,15 @@ $(document).ready(function () {
     });
 
     // Touch swipe
-    $(slides + " > .slide").swipe( {
-        swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
+    $(slides + " > .slide").swipe({
+        swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
             if (direction === "left") {
                 nextSlide();
             } else if (direction === "right") {
                 previousSlide();
             }
-        }
+        },
+        allowPageScroll: "vertical"
     });
 });
 
