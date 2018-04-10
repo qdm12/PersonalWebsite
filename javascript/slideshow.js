@@ -123,7 +123,7 @@ var entries = [
 ];
 var slides = "#slides";
 var slideIndex = 0; //entries.length - 1;
-var autoplayTime = 8000;
+var autoplayTime = 400;
 
 // Logic
 var autoplayID = null;
@@ -131,23 +131,21 @@ function goToSlide(fromIndex, toIndex) {
     clearInterval(autoplayID);
     var duration = 350;
     $(slides + " > #dots > #dot-" + fromIndex).css({background: "transparent"});
-    $(slides + " > #slide-" + fromIndex).fadeOut(duration, function () {
-        $(slides + " > #dots > #dot-" + toIndex).css({background: "rgb(130, 170, 200)"});
-        $(slides + " > #slide-" + toIndex).fadeIn(duration);
-    });
-    autoplayID = autoPlay();
+    $(slides + " > #slide-" + fromIndex).css({opacity: 0});
+    $(slides + " > #dots > #dot-" + toIndex).css({background: "rgb(130, 170, 200)"});
+    $(slides + " > #slide-" + toIndex).css({opacity: 1});
+    autoPlay();
     return toIndex;
 }
 
 function autoPlay() {
-    intervalID = setInterval(function () {
+    autoplayID = setInterval(function () {
         var toIndex = Number(slideIndex) + 1;
         if (toIndex > entries.length - 1) {
             toIndex = 0;
         }
         slideIndex = goToSlide(slideIndex, toIndex);
     }, autoplayTime);
-    return intervalID;
 }
 
 function previousSlide() {
@@ -167,7 +165,6 @@ function nextSlide() {
 }
 
 $(document).ready(function () {
-
     // Creates the slides
     var i, j;
     for (i = 0; i < entries.length; i += 1) {
@@ -184,14 +181,13 @@ $(document).ready(function () {
         $('<div class="description">' + entries[i].description + '</div>').appendTo(slide);
         $('<div style="clear:both;"></div>').appendTo(slide);
         $('<div class="link"><a target="_blank" href=' + entries[i].link + '>Click <b>here</b></a> for more details</div>').appendTo(slide);
-        slide.hide();
+        slide.css({opacity: 0});
         slide.appendTo($(slides));
         $('<div id="dot-' + i + '" class="dot"></div>').appendTo($(slides + " > #dots"));
     }
 
     // Shows initial slide
-    $(slides + " > #slide-" + slideIndex).show();
-    $(slides + " > #dots > #dot-" + slideIndex).css({background: "rgb(130, 170, 200)"});
+    nextSlide();
 
     // Previous Button
     $(slides + " > #previous").click(function () {
@@ -209,15 +205,14 @@ $(document).ready(function () {
         slideIndex = goToSlide(slideIndex, toIndex);
     });
 
-    // Autoplay
-    autoplayID = autoPlay();
+    autoPlay();
 
     // Stop and resume autoplay
     $(slides + " > .slide").mouseover(function() {
         clearInterval(autoplayID);
     });
     $(slides + " > .slide").mouseout(function() {
-        autoplayID = autoPlay();
+        autoPlay();
     });
 
     // Touch swipe
