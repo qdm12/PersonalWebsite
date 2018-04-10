@@ -122,8 +122,8 @@ var entries = [
     // To add: Desktops, billsplitter, eebug, Rpi, NAS, Managr, Devops, Thumbgifs
 ];
 var slides = "#slides";
-var slideIndex = 0; //entries.length - 1;
-var autoplayTime = 400;
+var slideIndex = entries.length - 1;
+var autoplayTime = 7000;
 
 // Logic
 var autoplayID = null;
