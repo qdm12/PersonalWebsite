@@ -70,7 +70,7 @@ body {
 #left-buttons {
     position: fixed;
     z-index: 2;
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 0.7vmax;
     display: inline-block;
 }
@@ -97,9 +97,9 @@ body {
     animation: bounce 0.7s;
 }
 
-#left-buttons > .button .fa {
+#left-buttons > .button .fa-envelope,.fa-linkedin,.fa-phone,.fa-github,.fa-docker {
     color: black;
-    opacity: 0.6;
+    opacity: 0.4;
     transition: all 0.8s;
     -webkit-transition: all 0.8s;
     -moz-transition: all 0.8s;
@@ -107,24 +107,29 @@ body {
     -ms-transition: all 0.8s;
 }
 
-#left-buttons > .button .fa:hover {
-    opacity: 1;
-}
-
 #left-buttons > .button .fa-envelope:hover{
     color: gold;
+    opacity: 1;
 }
 
 #left-buttons > .button .fa-linkedin:hover{
     color: #2777B4;
+    opacity: 1;
 }
 
 #left-buttons > .button .fa-phone:hover{
     color: #56CD90;
+    opacity: 1;
 }
 
 #left-buttons > .button .fa-github:hover{
     color: greenyellow;
+    opacity: 1;
+}
+
+#left-buttons > .button .fa-docker:hover{
+    color: lightblue;
+    opacity: 1;
 }
 
 

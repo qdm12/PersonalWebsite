@@ -42,7 +42,7 @@ $(document).ready(function () {
                 {label: 'MEng Imperial College London', url: 'https://quentinmcgaw.info/markdown/#imperial-college-london,-october-2012-to-june-2016', target: '_top' },
                 {label: 'Homomorphic Encryption', url: "https://quentinmcgaw.info/markdown#master's-thesis", target: '_top'},
                 {label: 'Staminapp', url: 'https://drive.google.com/file/d/0B5UPjZHikV5gWVBwUnVpWjZHQVU/view', target: '_top'},
-                {label: 'Docker projects', url: 'https://quentinmcgaw.info/markdown/#personal-projects', target: '_top'},
+                {label: 'Docker Hub', url: 'https://hub.docker.com/r/qmcgaw/', target: '_top'},
                 {label: 'Markdown', url: 'https://quentinmcgaw.info/markdown', target: '_top'},
                 {label: 'Hobbies', url: 'https://quentinmcgaw.info/markdown/#hobbies', target: '_top'},
                 {label: 'Fun facts', url: 'https://quentinmcgaw.info/markdown/#fun-facts', target: '_top' },
