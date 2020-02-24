@@ -1,31 +1,58 @@
 // User inputs
 var entries = [
     {
-        title: "Derivatex",
-        description: "Desktop, Mobile and command line deterministic password generator. \
-        <br><br>It uses Argon2id to generate string passwords from a hash digest made from a master password and your birthdate \
-        <br><br>&#9673 Strong generated passwords \
-        <br>&#9673 Valid passwords with digits, alpha and symbols \
-        <br>&#9673 Keep your master digest file safe on your device \
-        <br>&#9673 Reconstruct your master digest file with your master password and birthdate \
-        <br><br>STATUS: Working but unfinished",
-        image: "images/derivatex.png",
-        link: "https://github.com/qdm12/Password-Derivator#password-derivator",
-        tags: ["Cryptography", "Security", "Python", "Passwords", "Kivy"]
+        title: "The swiss knife VPN client in a container (2300K+ Pulls)",
+        description: 'The best VPN client container to private internet access & Mullvad servers \
+        <br><br>&#9673 Connect other containers to it \
+        <br>&#9673 Supervising program written in Go \
+        <br>&#9673 Choose your VPN region, encryption and protocol \
+        <br>&#9673 Built-in firewall, DNS over TLS and proxies \
+        <br>&#9673 Access local ports of containers connected to the VPN with a proxy \
+        <br>&#9673 50MB Alpine based image \
+        <br><br>STATUS: Finished',
+        image: "https://raw.githubusercontent.com/qdm12/private-internet-access-docker/master/title.svg?sanitize=true",
+        link: "https://github.com/qdm12/private-internet-access-docker",
+        tags: ["Docker", "VPN", "Automation", "Networking", "OpenVPN", "Alpine", "Iptables", "DNS over TLS"]
     },
     {
-        title: "Big Data Project: Bitcoin Uses",
-        description: "The Bitcoin blockchain was analyzed from 2009 up to December 2017 to \
-        estimate the uses of bitcoins. \
-        <br>It was also correlated with Reddit data and venues data from Coinmap. \
-        <br><br>The two main results researched are: \
-        <br>&#9673 The monthly counts of transaction outputs belonging to different USD ranges \
-        <br>&#9673 The monthly cumulative amounts of these outputs belonging to different USD ranges \
-        <br><br>The miner rewards, self-transfers and change outputs are ignored. \
-        <br><br>STATUS: Finished but to be enhanced",        
-        image: "images/bitcoinuses.png",
-        link: 'https://qdm12.github.io/BitcoinUses/results',
-        tags: ["MapReduce", "Java", "HadoopCryptoLedger", "BigData", "Bitcoin", "Cryptocurrencies"]
+        title: "Cloudflare DNS over TLS Docker (700K+ Pulls)",
+        description: 'The best DNS over TLS client/server container \
+        <br><br>&#9673 DNS caching server with Unbound \
+        <br>&#9673 Uses DNS over TLS service providers (Cloudflare, Google, etc.) \
+        <br>&#9673 Supervising program written in Go \
+        <br>&#9673 DNSSec, DNS rebinding protection \
+        <br>&#9673 Docker healthcheck \
+        <br>&#9673 Blocks malicious IPs and hostnames \
+        <br><br>STATUS: Finished',
+        image: "https://github.com/qdm12/cloudflare-dns-server/raw/master/readme/title.png",
+        link: "https://github.com/qdm12/cloudflare-dns-server",
+        tags: ["Docker", "DNS over TLS", "Networking", "Alpine", "Popular"]
+    },
+    {
+        title: "DDNS Updater Docker (700K+ Pulls)",
+        description: 'Update the IP address of A records on multiple domain name providers every 5 minutes \
+        <br><br>&#9673 <b>9MB</b> image based on Scratch and a static Golang binary \
+        <br>&#9673 <b>Multiple domain providers:</b> GoDaddy, Namecheap, DuckDNS, NoIP, DNSPod, Infomaniak, etc. \
+        <br><br>STATUS: Finished',
+        image: "https://github.com/qdm12/ddns-updater/raw/master/readme/title.png",
+        link: "https://github.com/qdm12/ddns-updater",
+        tags: ["Docker", "DDNS", "Automation", "Networking", "Golang", "Scratch"]
+    },
+    {
+        title: "Golang development container",
+        description: 'The ultimate VSCode development container for Go  \
+        <br><br>STATUS: Finished',
+        image: "https://github.com/qdm12/godevcontainer/raw/master/title.png",
+        link: "https://github.com/qdm12/godevcontainer",
+        tags: ["Docker", "Go", "VSCode", "Alpine"]
+    },
+    {
+        title: "React development container",
+        description: 'The ultimate VSCode development container for React  \
+        <br><br>STATUS: Finished',
+        image: "https://github.com/qdm12/reactdevcontainer/raw/master/title.png",
+        link: "https://github.com/qdm12/reactdevcontainer",
+        tags: ["Docker", "React", "VSCode", "Alpine"]
     },
     {
         title: "Thesis on homomorphic binary circuits",
@@ -41,63 +68,60 @@ var entries = [
         tags: ["Cryptography", "Security", "C++", "Digital", "Binary", "MEngThesis"]
     },
     {
-        title: "Private Internet Access Docker",
-        description: 'VPN client container to private internet access servers based on Alpine Linux and OpenVPN. \
-        <br><br>&#9673 Connect other containers to it \
-        <br>&#9673 Choose your VPN region \
-        <br>&#9673 Keep your authentication details in a secured file \
-        <br>&#9673 Access local ports of containers connected to the VPN with a proxy \
-        <br>&#9673 <b>700KB</b> RAM usage and <b>10MB</b> image \
-        <br><br>STATUS: Finished',
-        image: "images/piadocker.png",
-        link: "https://github.com/qdm12/private-internet-access-docker",
-        tags: ["Docker", "VPN", "Automation", "Networking", "OpenVPN", "Alpine"]
+        title: "Big Data Project: Bitcoin Uses",
+        description: "The Bitcoin blockchain was analyzed from 2009 up to December 2017 to \
+        estimate the uses of bitcoins. \
+        <br>It was also correlated with Reddit data and venues data from Coinmap. \
+        <br><br>The two main results researched are: \
+        <br>&#9673 The monthly counts of transaction outputs belonging to different USD ranges \
+        <br>&#9673 The monthly cumulative amounts of these outputs belonging to different USD ranges \
+        <br><br>The miner rewards, self-transfers and change outputs are ignored. \
+        <br><br>STATUS: Finished",
+        image: "images/bitcoinuses.png",
+        link: 'https://qdm12.github.io/BitcoinUses/results',
+        tags: ["MapReduce", "Java", "HadoopCryptoLedger", "BigData", "Bitcoin", "Cryptocurrencies"]
     },
     {
-        title: "GoDaddy DDNS Updater Docker",
-        description: 'Update the IP address of one or more of your records of one or more GoDaddy domain(s) every 5 minutes. \
-        <br><br>&#9673 <b>10MB</b> image \
-        <br>&#9673 <b>13MB</b> RAM usage for any number of domains \
-        <br>&#9673 Relies on bash (for regex) and curl \
-        <br><br>STATUS: Finished',
-        image: "images/godaddydocker.png",
-        link: "https://github.com/qdm12/godaddy-ip-ddns",
-        tags: ["Docker", "GoDaddy", "Automation", "Networking", "Regex", "Alpine"]
+        title: "Derivatex - Smart pseudo random password generator",
+        description: "CLI to generate deterministically strong unique passwords. \
+        <br><br>It uses various cryptographic techniques to protect your passwords \
+        <br><br>&#9673 Strong generated passwords \
+        <br>&#9673 Valid passwords with digits, alpha and symbols \
+        <br>&#9673 Keep your master digest file safe on your device \
+        <br>&#9673 Reconstruct your master digest file with your master password and birthdate \
+        <br><br>STATUS: Working but still a lot to do!",
+        image: "https://github.com/techsek/derivatex/raw/master/readme/logo.png",
+        link: "https://github.com/qdm12/techsek/derivatex",
+        tags: ["Cryptography", "Security", "Golang", "Passwords", "CLI", "Argon2ID"]
+    },
+    {
+        title: "COD4X Dedicated server Docker",
+        description: '<br><br>STATUS: Finished',
+        image: "https://github.com/qdm12/cod4-docker/raw/master/images/title.png",
+        link: "https://github.com/qdm12/cod4-docker",
+        tags: ["Docker", "Gaming", "Alpine"]
     },
     {
         title: "Spigot Server Docker",
-        description: 'Runs a Spigot Minecraft server. It is based on: \
-        <br>&#9673 Alpine and OpenJDK JRE 8 - <b>82MB</b> image \
+        description: 'Spigot Minecraft server in a container, based on: \
+        <br>&#9673 Alpine and OpenJRE 8 - <b>130MB</b> image \
         <br>&#9673 It uses about 300MB of RAM and little CPU \
         <br><br>STATUS: Finished',
-        image: "images/spigotdocker.png",
+        image: "https://github.com/qdm12/spigot-docker/raw/master/readme/title.png",
         link: "https://github.com/qdm12/spigot-docker",
         tags: ["Docker", "Minecraft", "Spigot", "Java", "Alpine", "Automation"]
     },
     {
         title: "Youtube Downloader Docker",
-        description: 'Download with youtube-dl using command line arguments or configuration files. GeoIP address detection built on top if you use a VPN. \
-        <br><br>Based on Alpine, Bash (for regexp), Python, Curl and FFMPEG - <b>94MB</b> image \
+        description: 'Download with a self-updated youtube-dl using command line arguments on Docker \
+        <br><br>Based on Alpine, Python 2.7 and FFMPEG - <b>100MB</b> image \
         <br><br>STATUS: Finished',
-        image: "images/youtubedldocker.png",
+        image: "https://github.com/qdm12/youtube-dl-docker/raw/master/title.png",
         link: "https://github.com/qdm12/youtube-dl-docker",
-        tags: ["Docker", "Youtube-dl", "Alpine", "Regex", "Automation"]
+        tags: ["Docker", "Youtube-dl", "Alpine", "FFMPEG", "Automation"]
     },
     {
-        title: "Blockchain course",
-        description: 'A course on the blockchain and Bitcoin. \
-        <br><br>&#9673 Binary, bits and bytes \
-        <br>&#9673 P2P Network \
-        <br>&#9673 Digital signatures \
-        <br>&#9673 Hash functions \
-        <br>&#9673 Merkle tree \
-        <br><br>STATUS: In progress',
-        image: "images/blockchaincourse.png",
-        link: "https://github.com/qdm12/blockchain-course",
-        tags: ["Blockchain", "Bitcoin", "Markdown", "Cryptography"]
-    },
-    {
-        title: "AdsUp",
+        title: "AdsUp (business idea only)",
         description: 'AdsUp is a platform bridging brands, social causes and individual supporters through <b>advertising</b>. \
         <br><br><b>Supporters</b> unite together and donate <b>a few seconds of their time</b> watching ads they partially choose on our mobile app. This generates revenue used to support a social cause of their choice. \
         <br><br><b>Supporters</b> also gain loyalty points for a specific brand by sharing their ads and by watching them. \
@@ -105,7 +129,7 @@ var entries = [
         <br><br>STATUS: Paused',
         image: "images/adsup.png",
         link: "https://sites.google.com/view/adsup/home",
-        tags: ["MobileApp", "Social", "Business", "Regex", "Automation"]
+        tags: ["MobileApp", "Social", "Business"]
     },
     {
         title: "Stamina",
@@ -114,38 +138,67 @@ var entries = [
         <br>&#9673 Ensure high quality sleep at night \
         <br><br>Monitors analyses the activity of the user over several days, with smartphone and smartwatch sensors. \
         <br><br>A server stores and analyses the data with a clustering machine learning technique to provide suggestions to the user. \
-        <br><br>STATUS: Finished',
+        <br><br>STATUS: Finished/abandoned',
         image: "gifs/stamina.gif",
         link: "documents/stamina-report.pdf",
         tags: ["MobileApp", "Caffeine", "Wearable", "Sleep", "MachineLearning"]
     },
-    // To add: Desktops, billsplitter, eebug, Rpi, NAS, Managr, Devops, Thumbgifs
+    {
+        title: "Redio (design only)",
+        description: 'Design of a mobile app for music artists using Adobe XD beta \
+        <br><br>STATUS: Finished',
+        image: "gifs/redio.gif",
+        link: "",
+        tags: ["MobileApp", "Design", "Adobe XD"]
+    },
+    // To add: Desktops, NAS, Ryzen, etc.
 ];
-var slides = "#slides";
+var slides = "#Projects > #slides";
 var slideIndex = entries.length - 1;
-var autoplayTime = 7000;
 
 // Logic
 var autoplayID = null;
 function goToSlide(fromIndex, toIndex) {
-    clearInterval(autoplayID);
-    var duration = 350;
     $(slides + " > #dots > #dot-" + fromIndex).css({background: "transparent"});
-    $(slides + " > #slide-" + fromIndex).css({opacity: 0});
     $(slides + " > #dots > #dot-" + toIndex).css({background: "rgb(130, 170, 200)"});
-    $(slides + " > #slide-" + toIndex).css({opacity: 1});
-    autoPlay();
+    // Remove current slide
+    $(slides + " > #slide").remove();
+    // Create new slide
+    var entry = entries[toIndex];
+    var slide = $('<div id="slide"></div>');
+    var title;
+    if (entry.link.length > 0) {
+        title = $('<div class="title"><a target="_blank" href=' + entry.link + '>' + entry.title + '</a></div>');
+    } else {
+        title = $('<div class="title">'+entry.title + '</div>')
+    }
+    title.appendTo(slide);
+    var tags = $('<div class="tags"></div>');
+    for (j = 0; j < entry.tags.length; j += 1) {
+        $('<div class="tag"><b>#' + entry.tags[j] + '</b></div>').appendTo(tags);
+    }
+    tags.appendTo(slide);
+    var imageContainer = $('<div class="imageContainer"></div>');
+    $('<img class="image" src="' + entry.image + '"/>').appendTo(imageContainer);
+    imageContainer.appendTo(slide);
+    $('<div class="description">' + entry.description + '</div>').appendTo(slide);
+    $('<div style="clear:both;"></div>').appendTo(slide);
+    $('<div class="link"><a target="_blank" href=' + entry.link + '>Click <b>here</b></a> for more details</div>').appendTo(slide);
+    slide.appendTo($(slides));
     return toIndex;
 }
 
 function autoPlay() {
+    if (autoplayID != null) {
+        clearInterval(autoplayID)
+    }
     autoplayID = setInterval(function () {
         var toIndex = Number(slideIndex) + 1;
         if (toIndex > entries.length - 1) {
             toIndex = 0;
         }
         slideIndex = goToSlide(slideIndex, toIndex);
-    }, autoplayTime);
+    }, 7000);
 }
 
 function previousSlide() {
@@ -153,7 +206,9 @@ function previousSlide() {
     if (toIndex < 0) {
         toIndex = entries.length - 1;
     }
+    clearInterval(autoplayID);
     slideIndex = goToSlide(slideIndex, toIndex);
+    setTimeout(autoPlay, 12000);
 }
 
 function nextSlide() {
@@ -161,33 +216,25 @@ function nextSlide() {
     if (toIndex > entries.length - 1) {
         toIndex = 0;
     }
+    clearInterval(autoplayID);
     slideIndex = goToSlide(slideIndex, toIndex);
+    setTimeout(autoPlay, 7000);
 }
 
 $(document).ready(function () {
-    // Creates the slides
-    var i, j;
-    for (i = 0; i < entries.length; i += 1) {
-        var slide = $('<div id="slide-' + i + '" class="slide"></div>');
-        $('<div class="title"><a target="_blank" href=' + entries[i].link + '>' + entries[i].title + '</a></div>').appendTo(slide);
-        var tags = $('<div class="tags"></div>');
-        for (j = 0; j < entries[i].tags.length; j += 1) {
-            $('<div class="tag"><b>#' + entries[i].tags[j] + '</b></div>').appendTo(tags);
-        }
-        tags.appendTo(slide);
-        var imageContainer = $('<div class="imageContainer"></div>');
-        $('<img class="image" src="' + entries[i].image + '"/>').appendTo(imageContainer);
-        imageContainer.appendTo(slide);
-        $('<div class="description">' + entries[i].description + '</div>').appendTo(slide);
-        $('<div style="clear:both;"></div>').appendTo(slide);
-        $('<div class="link"><a target="_blank" href=' + entries[i].link + '>Click <b>here</b></a> for more details</div>').appendTo(slide);
-        slide.css({opacity: 0});
-        slide.appendTo($(slides));
+    // Creates the dots
+    for (var i = 0; i < entries.length; i++) {
         $('<div id="dot-' + i + '" class="dot"></div>').appendTo($(slides + " > #dots"));
     }
+    $(slides + " > #dots > .dot").click(function () {
+        var toIndex = this.id.slice(-1);
+        clearInterval(autoplayID);
+        slideIndex = goToSlide(slideIndex, toIndex);
+        setTimeout(autoPlay, 10000);
+    });
 
-    // Shows initial slide
     nextSlide();
+    autoPlay();
 
     // Previous Button
     $(slides + " > #previous").click(function () {
@@ -197,22 +244,6 @@ $(document).ready(function () {
     // Next Button
     $(slides + " > #next").click(function () {
         nextSlide();
-    });
-
-    // Dots buttons
-    $(slides + " > #dots > .dot").click(function () {
-        var toIndex = this.id.slice(-1);
-        slideIndex = goToSlide(slideIndex, toIndex);
-    });
-
-    autoPlay();
-
-    // Stop and resume autoplay
-    $(slides + " > .slide").mouseover(function() {
-        clearInterval(autoplayID);
-    });
-    $(slides + " > .slide").mouseout(function() {
-        autoPlay();
     });
 
     // Touch swipe

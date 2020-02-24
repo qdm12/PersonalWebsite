@@ -66,31 +66,31 @@ function setSkillBoxes() {
     $("#Skills > .skillbox").mouseover(function () {
         switch (this.id) {
         case "Crypto":
-            this.innerHTML = "Bitcoin, Ethereum, Cardano<br>Network and web security<br>Cryptography<br>Homomorphic encryption thesis<br>Kali Linux";
+            this.innerHTML = "Cryptography<br>Network and web security<br>Bitcoin, Ethereum<br>Homomorphic encryption<br>Kali Linux";
             break;
         case "Backend":
-            this.innerHTML = "Python, Golang, NodeJS<br>.NET, Java, Scala<br>RESTful, GraphQL<br>C++, C<br>GPUs with openCL";
+            this.innerHTML = "Golang, NodeJS, Python<br>C++, C, Java, C#<br>RESTful, unit testing<br>openCL and Cuda";
             break;
         case "Frontend":
-            this.innerHTML = "HTML-5, CSS, JS<br>React Native, Android SDK<br>Cordova, PhoneGap<br>.NET, Kivy (Python)";
+            this.innerHTML = "React JS/Native + Typescript<br>HTML+CSS+JS<br>Android SDK, PhoneGap";
             break;
         case "Devops-and-Cloud":
-            this.innerHTML = "Docker, Vagrant and VirtualBox<br>Git, Github, Gitea and Gitlab<br>Zenhub, GitKraken, Swagger<br>Travis CI and unit testing<br>Google Cloud, AWS, Bluemix";
+            this.innerHTML = "Docker, Kubernetes, Skaffold<br>Vagrant + VirtualBox<br>Git/Github/Gitea<br>Drone, Travis, Jenkins, Docker Hub<br>Zenhub, Wekan, Jira, GitKraken, Swagger<br>GCP, AWS, Bluemix";
             break;
         case "Database-and-analytics":
-            this.innerHTML = "MySQL, SQlite<br>Redis<br>Hadoop and Map Reduce (Java, Python)<br>Impala, Hive, Spark";
+            this.innerHTML = "PostgreSQL, MySQL, SQlite<br>Redis<br>Hadoop and Map Reduce (Java, Python)<br>Impala, Hive, Spark";
             break;
         case "Design":
-            this.innerHTML = "Adobe XD, inVision<br>Gimp, Photofiltre<br>Patience and a decent taste";
+            this.innerHTML = "Inkscape, Gimp<br>Adobe XD, inVision<br>Patience and a decent taste";
             break;
         case "Server-admin":
-            this.innerHTML = "SSH, Shell, Bash scripting<br>Users and groups management<br>Apache, Nginx, Caddy<br>Ubuntu, Debian, CentOS, DSM";
+            this.innerHTML = "LXC/Docker containers<br>SSH, bash/Ash/sh scripting<br>Users Linux management<br>Caddy, Traefik, Nginx<br>Debian, Raspbian, DSM, RancherOS<br>ZFS/BTRFS/RAID";
             break;
         case "Management":
-            this.innerHTML = "Corporate finance<br>Economics<br>Entrepreneurship and startups<br>Project management<br>Innovation management<br>Accounting";
+            this.innerHTML = "Entrepreneurship and startups<br>Project management<br>Innovation management<br>Corporate finance<br>Economics<br>Accounting";
             break;
         case "Others":
-            this.innerHTML = "English, French, Spanish<br>ARM7, FPGA & Verilog<br>AI, Signal processing<br>Power engineering, Control Engineering<br>Computer architecture<br>Android OS, NFC";
+            this.innerHTML = "English, French<br>ARM7, FPGA & Verilog<br>AI, Signal processing<br>Power eng., control eng., computer eng.<br>Android OS, NFC";
             break;
         default:
             this.innerHTML = "????????????";
@@ -152,12 +152,10 @@ $(document).ready(function () { /* executes first */
     setSkillBoxes();
     setParticles();
     setGithub();
-});
-
-window.onload = function () { /* executes when fully loaded */
     $('#load-screen').fadeOut(function () {
         $(this).remove();
     });
-};
+});
+
 
 // $(window).resize(function() {});

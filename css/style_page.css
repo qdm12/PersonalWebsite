@@ -271,6 +271,7 @@ section {
     height: 80%;
     right: 5%;
     top: 10%;
+    z-index: 0;
 }
 @media screen and (min-height: 100vw) {
     #Projects > #slides {
@@ -307,6 +308,7 @@ section {
 #Projects > #slides > #next {
     right: 0;
 }
+
 #Projects > #slides > #dots {
     position: absolute;
     width: 100%;
@@ -330,7 +332,7 @@ section {
 }
 
 
-#Projects > #slides > .slide {
+#Projects > #slides > #slide {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -340,7 +342,7 @@ section {
     -o-transition: all 0.3s;
     -ms-transition: all 0.3s;
 }
-#Projects > #slides > .slide > .title {
+#Projects > #slides > #slide > .title {
     margin-left: 7%;
     margin-right: 7%;
     margin-bottom: 2%;
@@ -348,17 +350,17 @@ section {
     font-weight: bold;
     z-index: 1;
 }
-#Projects > #slides > .slide > .tags {
+#Projects > #slides > #slide > .tags {
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 3%;
 }
-#Projects > #slides > .slide > .tags > .tag {
+#Projects > #slides > #slide > .tags > .tag {
     display: inline-block;
     font-size: 1.2vmax;
     padding-right: 0.7vmax;
 }
-#Projects > #slides > .slide > .imageContainer {
+#Projects > #slides > #slide > .imageContainer {
     float: left;
     display: flex;
     justify-content: center;
@@ -367,12 +369,12 @@ section {
     max-height: 60%;
     margin-left: 10%;
 }
-#Projects > #slides > .slide > .imageContainer > .image {
+#Projects > #slides > #slide > .imageContainer > .image {
     height: 100%;
     width: 100%;
     object-fit: contain;
 }
-#Projects > #slides > .slide > .description {
+#Projects > #slides > #slide > .description {
     float: right;
     width: 32%;
     height: 60%;
@@ -380,7 +382,7 @@ section {
     font-size: 1.1vmax;
 }
 
-#Projects > #slides > .slide > .link {
+#Projects > #slides > #slide > .link {
     margin-top: 2%;
     margin-left: 15%;
     font-size: 1.4vmax;

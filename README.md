@@ -1,12 +1,11 @@
 # PersonalWebsite
 
-## HTML Webpage
+My HTML-based main personal website is accessible at [https://qqq.ninja](https://qqq.ninja).
 
-My HTML-based main personal website is accessible at [https://quentinmcgaw.info](https://quentinmcgaw.info) and is directly updated a Docker container [staticsync](https://github.com/qdm12/staticsync-docker)
-
-### What is it
+## What is it
 
 It's made from scratch and uses the following libraries:
+
 - JQuery
 - [3D tag cloud](http://blog.niklasknaack.de/2017/09/svg-3d-tag-cloud-jquery-plugin-v2.html)
 - [Font Awesome](http://fontawesome.io/examples/) for icons such as the ones on the static left toolbar
@@ -14,19 +13,15 @@ It's made from scratch and uses the following libraries:
 - The [StoryMap](https://storymap.knightlab.com/)
 - The [TimeLine](https://timeline.knightlab.com/)
 
-### To dos
+## TODOs
 
-- Test compatibility with IExplorer, Edge, Firefox and Safari
 - Add more projects to the slides
+- Test compatibility with IExplorer, Edge, Firefox and Safari
 - Github API and better custom display
 - Compress JS with [http://jscompress.com](http://jscompress.com)
 - Add content to Others section
 - Replace call button with Riot IM or whatsapp / VCF
 - Google statistics
-
-### To do - impossible?
-
-- Add an iframe of Quora or a sort of live feed
 
 ### To check
 
@@ -55,17 +50,14 @@ It's made from scratch and uses the following libraries:
 - http://julian.com/research/velocity
 - https://greensock.com/docs/#/HTML5/GSAP/TweenLite
 
-### Useful links
-
-- [http://codepen.io](http://codepen.io)
-
 ## Markdown webpage
 
 My Markdown-based personal website is accessible:
-- On Github at [https://github.com/qdm12/personal.md/blob/master/readme.md](https://github.com/qdm12/personal.md/blob/master/readme.md])
-- On my server at [https://quentinmcgaw.info/markdown](https://quentinmcgaw.info/markdown)
 
-[![Markdown website](images/website_markdown.jpg)](https://quentinmcgaw.info/markdown)
+- On Github at [github.com/qdm12/personal.md/blob/master/readme.md](https://github.com/qdm12/personal.md/blob/master/readme.md])
+- On my server at [qqq.ninja/markdown](https://qqq.ninja/markdown)
+
+    [![Markdown website](images/website_markdown.jpg)](https://qqq.ninja/markdown)
 
 - Simpler but more complete presentation of myself
 - It contains low resolution pictures, gifs and links about my work, projects and hobbies.
